@@ -1,0 +1,83 @@
+STAT 1602: Introduction to Data Science with Python 
+Meeting Location: Clark Hall 108 
+Meeting Times: T/Th 5:00PM – 6:15PM 
+Credit Hours: 3 Fall 2022 
+ 
+A bit about the course 
+This course provides an introduction to data science. Analyzing data requires mathematical knowledge of different modeling techniques, as well as skills in programming. Because of this, this course has a dual mandate: during the first half of the semester, we introduce programming using Python, and during the second half, we discuss different modeling techniques. This course emphasizes applications, so by the end of the semester, you will have quite a bit of experience that can be used to solve interesting, real-world projects. 
+ 
+Instructor Information 
+Instructor: Jesse Helman 
+Office: 123 Halsey Hall 
+Office Hours: T 10AM-11AM, F 12PM-2PM (in-person + Zoom) 
+E-mail: jeh6kw@virginia.edu 
+ 
+Teaching Assistant Information:  	Katherine Costin 	 	kec2vn@virginia.edu 
+ 	 	 	 	 	Nicholas Kalenichenko 	nhk6up@virginia.edu  
+ 	 	 	 	 	Office Hours: Wednesday 3:30-5:30pm (in-person + Zoom) 
+Course Pages 
+1. Collab   
+• Schedule, assignments and other resources are distributed here. 
+2. Piazza (via Collab)  
+• The Piazza platform will be available on our Collab page for you to post questions or inquiries that may be relevant to all students in the class, including questions about assignments (please email personal questions). I encourage students to respond to posts if they can help. Responding to posts with helpful information will be able to count towards participation.  
+3. Gradescope 
+• 	Assignments will be turned in and graded through gradescope.com. To join our section, go to Enroll in Course and use the code 2KPZX8. 
+ 
+ 
+ 
+Software 
+In this course, we will be using Python through the Anaconda bundle. Mac and Windowsspecific instructions for downloading the Anaconda bundle can be found on Collab. 
+ 
+Primary Reading Material 
+   • 	Adhikari, Ani, and DeNero, John. Computational and Inferential Thinking https://www.inferentialthinking.com   
+How Will You be Evaluated? 
+Participation (20%) 
+Your participation grade will be based on in-class lab assignments, classwork participation, and piazza participation. You may collaborate with anyone you choose when working on a lab assignment, and you may consult any resources. However, do not copy code from other students. I will occasionally programatically check your submissions for nearly-identical code. 
+ 
+Homeworks (30%) 
+There are 12 homeworks that will be distributed via Collab this semester. You will submit your answers individually, but you are free to discuss the problems with whomever you wish. Please make sure to always write your code yourself. Consulting outside resources such as websites is permitted.  
+ 
+Projects (50%) 
+There will be three project assignments. These you will complete in small groups. Collaboration is not permitted with students outside of your group. Consulting outside resources such as websites is permitted. 
+ 
+• 	All work will be done in Jupyter notebooks (part of Anaconda bundle). In these notebooks, you will be able to write and run your own code. In addition to your code, there is some pre-written code. Most of this pre-written code is there to help guide you towards a solution, and some of it even provides quick checks of your work for you. 
+ 
+After you are finished with an assignment, you will submit it to the Gradescope portal. After Gradescope receives your submission, it will run checks on your code and give you a grade. Some of the checks are visible, and some are not. Visible checks are ones with outcomes that you get to see before the deadline.  
+ 
+Gradescope checks are what actually counts for your grade - if Gradescope says you're failing checks, you're failing checks. If you don't pass all of the visible checks, you should try to fix those mistakes and resubmit your work for more credit. You may submit as many times as you want, up until the deadline. In addition to the visible checks, some checks are hidden. The outcome of hidden checks will only be provided after the deadline has passed. 
+ 
+Grading Scheme 
+The final grade will be determined based on the following scale: 
+[95, 100] A 
+[90, 95)   A-     
+[87, 90)   B+ 
+[83, 87)   B 
+[80, 83)   B- [77, 80)   C+ 
+[73, 77)   C 
+[70, 73)   C- [67, 70)   D+ 
+[63, 67)   D 
+[60, 63)   D- 
+[0, 60]     F 
+ 
+Attendance and Participation 
+Attendance during our class meetings is an invaluable component of your learning experience in this course. While attendance is not required, labs and occasional class participation activities will occur in class that contribute to your participation grade. 
+ 
+Late Work Policy 
+For each assignment, there is a due datetime, and a “lock” datetime. The due datetime is the deadline by which you should submit, however, if you submit between the due datetime and the lock datetime, your assignment will be accepted, but you will be assessed a 30% penalty. 
+Due dates are firm, but extensions requested ahead of time will be considered. Please let me know as soon as possible if a situation arises where you cannot complete an assignment by the due date.  
+ 
+Honor/Academic Integrity Policy 
+I trust every student in this course to fully comply with all of the provisions of the University’s Honor Code. In this course, you are encouraged to work with others on assignments unless otherwise specified. You are never allowed to copy other students work. More information about the university’s honor system may be found at http://honor.virginia.edu. 
+ 
+Accessibility 
+This course is designed to be welcoming to, accessible to, and usable by everyone. Please let me know immediately if you encounter an element or resource that is not accessible to you, or if you require special accommodations through SDAC.  
+ 
+Email 
+You are always welcome to email with any questions/comments relating to the course. I check email regularly on weekdays and will respond in a timely manner. There may be a delay on weekends. Questions relating to assignments are best answered during office hours or during appointments. 
+ 
+
+
+
+
+
+

@@ -1,0 +1,181 @@
+... 
+
+Department of Computer Science 
+
+RUTGERS School of Arts and Sciences 
+
+Course Details 
+
+01:198:142 - Data 101: Data Literacy 
+
+Course Number: 01:198:142 
+
+Instructor: Tomasz Imielinski 
+
+Course Type: Undergraduate 
+
+Semester 1: Spring 
+
+SAS Core Curriculum Fulfillment: 21C, QQ, QR, ITR 
+
+Credits: 4 
+
+Description: 
+
+This class aims to provide you with a basic set of tools for data literacy as well as general view of the impact of data on society and elements of common sense data analysis and reasoning. A significant piece of the class will be learning foundations of R. R is a statistical software environment and programming language that we'll use to analyze and visualize datasets. Learning simple R will take some work; however, if you're able to master the basics covered in this class, you'll gain a concrete, marketable skill that may very well be extremely useful in your academic and professional life. 
+
+On the statistical side, we'll cover basic topics from statistics and probability that are required to argue persuasively using data (a list of some of the topics to be covered can be found below). This is not a "typical" Statistics 101 class; instead of covering an exhaustive list of topics and asking you to memorize many formulas, our goal is to focus only on the most important topics for convincingly analyzing data now by solving "hands on" weekly data puzzles. 
+
+This class is taught in unique manner - students have to solve "data puzzles" (one or more weekly) and defend their solutions in class in the so called "Court of Data". Students compete in the semester long competition for the titles of Data Masters (aggregated score for all data puzzles and the project) 
+
+One of the objectives of the class is to show the danger of false, random conclusions from data and learning right methodology of "healthy skepticism". 
+
+We will also discuss how not to be fooled by data and show examples of rushed and ad hoc conclusions from so called "big data" in the news and on the web. In addition we will examine both upside and downside of big data on the web. We will talk about privacy, anonymity vs personalization and data ownership when we increasingly rely on online services. 
+
+In Final project your data findings should have real consequences, preferably "actionable" and consequential in the real society. 
+
+Video Intro: https://bit.ly/39KHFRj 
+
+Instructor Profile: Imielinski, Tomasz 
+
+Prerequisite Information: 
+
+Placement in 01:640:026. 
+
+Placement into Intermediate Algebra or higher, or completion of Math 025. No programing experience required. 
+
+* This course may not be used toward CS major degree credit. 
+
+Expected Work: Weekly Data Puzzles, Presentations, Homeworks, Final Project 
+
+Exams: Midterm exam and final exam 
+
+Learning Goals: 
+
+Analyze and critically assess information from traditional and emergent technologies - data analysis in meaningful way 
+
+Apply effective and efficient mathematical or other formal processes to reason and to solve problems - finding patterns in data 
+
+Formulate, evaluate, and communicate conclusions and inferences from quantitative information - present and defend your results 
+
+Analyze the relationship that science and technology have to a contemporary social issue 
+
+Contacts 
+
+Departmental Chair 
+
+Ulrich Kremer 
+
+Undergraduate Director Santosh Nagarakatte 
+
+Undergraduate M 
+
+Learning Goals 
+
+Why Computer Science Prospective Students Major - BA Degree 
+
+Major - BS Degree Minor(s) 
+
+Courses Schedule 
+
+Course Information 
+
+Course Synopses 
+
+Advising 
+
+Electives 
+
+Honors 
+
+Academic Integrity Policy Introductory Computer Scienc Computer Science Course Stri Admission to the Major Computer Science Undergradu Program Tracks 
+
+CS Degrees 
+
+Undergraduate Student Organi Course Registration and Speci Permission 
+
+Undergraduate Quicklinks 
+
+• Academic Calendar 
+
+• Course Schedule Planner 
+
+Degree Navigator MyMajor 
+
+• SAS Academic Advising 
+
+• SAS Core Curriculum 
+
+• 
+
+University Schedule of Cla 
+
+• Web Registration System 
+
+Connect with Rutgers 
+
+Explore SAS 
+
+Quick Links 
+
+Contact Us 
+
+Rutgers Home 
+
+Rutgers Today 
+
+myRutgers 
+
+Academic Calendar 
+
+Calendar of Events 
+
+SAS Events 
+
+Home 
+
+Site Map 
+
+Search 
+
+Login 
+
+Departments & Degree-Granting Programs 
+
+Majors & Minors 
+
+Research Programs, Centers, & Institutes 
+
+International Programs 
+
+Division of Life Sciences 
+
+We Are Hiring! 
+
+Undergraduate Academic Advising Undergraduate Program 
+
+Graduate Program 
+
+Welcome New CS Undergraduate Students Course Registration and Special Permission 
+
+Course Schedule 
+
+Department of Com 
+
+Rutgers, The State 
+
+New Jersey 
+
+110 Frelinghuysen 
+
+Piscataway, NJ 08854-8019 
+
+(848) 445-2001 
+
+Back to Top 
+
+Copyright 2023, Rutgers, The State University of New Jersey. All rights reserved. 
+
+Rutgers is an equal access/equal opportunity institution. Individuals with disabilities are encouraged to direct suggestions, comments, or complaints concerning any accessibility issues with Rutgers web sites to: accessibility 
+
+complete the Report Accessibility Barrier or Provide Feedback Form.

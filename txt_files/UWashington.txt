@@ -1,0 +1,63 @@
+Spring 2019 
+
+Syllabus 
+
+Ryan Maas (maas@cs.uw.edu) 
+
+Course Goals 
+
+We live in a world that is increasingly driven by decisions based on analysis and inference on diverse data sets. This course will give you an introduction to the conceptual knowledge and practical training for doing data science in this 
+
+environment. 
+
+Broadly we will cover these topics: 
+
+• 
+
+Types of data 
+
+• 
+
+Evaluating data sets 
+
+Simulation 
+
+• 
+
+Probability 
+
+• 
+
+Hypothesis Testing 
+
+• Estimation 
+
+• Linear regression 
+
+• 
+
+Basic classification 
+
+Course Content 
+
+The course uses an experimental application called SkillltUp 
+
+(https://skillitup.ischool.uw.edu:4004/#/login) that runs in your browser. The software provides all the learning materials you need and all the evaluations you will receive for the course. The skills section of the application provides links to resource Web pages and practice questions that you can use to learn the course content. The challenges section of the application provides the evaluations you will take. The activities section shows what you will do in class each day. 
+
+Class content is self-paced but you are expected to complete the full set of assignments by the end of the quarter. 
+
+Large class time will consist of activities that you participate in and lab sections will give you time to take the evaluations. Project evaluations are "take-home" and can be submitted at any time. You must get full credit for each evaluation but can take an evaluation as many time as you need to. 
+
+Grading 
+
+Grades will be based both on percentage of challenge assignments completed in Skill it Up, and on class participation. The class participation score is determined both by attendance and filling out the in-class activities, with an extra score component for leading discussion and contributing to group work. 
+
+Policies 
+
+Attendance 
+
+Course attendance is implicit in participating in the in-class activities, for which participation credit is assigned. While it's not always possible to make every class, extra scores achieved for leading discussion can more than make up for missing a few activities, so it's important to attend class every day. 
+
+Academic Misconduct 
+
+All work turned in is expected to be your own. Although students are encouraged to study together, each student is expected to produce his or her own solution to the challenges. Copying or using sections of someone else's program, even if it has been modified by you, is not acceptable and will result in us referring the situation to the university. Similarly, participation credit codes such as Bumps are for the recipient to enter only, and if used by another student will result in the same academic consequences.

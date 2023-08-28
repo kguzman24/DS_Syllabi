@@ -1,0 +1,273 @@
+**Disclaimer**
+
+This syllabus is to be used as a guideline only.  The information provided is a summary of topics to be covered in the class.
+
+Information contained in this document such as assignments, grading scales, due dates, office hours, required books and materials may be from a previous semester and are subject to change. Please refer to your instructor for the most recent version of the syllabus.
+
+Syllabus, Fall 2021 
+
+DAT 300: Mathematical Tools for Data Science 
+
+Subject to change: All in-class announcements are official addenda to the syllabus 
+
+ 
+
+Title/Section: DAT 300 (90316): Mathematical Tools for Data Science 
+
+			Instructor: 	Steffen Eikenberry 
+
+Office hours: TTh 3:00-4:30 PM, WXLR 441 in person, or via Zoom 
+
+Email:  	seikenbe@asu.edu, steffen.eikenberry@asu.edu (aliases of same email) Logistics: 	Time: TTh 10:30-11:45 AM, Tempe PSH 433 
+
+ 
+
+Course Description and Topics: Covers the core mathematical topics that underpin data science as well as the key algorithms used for modern data analysis and how to implement them in Python. 
+
+Prerequisites: MAT 266 or 271 with C or better; MAT 343 with C or better. 
+
+Textbook: Lecture notes courtesy of Dr. Marko Samara are available at: https://math.la.asu.edu/~samara/MathTools-lectures/index.html. These will cover the majority of topics in the class; additional lectures notes will be made available as needed. 
+
+The following (optional) textbooks form the basis for much of the course: 
+
+Calculus: Early Transcendentals, 8th edition, by James Stewart; publisher: Cengage Learning, 2016. 
+
+A First Course in Probability, 10th edition, by Sheldon Ross; publisher: Pearson, 2020. 
+
+Python for Data Analysis, 2nd edition, by Wes McKinney; publisher: O’Reilly Media, 2017. 
+
+Learning Outcomes: By the end of the course students should be able to: understand the notion of gradient; understand gradient descent algorithm and Newton-Raphson’s method and be able to implement them using Python; understand the notion of probability, conditional probability, know how to implement Bayes theorem; be familiar with basic random variables, discrete and continuous; understand definitions of independent events and independent random variables; understand the notions of probability mass function, density and cumulative distribution function; be familiar with joint distribution; be able to perform various simulations in Python. 
+
+Evaluation: Grade will be based upon ~7 homeworks, two midterm exams, and a final exam, with weighting as follows: 
+
+30% Homework 
+
+20% Exam 1 
+
+20% Exam 2 
+
+30% Final Exam 
+
+Grading is on a “soft curve,” with final grade cutoffs to be determined at the end of semester, but the standard grading scale is guaranteed: 
+
+						A ≥ 90% 	B ≥ 80% 	C ≥ 70% 	D ≥ 60% 	E <60% 
+
+Cutoffs will only be adjusted in student favor, and plus or minus grades may be assigned in borderline cases (again, only in student favor). A+s may be awarded for exceptional performance. 
+
+Homework: There will be ~7 HW assignments, which will generally be done in Jupyter notebook via the nbgrader system. You will have about one week for each homework; no late homework will be accepted. 
+
+Tentative Schedule (Subject to Change) 
+
+Week 
+
+Lecture Dates 
+
+Topics 
+
+Comments 
+
+1 
+
+8/19 
+
+1. Intro to course, functions of multiple variables, vertical line test 
+
+ 
+
+2 
+
+8/24, 8/26 
+
+Linear functions, dot product, equation of a plane, limits 
+
+Limits, limit along a path, continuity 
+
+ 
+
+3 
+
+8/30. 9/2 
+
+Python basics, part 1 
+
+Python basics, part 2 
+
+ 
+
+4 
+
+9/7, /9/9 
+
+Partial derivatives and tangent plane 
+
+Differentiability, gradient and directional derivative, chain rule 
+
+ 
+
+5 
+
+9/14, 9/16 
+
+8. Extreme values, heat map, contour plots 9. Gradient descent algorithm 
+
+ 
+
+6 
+
+9/21, 9/23 
+
+Gradient descent algorithm 
+
+Exam 1 Review 
+
+ 
+
+7 
+
+9/28, 9/30 
+
+Exam 1, 9/28 
+
+Probability: Definitions, axioms, de Morgan’s Laws 
+
+ 
+
+8 
+
+10/5, 10/7 
+
+Counting, combinations, permutations, counting 
+
+Counting, card games, urns, sims in Python 
+
+ 
+
+9 
+
+10/14 
+
+16. Conditional probability, total probability formula 
+
+10/12 Off 
+
+10 
+
+10/19, 10/21 
+
+Bayes’ Theorem 
+
+Independence, conditional probability, random variables 
+
+ 
+
+11 
+
+10/26, 20/28 
+
+Probability mass function, cumulative probability distribution, expected value 
+
+Variance: Definition & properties, independence and uncorrelatedness 
+
+ 
+
+12 
+
+11/2, 11/4 
+
+Some discrete random variables 
+
+Continuous random variables 
+
+ 
+
+13 
+
+11/9 
+
+23. Exam 2 Review 
+
+11/11 Off 
+
+14 
+
+11/16, 11/18 
+
+Exam 2, 11/16 
+
+Continuous vs. discrete RVs, exponential and Poisson random variables 
+
+ 
+
+15 
+
+11/23 
+
+26. Normal RV, Central Limit Theorem 
+
+11/23 Off 
+
+16 
+
+11/30, 12/2 
+
+Lognormal RV, sims in Python 
+
+Final Review 
+
+ 
+
+ 
+
+ 
+
+Face Masks/Coverings 
+
+The ASU Face Cover Policy (https://www.asu.edu/about/fall-2021#face-coverings) requires the wearing of face covers in locations where physical distancing may not be possible, which includes classrooms, teaching laboratories, studios and workshop settings. Note that this policy applies to both students and instructors. Deliberate refusal to comply with face covering policy will be treated as a code of conduct violation and referred to the dean’s office. 
+
+Academic Dishonesty 
+
+Academic honesty is expected of all students in all examinations, papers, laboratory work, academic transactions and records. The possible sanctions include, but are not limited to, appropriate grade penalties, course failure (indicated on the transcript as a grade of E), course failure due to academic dishonesty (indicated on the transcript as a grade of XE), loss of registration privileges, disqualification and dismissal. For more information, see http://provost.asu.edu/academicintegrity. 
+
+Students with Disabilities 
+
+Disability Accommodations: Qualified students with disabilities who will require disability accommodations in this class are encouraged to make their requests to me at the beginning of the semester either during office hours or by appointment. Note: Prior to receiving disability accommodations, verification of eligibility from the Disability Resource Center (DRC) is required. Disability information is confidential.  
+
+Establishing Eligibility for Disability Accommodations  
+
+Students who feel they will need disability accommodations in this class but have not registered with the Disability Resource Center (DRC) should contact DRC immediately. Their office is located on the first floor of the Matthews Center Building. DRC staff can also be reached at: 
+
+480-965-1234 (V), 480-965-9000 (TTY). For additional information, visit: 
+
+www.asu.edu/studentaffairs/ed/drc. Their hours are 8:00 AM to 5:00 PM, Monday through Friday. 
+
+Policy on Threatening Behavior 
+
+All incidents and allegations of violent or threatening conduct by an ASU student (whether on-or off campus) must be reported to the ASU Police Department (ASU PD) and the Office of the Dean of Students.  If either office determines that the behavior poses or has posed a serious threat to personal safety or to the welfare of the campus, the student will not be permitted to return to campus or reside in any ASU residence hall until an appropriate  threat assessment has been completed and, if necessary, conditions for return are imposed. ASU PD, the Office of the Dean of Students, and other appropriate offices will coordinate the assessment in light of the relevant circumstances. 
+
+Classroom behavior: Make sure you arrive on time for class 
+
+Excessive tardiness will be subject to sanctions. Under no circumstances should you allow your cell phone to ring during class. Any disruptive behavior, which includes ringing cell phones, listening to your mp3/iPod player, text messaging, constant talking, eating food noisily, reading a newspaper will not be tolerated. The use of laptops (unless for lecture note taking), cell phones, MP3, IPOD, etc are strictly prohibited during class. Students who engage in disruptive classroom behavior may be subject to various sanctions. The procedures for initiating a disruptive behavior withdrawal can be found at https://clas.asu.edu/resources/disruptive-behavior.   
+
+Absences related to religious observances/practices: If you will be absent from class due to a religious observance or practice, it is your responsibility to inform the instructor during the first week of class. Your instructor will work with you on alternative and reasonable arrangements for any time missed. 
+
+Absences related to university sanctioned events and activities: If you will be absent from class due to participation in a university sanctioned event/activity, it is your responsibility to inform the instructor during the first week of class. Your instructor will work with you on alternative and reasonable arrangements for any time missed. 
+
+Inclusion: 
+
+The School of Mathematical and Statistical Sciences encourages faculty to address and refer to students by their preferred name and gender pronoun. If your preferred name is different than what appears on the class roster, or you would like to be addressed using a specific pronoun, please let your instructor know. 
+
+Policy on Sexual Discrimination 
+
+Arizona State University is committed to providing an environment free of discrimination, harassment, or retaliation for the entire university community, including all students, faculty members, staff employees, and guests. ASU expressly prohibits discrimination, harassment, and retaliation by employees, students, contractors, or agents of the university based on any protected status: race, color, religion, sex, national origin, age, disability, veteran status, sexual orientation, gender identity, and genetic information. 
+
+Title IX: 
+
+Title IX is a federal law that provides that no person be excluded on the basis of sex from participation in, be denied benefits of, or be subjected to discrimination under any education program or activity.  Both Title IX and university policy make clear that sexual violence and harassment based on sex is prohibited.  An individual who believes they have been subjected to sexual violence or harassed on the basis of sex can seek support, including counseling and academic support, from the university.  If you or someone you know has been harassed on the basis of sex or sexually assaulted, you can find information and resources at https://sexualviolenceprevention.asu.edu/faqs.   
+
+As a mandated reporter, I am obligated to report any information I become aware of regarding alleged acts of sexual discrimination, including sexual violence and dating violence.  ASU Counseling Services, https://eoss.asu.edu/counseling, is available if you wish to discuss any concerns confidentially and privately. 
+
+1 of 5
+
+1 of 5
+
+1 of 5

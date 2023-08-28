@@ -1,0 +1,231 @@
+8/17/23, 4:36 PM
+
+8/17/23, 4:36 PM
+
+ECE 4803: Mathematical Foundations of Data Science
+
+ECE 4803: Mathematical Foundations of Data Science
+
+
+
+ECE 4803: Mathematical Foundations of Data Science
+
+Fall 2020
+
+	Overview
+
+	Lectures and Notes
+
+	Assignments
+
+
+
+Instructor
+
+Mark Davenport
+
+Email: mdav (at) gatech (dot) edu Office Hours: By appointment.
+
+
+
+Description
+
+This course is an introduction to the mathematical foundations of data science and machine learning. The central theme of the course is the use of linear algebra and optimization in posing and solving modem problems leveraging data focusing on applications in ECE.
+
+
+
+Download the syllabus.
+
+
+
+
+
+Prerequisites
+
+Introductory courses in linear algebra and multivariable calculus are the main pre-requisites. Most of the course will use the language of matrices and vectors. Students should be comfortable with the use of matrices to represent systems of equations and the notion of taking a gradient of a function of many variables -- some existing familiarity with eigenvalues, eigenvectors, and eigenvalue decompositions will be extremely helpful.
+
+Familiarity with the basics of probability (especially random variables, expected value, and related notions) will also be useful in understanding some of the applications covered in the course. Finally, students should also have basic Python programming skills.
+
+
+
+Instruction Modality
+
+In Fall 2020, ECE 4803 will be taught in a hybrid mode. What this will mean in this course is that, while we do have a room on campus reserved and available (Howey N210 on Tuesdays and Thursdays from 9:30-10:45am), I plan to actually deliver all lectures remotely. These will be pre-recorded and available to watch at whatever time is most convenient for you. I will reserve our regularly scheduled class hours for (initially online) discussions, working extra examples, answering questions about the homeworks, etc. These discussions will also be recorded for those who cannot attend.
+
+
+
+I expect that the course will be fully online (meaning that our discussions and office hours will be conducted via BlueJeans) for at least the first 6 weeks of class (September 24). After that point, I hope to move these discussions to the campus during our regularly scheduled class time. In the event that we do this, I still plan to pre-record my technical lectures and use the class time for discussions and student presentations. I can continue
+
+
+
+to record these in-person meetings for those who cannot or do not want to attend. For those students who are uncomfortable attending in-person activities, it will be possible to complete this course fully online.
+
+
+
+(Note that the current estimate for the capacity of Howey N210 with social distancing is 8 -- if we move to the campus and there are more than 8 of us who wish to attend in person, we may have to create a rotating schedule for in-person attendance.)
+
+
+
+Our first class meeting will be Tuesday, August 18 at 9:30, via BlueJeans
+
+
+
+Resources
+
+There is no required text. Below is a list of books that I have found helpful over the years for learning (and teaching) the material in this class.
+
+
+
+Linear algebra
+
+
+
+Linear Algebra and its Applications by Strang. (amazon) Numerical Linear Algebra by Trefethen and Bau. (amazon) Matrix Analysis by Hom and Johnson. (amazon) Probability and statistics
+
+Introduction to Probability by Bertsekas and Tsitsiklis. (amazon) Elementary Probability for Applications by Durrett. (amazon) All of Statistics by Wasserman. (amazon)
+
+Optimization
+
+
+
+Convex Optimization by Boyd and Vanderberghe. (Available as a free pdf from author's website)
+
+
+
+Optimization Models by Calafiore and El Ghaoui. (amazon)
+
+
+
+Numerical Optimization by Nocedal and Wright. (amazon)
+
+
+
+Lectures on Modern Convex Optimization by Ben-Tal and Nemirovski. (amazon)
+
+
+
+Optimization by Vector Space Methods by Luenberger. (amazon)
+
+
+
+Machine learning
+
+
+
+Machine Learning Refined by Watt, Borhani, and Katsaggelos. (amazon)
+
+
+
+Linear Algebra and Learning from Data by Strang. (amazon)
+
+
+
+The Elements of Statistical Learning by Hastie, Tibshirani, and Friedman. (Available as a free pdffrom author's website)
+
+Learning from Data by Abu-Mostafa, Magdon-Ismail, and Lin. (amazon)
+
+
+
+Potpourri
+
+
+
+The Drunkard's Walk: How Randomness Rules our Lives by Mlodinow. (amazon)
+
+
+
+Against the Gods: The Remarkable Story of Risk by Bernstein. (amazon)
+
+
+
+Fooled by Randomness by Taleb. (amazon) The Signal and the Noise by Silver. (amazon) The Master Algorithm by Domingos. (amazon) Data and Goliath by Schneier. (amazon)
+
+Weapons of Math Destruction by O'Neil. (amazon)
+
+
+
+Additional online resources
+
+
+
+The Matrix Cookbook
+
+
+
+A short, useful introduction to matrix calculus
+
+
+
+If you find anything else useful, let me know and I will post it here.
+
+
+
+Topics Covered
+
+	The method of least squares
+
+	Applications and formulation: Regression and interpolation
+
+	Solving least squares problems (Review of multivariable calculus)
+
+	Understanding least squares problems (Review of linear algebra)
+
+	Computing least squares solutions
+
+		Unconstrained optimization
+
+	Convex optimization
+
+	Gradient descent
+
+	Conjugate gradients
+
+	Acceleration: The heavy ball method and Nesterov's optimal method
+
+	Newton's method and quasi-Newton methods
+
+	Non-smooth optimization
+
+	Stochastic gradient descent
+
+	Applications: Approximation, filter design, tracking, logistic regression, neural networks
+
+	Constrained optimization
+
+	Lagrange duality
+
+	The KKT conditions
+
+	Algorithms for constrained optimization
+
+	Linear programming
+
+	The simplex algorithm
+
+	Second order cone programs
+
+	Semidefinite programs
+
+	Applications: Support vector machines, portfolio optimization, feature selection, optimal power flow, recommendation systems
+
+	Beyond convex optimization
+
+	Integer programming
+
+	Dynamic programming
+
+	Optimization on graphs
+
+	Optimization in game theory
+
+		Applications: Error correction, optimal control, reinforcement learning, generative adversarial networks
+
+
+
+https://www.mdav.ece.gatech.edu/ece-4803-fall2020/
+
+https://www.mdav.ece.gatech.edu/ece-4803-fall2020/
+
+1/3
+
+1/3

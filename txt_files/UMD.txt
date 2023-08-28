@@ -1,0 +1,457 @@
+UNIVERSITY OF MARYLAND 
+
+GLOBAL CAMPUS 
+
+DATA 300 6380 Foundations of Data Science 
+
+(2232) DATA-300 
+
+Spring 2023 Section 6380 3 Credits 01/11/2023 to 03/07/2023 
+
+Faculty Contact 
+
+John Cook john.cook2@faculty.umgc.edu 
+
+Course Description 
+
+• 
+
+Adelphi ⚫ Syllabus. 
+
+Prerequisite: STAT 200. An examination of the role of data science within business and society. The goal is to identify a problem, collect and analyze data, select the most appropriate analytical methodology based on the context of the business problem, build a model, and understand the feedback after model deployment. Emphasis is on the process of acquiring, cleaning, exploring, analyzing, and communicating data obtained from variety of sources. Assignments require working with data in programming languages such as Python, wrangling data programmatically and preparing data for analysis, using libraries like NumPy and Pandas. 
+
+ill Course Outcomes 
+
+After completing this course, you should be able to: 
+
+1. Conduct data examination to explore and prepare a dataset for analysis. 
+
+2. Create visualizations to analyze data and support decision-making. 
+
+3. Develop predictive models to address a problem or inquiry. 
+
+Course Materials 
+
+Click to access your course materials information (http://webapps.umgc.edu/UgcmBook/BPage.cfm?C=DATA%20300&S=6380&Sem=2232). 
+
+Grading Information 
+
+This course consists of the following graded items: 
+
+Knowledge Checks (Quizzes) 4 @ 5 pts each 
+
+20 
+
+Week 2 Exercise - Python Data Types 
+
+2 
+
+Week 3 Exercise - Data Wrangling 
+
+8 
+
+Week 4 Assignment - Data Exploration and Wrangling 
+
+15 
+
+Week 5 Exercise - Arrays and Plotting 
+
+8 
+
+Week 6 Assignment - Visualization 
+
+15 
+
+Week 7 Exercise - Model Building 
+
+8 
+
+Week 8 Assignment - Machine Learning 
+
+15 
+
+Participation (3 discussions @ 2 pts each; 1 discussion @ 9 
+
+3 pts) 
+
+TOTAL 
+
+100 
+
+All assignments and discussions should be submitted on the due date by 11:59 p.m. EST or EDT, whichever is in effect during your class. 
+
+Weekly Classroom Discussion Topics and Participation 
+
+1/6 
+
+Four discussions of one week each (conducted in LEO) will address key concepts and issues in the course. The intention is to facilitate the same student-student and student-instructor interaction via the LEO classroom that is found in traditional classroom courses. 
+
+Although attendance does not contribute to your grade, participation does. By registering for an online or hybrid course, you have made a commitment to participate in class discussions and activities as well as other online activities. Please plan to participate regularly. Participation for this course is defined as proactive discussion in weekly discussions, specific industry topics, and group working sessions. This requires you to actively reflect on the assigned readings and to develop original ideas in your responses. You are expected to demonstrate critical thinking and your understanding of the content in the assigned readings as they relate to the issues identified in the discussion. Responses should demonstrate critical thinking and comprehension of the discussion topic and are strengthened when they are supported by additional research. You are expected to provide supporting details for your response; that support may come from the points covered in the readings and additional external research (appropriately cited). You are also expected to take into account your classmates' responses and to comment on others' submissions. Responses to classmates' postings should be constructive, expand upon points made, ask additional questions, and contribute to the dialogue. A simple "good posting" or "I agree" is not a sufficient comment. You may expect the instructor to participate in the discussions, but do not expect a response to every posting. If the instructor or another student poses a question to you, you are expected to respond to it, as you would during a face-to-face classroom discussion. 
+
+To sum up, every post (initial post or reply) should be supported by relevant information rather than simply express an opinion. Prove your point by a) citing external research, b) citing readings from the class content, or c) providing detailed examples of personal experiences that are relevant and support your position on the topic. Be sure to read the instructions and the grading rubric for classroom discussions and participation that is posted at the top of the Weekly Discussions forum. These instructions remain visible throughout the 8 weeks. 
+
+Extra Credit 
+
+Extra Credit is not available 
+
+Due Date Extension/Late Penalty Policy 
+
+Timely completion of all assessments is critical to student success in a degree program. Each assessment in this program has a submission due date. Because of the tight schedule of assignments, students should review both the syllabus and assignments thoroughly at the beginning of each course to understand what is required. Students should plan in advance to allocate sufficient time to complete each assessment on or before the required due date. 
+
+A faculty member may discretionarily grant due date extensions to students because of an unexpected business, health, or personal emergency beyond the student's control. Extension requests must be made before the due date (unless this is physically impossible). The student must support this request with a compelling rationale, indicating why such an extension is justified. If a faculty member grants an extension, he or she will set a new due date for submission of the assessment. 
+
+For late assessment submissions that have not been approved by the faculty member, and for assessments submitted after an extension due date, the penalty will be a three-point reduction in grade for each day that the assessment is late. 
+
+Note that there will be no extensions for the assessments due the last week of class unless the student qualifies for, requests and is granted an Incomplete per UMGC policy 170.71: Grade of Incomplete. 
+
+Discussions are limited to a single week. Posts must be completed on time to receive a grade. Discussion posts cannot be submitted late. You may, however, participate early in any discussion topic. 
+
+Please note that this extension/late penalty policy does not apply to any Quizzes, including Knowledge Checks, Self-Checks, RCQs or SQL Checks. While you will not be penalized for late submission of Quizzes, there are assigned Due Dates which will help you keep up with the pace of the workload. 
+
+Please ask your instructor if you have ANY questions regarding this policy. 
+
+Project Descriptions 
+
+Classroom Discussion Topics and Participation 
+
+Discussion topics will be assigned by the instructor and will relate to the course outcomes, assigned readings and projects in four of the eight weeks. Expectations and grading information for participation is located above in the Grading Information section. 
+
+Project Details and Rubrics 
+
+2/6 
+
+Detailed descriptions of the assignments and the grading rubric for each are posted under the Assignments tab on the main Navigation bar. Assignments will be graded on your demonstration of understanding of the course concepts, your application of the concepts, the clarity of your presentation of the material, the incorporation of research, and format (including appropriate use of the tools, spelling, grammar, use of APA style, etc.). 
+
+Use of Microsoft Office Tools 
+
+While Microsoft Office tools are not required for this class, it is the student's responsibility to ensure the assignments submitted can be read using the Microsoft products indicated, and that the desired formatting is retained when Microsoft products are used. 
+
+Final Exam 
+
+This course does not have a final exam. 
+
+Academic Policies 
+
+ACADEMIC INTEGRITY 
+
+University of Maryland Global Campus (UMGC) has adopted a Philosophy of Academic Integrity (https://www.umgc.edu/current- students/learning-resources/academic-integrity/philosophy), to guide the university's commitment to a culture of academic integrity. Our approach cultivates socially responsible personal and professional behaviors and traits. All members of the University community must maintain the highest level of integrity across the academic experience. 
+
+Resources - UMGC provides an Academic Integrity Tutorial (https://www.umgc.edu/current-students/learning-resources/academic- integrity/tutorial), and an Integrity & Ethics Badge as learning resources. These resources include information on the fundamentals of academic integrity and how to apply your own personal ethics to coursework as a UMGC student and in other settings. Other Academic Integrity resources and guidelines are found at https://www.umgc.edu/current-students/learning-resources/academic-integrity. 
+
+(https://www.umgc.edu/current-students/learning-resources/academic-integrity). 
+
+Role of Instructor - Your instructor is your primary resource for how to uphold the highest ethical standards in the context of the specific requirements for this course. 
+
+Student Responsibility - You are responsible for using UMGC-approved resources to understand key academic integrity concepts and to support your own academic success through practices that uphold values of integrity: honesty, trust, fairness, respect, responsibility, and 
+
+courage. 
+
+Turnitin - Turnitin is enabled within the classroom to support the development and assessment of authentic student writing. To learn more about Turnitin, the feedback it provides, how to use that feedback to improve your work, and your options regarding the inclusion of your work in the Turnitin database, visit University guides for Turnitin at https://libguides.umgc.edu/turnitin-faq_(https://libguides.umgc.edu/turnitin-faq). 
+
+CLASSROOM CIVILITY 
+
+University of Maryland Global Campus is committed to the success of our global community and values the diverse identities and backgrounds of our students, faculty, and staff. Each one of us has a broader life and set of experiences beyond UMGC that we bring with us to each interaction. Sharing your story with your classmates provides opportunities to learn, relate, and gain inspiration from each other. Engagement often begins with introductions at the beginning of the course. Sharing your preferred name, preferred pronouns, and other details about yourself and your life builds a foundation for connection, understanding, and a richer and more personalized learning experience. 
+
+We also recognize that some of life's responsibilities and challenges outside of the classroom, such as childcare, a change in employment status, or illness, have an impact on success in a course. To the extent you are comfortable, we encourage you to communicate with your faculty member or Success Coach about any concerns you have for this course or as a student at UMGC so we can help you navigate potential obstacles and stay on track to achieve your goals. 
+
+Students are expected to work together cooperatively, and treat fellow students and faculty with respect, showing professionalism and courtesy in all interactions. Please review the Code of Civility for more guidance on interacting in UMGC classrooms: https://www.umgc.edu/current-students/student-life-and-support/student-handbook/civility-code (https://www.umgc.edu/current- 
+
+students/student-life-and-support/student-handbook/civility-code). 
+
+POLICIES AND GUIDELINES 
+
+UMGC is committed to ensuring that all individuals are treated equally according to Policy 040.30 Affirmative Action, Equal Opportunity, and Sexual Harassment (https://www.umgc.edu/administration/policies-and-reporting/policies/administration-policies/affirmative-action-and- equal-opportunity). 
+
+Students with disabilities who need accommodations in a course are encouraged to contact the Office of Accessibility Services (OAS) at accessibilityservices@umgc.edu, or call 800-888-8682 or 240-684-2287. 
+
+3/6 
+
+The following academic policies and procedures apply to this course and your studies at UMGC. 
+
+150.25 
+
+Academic Integrity Policy (https://www.umgc.edu/administration/policies-and-reporting/policies/academic-affairs/academic- integrity). The University expects all members of the university community-students, faculty, and staff-to use guidelines to work with and promote integrity. If you are aware of any academic misconduct, please contact integrity@umgc.edu. All cases of academic misconduct will be addressed in accordance with Policy 150.25 (https://www.umgc.edu/administration/policies-and- reporting/policies/academic-affairs/academic-integrity), and associated procedures. 
+
+You are expected to engage in new learning that furthers your development of knowledge, skills, and abilities in each course. According to this policy, you may not submit a substantial portion of any coursework that you have submitted to any course previously without express written approval through assignment guidelines or other forms of communication. 
+
+You must use UMGC course materials responsibly. Uploading course materials to any website outside of UMGC's online classroom is prohibited by this policy. 
+
+151.00 
+
+170.40 
+
+170.41 
+
+170.42 
+
+170.71 
+
+170.72 
+
+Code of Student Conduct (https://www.umgc.edu/administration/policies-and-reporting/policies/student-affairs/code-of-student- conduct) 
+
+The following policies describe the requirements for the award of each degree: 
+
+Degree Completion Requirements for the Graduate School (https://www.umgc.edu/administration/policies-and- reporting/policies/academic-affairs/graduate-school-degree-completion-requirements). 
+
+Degree Completion Requirements for a Bachelor's Degree (https://www.umgc.edu/administration/policies-and- reporting/policies/academic-affairs/bachelors-degree-completion-requirements). 
+
+Degree Completion Requirements for an Associate's Degree (https://www.umgc.edu/administration/policies-and- reporting/policies/academic-affairs/associates-degree-completion-requirements). 
+
+Policy on Grade of Incomplete (https://www.umgc.edu/administration/policies-and-reporting/policies/academic-affairs/grade-of- incomplete-policy) - The mark of I is exceptional and considered only for certain courses. Students who have completed 60% of their coursework with a grade of B or better for graduate courses or C or better for undergraduate courses and request an I before the end of the term. The mark of I is not available for noncredit courses. 
+
+Course Withdrawal Policy (https://www.umgc.edu/administration/policies-and-reporting/policies/academic-affairs/course- withdrawal). - Students must follow drop and withdrawal procedures and deadlines available at https://www.umgc.edu/admission/academic-calendar (https://www.umgc.edu/admission/academic-calendar), under Academic 
+
+Calendar. 
+
+130.80 
+
+190.00 
+
+Procedures for Review of Alleged Arbitrary and Capricious Grading (https://www.umgc.edu/administration/policies-and- reporting/policies/academic-affairs/capricious-grading-review). - Appeals may be made on final course grades as described herein. 
+
+Intellectual Property (https://www.umgc.edu/administration/policies-and-reporting/policies/research/intellectual-property). - All university faculty, staff, and students must comply with University guidelines on the use of copyrighted material. Uploading UMGC or faculty copyrighted material without authorization degrades and corrupts the integrity of the teaching and learning experience and is a potential violation of UMGC policy and copyright law. You must obtain permission to post UMGC or other's copyrighted material to third-party websites, including social learning network sites. UMGC reserves the right to take appropriate action to remove copyrighted material uploaded without authorization. 
+
+205.06 
+
+270.00 
+
+Calculation Of Grade-Point Average (GPA) for Inclusion on Transcripts and Transcript Requests (https://www.umgc.edu/administration/policies-and-reporting/policies/academic-affairs/grade-point-average-calculation-for- inclusion-on-transcripts-and-transcript-requests). - Note: Undergraduate and graduate courses have different Grading Policies. See Course Syllabus for Grading Policies. 
+
+Acceptable Use (https://www.umgc.edu/administration/policies-and-reporting/policies/fiscal-and-business-affairs/acceptable-use).- The security of the online classroom is critical to ensuring a strong culture of academic integrity and authentic education at the University. It is a violation of the University's policies for anyone to share logon, password, and any other secure information about a UMGC online account, including credentials required to access the online learning environment. 
+
+GRADING 
+
+According to UMGC's grading policy, the following marks are used: 
+
+4/6 
+
+Undergraduate 
+
+Graduate 
+
+A 
+
+90-100% 
+
+90-100% 
+
+B 
+
+80-89% 
+
+80-89% 
+
+C 
+
+70-79% 
+
+70-79%* 
+
+D 
+
+60-69% 
+
+N/A** 
+
+F 
+
+59% or below 
+
+69% or below 
+
+FN 
+
+Failure-Non attendance 
+
+Failure-Non attendance 
+
+G 
+
+Grade Pending 
+
+Grade Pending 
+
+P 
+
+Passing 
+
+Passing 
+
+S 
+
+Satisfactory 
+
+Satisfactory 
+
+U Unsatisfactory 
+
+Incomplete 
+
+AU 
+
+Audit 
+
+W Withdrew 
+
+Unsatisfactory 
+
+Incomplete 
+
+Audit 
+
+Withdrew 
+
+* The grade of "B" represents the benchmark for graduate courses. Students must maintain a Grade Point Average (GPA) of 3.0 or higher. Classes where final grade of C or F places a student on Academic Probation must be repeated. 
+
+** UMGC does not award the grade of D in graduate courses. 
+
+GRADE ROUNDING 
+
+Scores to individual assignments are calculated based on rubrics in the class and are not rounded to the whole point. The final grade for the course is determined by weighted average and will be rounded to the nearest whole point using mathematical rule (grades with .5 and above to be rounded to the next whole point). 
+
+EXTRA CREDIT 
+
+Assignments are designed to enable students to achieve course objectives and succeed in the program. In the interest of equity and fairness, there will be no extra credit opportunities. All assignments are identified in the syllabus. 
+
+COURSE EVALUATION SURVEY 
+
+UMGC values its students' feedback. You will be asked to complete an online evaluation toward the end of the term. The primary purpose of this evaluation process is to assess the effectiveness of classroom instruction in order to provide the best learning experience possible and make continuous improvements to every class. Responses are kept confidential. Please take full advantage of this opportunity to provide your feedback. 
+
+LIBRARY SUPPORT 
+
+Extensive library resources and services are available online, 24 hours a day, seven days a week at https://libguides.umgc.edu/home (https://libguides.umgc.edu/home), to support you in your studies. The UMGC Library provides research assistance in creating search strategies, selecting relevant databases, and evaluating and citing resources in a variety of formats via its Ask a Librarian service at https://libguides.umgc.edu/home (https://libguides.umgc.edu/home). 
+
+EXTERNAL LINK DISCLAIMER 
+
+This course may contain links to external sites neither owned nor maintained by UMGC. UMGC bears no responsibility for the accuracy, legality, or content of external sites or for that of subsequent links. In addition, the terms of use, security policies, and privacy policies may differ from those of UMGC. Contact the external site for answers to questions regarding its content, terms of use, and policies. 
+
+LEARNING MANAGEMENT SYSTEM SUPPORT 
+
+Those requiring technical assistance can access Help@UMGC Support directly in LEO under the Help menu. Additional technical support is available 24 hours a day, seven days a week via self-help and live chat at https://www.umgc.edu/help (https://www.umgc.edu/help), or by phone toll-free at 888-360-8682. 
+
+5/6 
+
+SYLLABUS CHANGES 
+
+All items on this syllabus are subject to change at the discretion of the Instructor and the Office of Academic Affairs. 
+
+Class & Assignment Schedule 
+
+Students can access their complete list of assignments and their corresponding due dates within the Assignments section of the classroom by navigating to the Assignments section of the class from the main navigation bar. 
+
+Module 
+
+Week Topics 
+
+Discussion 
+
+Participation 
+
+Assignments 
+
+1: Analytics 
+
+1 
+
+Analytics Lifecycle 
+
+Lifecycle and 
+
+and Python 
+
+Knowledge Check 1 and 
+
+2 
+
+Python 
+
+Bootcamp 
+
+Bootcamp 
+
+2 
+
+Python Bootcamp Discussion (continued) 
+
+Knowledge Check 3 and 
+
+4 
+
+2: Data 
+
+3 
+
+Data Preparation 
+
+Preparation 
+
+and Cleaning 
+
+and EDA 
+
+4 
+
+Week 2 Exercise - 
+
+Python Data Types 
+
+Week 3 Exercise - Data 
+
+Wrangling 
+
+3: Data 
+
+5 
+
+Data Visualization 
+
+Visualization 
+
+and Plotting 
+
+Exploratory Data Discussion Analysis 
+
+Week 4 Assignment - 
+
+Data Exploration and Wrangling 
+
+Week 5 Exercise - 
+
+Arrays and Plotting 
+
+6 
+
+Advanced Plotting; Discussion 
+
+Week 6 Assignment- 
+
+Visualizing COVID 
+
+Visualization 
+
+Data 
+
+4: Developing 7 Predictive 
+
+Regression and 
+
+Model Building 
+
+Models 
+
+8 
+
+Machine Learning 
+
+Discussion 
+
+Week 7 Exercise - 
+
+Model Building 
+
+Week 8 Assignment - 
+
+Machine Learning 
+
+6/6

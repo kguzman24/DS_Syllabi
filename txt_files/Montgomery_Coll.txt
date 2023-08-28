@@ -1,0 +1,241 @@
+MONTGOMERY COLLEGE Mathematics, Statistics, & Data Science Department Course Syllabus  DATA 101: Introduction to Data Science  
+
+CONTACT INFORMATION 
+
+Instructor: 
+
+Offices:  
+
+ 
+
+Email: 
+
+Office phone: 
+
+
+
+Office Hours: 
+
+ 
+
+
+
+
+
+GENERAL COURSE INFORMATION 
+
+DATA 101: Introduction to Data Science, CRN , 3 credits  
+
+A. Prerequisites 
+
+A grade of C or better in MATH 117/MATH 117A, MATH 217, BSAD 210 or consent of department. 
+
+B. Course Description 
+
+Fundamental coursework on the standards and practices for collecting, organizing, managing, exploring, and using data. Topics include preparation, analysis, and visualization of data and creating analysis tools for larger data sets. Three hours each week. 
+
+C. Course Format 
+
+This course will use Blackboard. Information about Blackboard Technical Support can be found at https://cms.montgomerycollege.edu/distance/support/blackboard/. If you need technical assistance with College-supported IT resources, you can reach the Montgomery College IT Service Desk at 240-567-7222. 
+
+COMMON COURSE STUDENT LEARNING OUTCOMES 
+
+Upon course completion, a student will be able to: 
+
+• Identify and describe the methods and techniques commonly used in data science. 
+
+• Demonstrate proficiency with the methods and techniques for obtaining, organizing, exploring, and analyzing data. 
+
+• Recognize how data analysis, inferential statistics, modeling, machine learning, and statistical computing can be utilized in an integrated capacity. 
+
+• Create and modify customizable tools for data analysis and visualization per the evaluation of characteristics of the data and the nature of the analysis. 
+
+• Demonstrate the ability to clean and prepare data for analysis and assemble data from a variety of sources.
+
+TEXTBOOK AND SUPPLIES 
+
+A. Textbooks – all are FREE! 
+
+• An introduction to Data Science by Jeffrey Stanton 
+
+• The Elements of Data Analytic Style by Jeff Leek 
+
+• Exploratory Data Analysis with R, by Roger Peng 
+
+• OpenIntro Statistics, by Diez, Barr, and Centinkaya-Rundel 
+
+• R Programming for Data Science, by Roger Peng 
+
+B. Data Resources 
+
+• UC Irvine Machine Learning Repository https://archive.ics.uci.edu/ml/index.php 
+
+• Variety of consumer datasets https://www.kaggle.com/datasets 
+
+• World Bank https://data.worldbank.org/data-catalog/ 
+
+• US Government Data https://www.data.gov/ 
+
+C. Laptop Computer (optional): I recommend bringing a personal laptop computer to every class. Your laptop should be either Windows or Mac. If you do not have a personal laptop, please contact me for assistance. 
+
+COURSE REQUIREMENTS 
+
+A. Projects 
+
+There will be about 5 projects given during the semester. These will be coding projects in R except one will be in Excel. Projects will reinforce skills/topics learned in class and be applied to datasets. 
+
+B. Class Participation 
+
+Routinely during class I will ask you to work on writing code or other activities. While you are working, I will walk around the room and grade your participation using the following scale: 
+
+0 points: You are off task/you are not participating in the activity.  
+
+1 point: You are on task/you are participating in the activity.  
+
+I may walk around and grade your class participation multiple times in one class period. If you are not in class,  then you receive a zero for any class participation grades recorded in that class period. 
+
+C. Homework (R Swirl, R Exercises, other HW) 
+
+R Swirl is an interactive package that we will use to learn how to code in R. R Exercises are assignments in R that will reinforce how to code in R. We may also have other homework assignments. 
+
+** LATE POLICY FOR PROJECTS AND HOMEWORK: YOU CAN HAVE THREE FREE ONE DAY EXTENSIONS. AFTER  THAT LATE SUBMISSIONS ARE PENALIZED BY 30% AND ONLY ACCEPTED WITHIN THREE DAYS OF THE  DEADLINE.** 
+
+D. Quizzes 
+
+We will have quizzes with dates to be announced during the semester. 
+
+**QUIZ GRADES ARE FINAL. THERE ARE NO RETAKES FOR QUIZZES.**
+
+If you miss a quiz for extenuating circumstances (illness, funeral, etc.) you must contact the instructor within  24 hours of the quiz. If you provide the instructor with appropriate documentation (for example, a doctor’s  note) a make-up quiz may be scheduled. However, discretion to give a make-up quiz lies with the instructor.  If you are late for a quiz, you will not receive any extra time. If class is cancelled on the day of a quiz, that quiz  will be given in the next class period.  
+
+E. Final Project 
+
+The final project will be on a dataset of your choosing. You will apply the topics we learn in the course and present your findings to the class. 
+
+Course Grade BreakdownCourse Grading Scale 
+
+
+
+Projects 
+
+45%
+
+Class Participation 
+
+5%
+
+Homework (R Swirl, R  Exercises, other HW)
+
+20%
+
+Quizzes 
+
+15%
+
+Final Project 
+
+15%
+
+
+
+
+
+90-100% 
+
+A
+
+80-89% 
+
+B
+
+70-79% 
+
+C
+
+60-69% 
+
+D
+
+<60% 
+
+F
+
+
+
+
+
+STUDENT CODE OF CONDUCT/COLLEGEWIDE POLICIES AND PROCEDURES Important Student Information Link: http://cms.montgomerycollege.edu/mcsyllabus/ 
+
+In addition to course requirements and objectives that are in this syllabus, Montgomery College has information on  its web site (see link above) to assist you in having a successful experience both inside and outside of the classroom. It  is important that you read and understand this information. The link above provides information and other resources  to areas that pertain to Student Success such as: Student Behavior (Student Code of Conduct); Student e-mail,  College Tobacco Free Policy; Course Withdrawal and Refund Information; Resources for Military Service Members,  Veterans and Dependents; how to access information on delayed openings and closings; how to register for  Montgomery College’s Alert System and how closings and delays can impact your classes.  
+
+Finally, any student who may need accommodations due to a disability, please contact the Disability Support Services  office on your campus as soon as possible (R-CB122; G-SA172; or TP/SS-ST233). If you have an accommodation letter  from DSS, please contact me to discuss arrangements for your accommodations. Any student who may need  assistance in the event of an emergency evacuation must identify to the Disability Support Services Office;  guidelines for emergency evacuations are at: https://cms.montgomerycollege.edu/EDU/Plain2.aspx?id=4162 
+
+If you have any questions please bring them to your professor. As rules and regulations change they will be updated and  you will be able to access them through the link. If any student would like a written copy of these policies and  procedures, the professor would be happy to provide them. By registering for this class and staying in this class, you are  indicating that you acknowledge and accept these policies. 
+
+Note that: 
+
+** An instructor can drop a student from a course if (s)he has missed more than the equivalent of a week’s worth of  classes.  
+
+** Any student auditing this course should meet with me before or during the first class session. You are still required to  complete all course activities unless otherwise agreed upon.
+
+** The Montgomery College e-mail account is the official means of communication between the instructor and the  student. It is your responsibility to routinely check your MC e-mail for College and class information. 
+
+ADDITIONAL GENERAL INFORMATION 
+
+A. Syllabus Changes 
+
+The instructor reserves the right to make changes to this syllabus to provide the best educational experience for the student. Changes will be announced in class and updated in writing before they are implemented. 
+
+B. Use of Email 
+
+1. Generally, I will respond to emails within two business days. 
+
+2. If a time arises when I will be unable to respond to email within two business days, I will let the class know. 
+
+C. Assignment Feedback 
+
+You can view your grades on the course Blackboard page under My Grades on the course menu. You can expect that course assignments will be graded and returned within 5 business days of the due date for that assignment. 
+
+D. Blackboard Course Page 
+
+Getting Started 
+
+Login to Blackboard using the following steps: 
+
+1. Log in to MyMC. 
+
+2. Click on the Blackboard icon in the upper right-hand corner. 
+
+3. Click on the course title, “DATA 101”. 
+
+Technical Requirements and Technical Support 
+
+You will need the following to access the Blackboard course page online:  
+
+• A computer with Internet access. 
+
+• A web browser such as Internet Explorer or Firefox. 
+
+For technical assistance with college supported resources, call the Montgomery College IT Service Desk at 240- 567-7222. 
+
+The HELP link on the left-hand course menu on the course Blackboard page links to the MC Blackboard Online  Support Center. Students can  
+
+1. Call the Support Center at 240-567-7222, or 
+
+2. Chat with a service representative, or 
+
+3. Submit a ticket. 
+
+Note: Click the My Support link at the top of the Blackboard Online Support Center screen to view a history of  your correspondence with the Blackboard Support Center. 
+
+System Downtime  
+
+The Office of Information Technology conducts computer network maintenance on Sunday morning from 12:01  AM to 6:00 AM each week. During this time you may be not be able to access My MC to login to Blackboard. Do  not rely on this time to use the course Blackboard page.  
+
+Privacy 
+
+Electronic communications do not guarantee privacy. In addition to the instructor, technical staff or  administrative personnel may also access this course Blackboard page. Also, in order to respect students’  privacy, sharing personal information or posting photographs on Blackboard is voluntary, not required. 
+
+Accessibility 
+
+There is a link to Blackboard’s Accessibility Statement at the bottom of each course home page. Look for the link  to http://access.blackboard.com.

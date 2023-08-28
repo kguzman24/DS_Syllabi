@@ -1,0 +1,182 @@
+---
+title: "Intro_DS_TextMining"
+author: "Ali Rivera"
+date: "2023-08-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(tidytext)
+```
+
+```{r}
+ASU <- as.tibble(read_lines("txt_files/ASU.txt"))
+Boston_Uni <- as.tibble(read_lines("txt_files/Boston_Uni.txt"))
+Brown <- as.tibble(read_lines("txt_files/Brown.txt"))
+Cornell <- as.tibble(read_lines("txt_files/Cornell.txt"))
+CUNY <- as.tibble(read_lines("txt_files/CUNY.txt"))
+Drexel <- as.tibble(read_lines("txt_files/Drexel.txt"))
+Georgia_Tech <- as.tibble(read_lines("txt_files/Georgia_Tech.txt"))
+Harvard <- as.tibble(read_lines("txt_files/Harvard.txt"))
+LSU <- as.tibble(read_lines("txt_files/LSU.txt"))
+MIT <- as.tibble(read_lines("txt_files/MIT.txt"))
+Montgomery_Coll <- as.tibble(read_lines("txt_files/Montgomery_Coll.txt"))
+NYU_DS4E <- as.tibble(read_lines("txt_files/NYU_DS4E.txt"))
+NYU_IntroDS <- as.tibble(read_lines("txt_files/NYU_IntroDS.txt"))
+Princeton <- as.tibble(read_lines("txt_files/Princeton.txt"))
+Rutgers <- as.tibble(read_lines("txt_files/Rutgers.txt"))
+UCBerkeley <- as.tibble(read_lines("txt_files/UCBerkeley.txt"))
+UCSanDiego <- as.tibble(read_lines("txt_files/UCSanDiego.txt"))
+UIU_107 <- as.tibble(read_lines("txt_files/UIU_107.txt"))
+UIU_207 <- as.tibble(read_lines("txt_files/UIU_207.txt"))
+UKentucky <- as.tibble(read_lines("txt_files/UKentucky.txt"))
+UMaine <- as.tibble(read_lines("txt_files/UMaine.txt"))
+UMD <- as.tibble(read_lines("txt_files/UMD.txt"))
+UniSys_Georgia <- as.tibble(read_lines("txt_files/UniSys_Georgia.txt"))
+USouthampton <- as.tibble(read_lines("txt_files/USouthampton.txt"))
+UToronto <- as.tibble(read_lines("txt_files/UToronto.txt"))
+UUtah <- as.tibble(read_lines("txt_files/UUtah.txt"))
+UWashington <- as.tibble(read_lines("txt_files/UWashington.txt"))
+UWisc_Madison_Modeling <- as.tibble(read_lines("txt_files/UWisc_Madison_Modeling.txt"))
+UWisc_Madison_Programming <- as.tibble(read_lines("txt_files/UWisc_Madison_Programming.txt"))
+UWisconsin <- as.tibble(read_lines("txt_files/UWisconsin.txt"))
+UZurich <- as.tibble(read_lines("txt_files/UZurich.txt"))
+Washington_state <- as.tibble(read_lines("txt_files/Washington_state.txt"))
+William_and_Mary <- as.tibble(read_lines("txt_files/William_and_Mary.txt"))
+```
+
+```{r}
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+Boston_Uni_df <- data_frame(Boston_Uni)
+Boston_Uni_df <- Boston_Uni_df %>% 
+  unnest_tokens(word, value)
+
+Brown_df <- data_frame(Brown)
+Brown_df <- Brown_df %>% 
+  unnest_tokens(word, value)
+
+Cornell_df <- data_frame(Cornell)
+Cornell_df <- Cornell_df %>% 
+  unnest_tokens(word, value)
+
+CUNY_df <- data_frame(CUNY)
+CUNY_df <- CUNY_df %>% 
+  unnest_tokens(word, value)
+
+Drexel_df <- data_frame(Drexel)
+Drexel_df <- Drexel_df %>% 
+  unnest_tokens(word, value)
+
+Georgia_Tech_df <- data_frame(Georgia_Tech)
+Georgia_Tech_df <- Georgia_Tech_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+
+ASU_df <- data_frame(ASU)
+ASU_df <- ASU_df %>% 
+  unnest_tokens(word, value)
+```
+

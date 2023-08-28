@@ -1,0 +1,273 @@
+APS1070: Foundations of Data Analytics and Machine Learning 
+
+APS1070: Foundations of Data Analytics and Machine Learning 
+
+Fall 2020 
+
+Instructor: Jason Riordon - jason.riordon@utoronto.ca 
+
+Lectures: 
+
+LEC0101: Tuesdays, 18:00-21:00, starting Sep 8 LEC0201: Wednesdays, 12:00-15:00, starting Sep 9 
+
+Practical Sessions: 
+
+PRA0101: Wednesdays, 18:00-20:00, starting Sep 9 PRA0102: Thursdays, 10:00-12:00, starting Sep 10 
+
+Students select 1 lecture and 1 practical session 
+
+TA contact info: TBD 
+
+Course description: 
+
+This course covers topics fundamental to data analytics and machine learning, including an introduction to Python and common packages, probability and statistics, matrix representations and fundamental linear algebra operations, basic algorithms and data structures and continuous optimization. The course is structured with both weekly lectures and tutorials/help sessions. 
+
+Grading: 
+
+Projects/Quizzes Project 1 
+
+Weight (%) 
+
+14 
+
+Notes 
+
+Midterm Quiz 
+
+12 
+
+Due Sep 27 @ 23:59 
+
+Start Time: Oct 13 @ 18:00; End Time: Oct 14 @ 23:59 
+
+Project 2 
+
+20 
+
+Due Oct 18 @ 23:59 
+
+Project 3 
+
+20 
+
+Due Nov 8 @ 23:59 
+
+Project 4 
+
+20 
+
+Due Nov 29 @ 23:59 
+
+Start Time: Dec 1 @ 18:00; 
+
+Final Quiz 
+
+14 
+
+End Time: Dec 2 @ 23:59 
+
+Project submissions will be online through Quercus. It is the student's responsibility to verify that projects are submitted on time. Projects that are late will incur a mark of zero. 
+
+APS1070: Foundations of Data Analytics and Machine Learning 
+
+Schedule of lectures and projects (preliminary-these may change): 
+
+Lecture & Practical Session 
+
+Week Date* 
+
+Chapter** 
+
+Sep 8 / Sep 9 
+
+Course Overview, Machine Learning Intro 
+
+1 
+
+Sep 9/ Sep 10 
+
+No Practical Session 
+
+Sep 15/ Sep 16 
+
+Classifiers, Cross-validation, Intro to Python Part I 
+
+PFDA 1-5 
+
+2 
+
+Sep 16 / Sep 17 
+
+Project 1 Tutorial - Basic Data Science 
+
+Sep 22 / Sep 23 
+
+Clustering, Big-O Notation, Intro to Python Part 2 
+
+PFDA 6-9 
+
+3 
+
+Sep 23 / Sep 24 
+
+Project 1 Q&A - Basic Data Science 
+
+4 
+
+Sep 29 / Sep 30 
+
+Performance Metrics, Statistics & Gaussians, Linear Algebra 
+
+MML 1,2,6,11 
+
+Sep 30 / Oct 1 
+
+Project 2 Tutorial - Anomaly Detection 
+
+Oct 6 / Oct 7 
+
+Analytical Geometry, Matrix Decompositions, Quiz Example 
+
+MML 3,4 
+
+5 
+
+Oct 7 / Oct 8 
+
+Project 2 Q & A - Anomaly Detection 
+
+Oct 13 / Oct 14 
+
+Midterm Quiz Oct 13 @ 18:00 - Oct 14 @ 23:59 
+
+6 
+
+Oct 14 / Oct 15 
+
+Project 2 Q & A - Anomaly Detection 
+
+Oct 20 / Oct 21 
+
+Quiz Review, PCA+SVD 
+
+7 
+
+Oct 21 / Oct 22 
+
+Oct 27 / Oct 28 
+
+Vector Calculus 
+
+8 
+
+Oct 28 / Oct 29 
+
+Project 3 Tutorial - PCA 
+
+Project 3 Q & A - PCA 
+
+MML 10 
+
+MML 5 
+
+Nov 3 / Nov 4 
+
+Reading Week 
+
+9 
+
+Nov 4 / Nov 5 
+
+Project 3 Q & A - PCA 
+
+Nov 10 / Nov 11 
+
+Continuous Optimization, Linear Regression, Convexity 
+
+MML 7,9; ESL: 2.3, 3.1-3.2.1 
+
+10 
+
+Nov 11 / Nov 12 
+
+Project 4 Tutorial - Linear Regression 
+
+Nov 17 / Nov 18 
+
+Linear Classification, Naïve Bayes Classifier 
+
+11 
+
+Nov 18 / Nov 19 
+
+Nov 24 / Nov 25 
+
+Deep Learning, Review 
+
+12 
+
+Nov 25 / Nov 26 
+
+Project 4 Q & A - Linear Regression 
+
+Project 4 Q & A - Linear Regression 
+
+Dec 1 / Dec 2 
+
+13 
+
+Dec 2 / Dec 3 
+
+Final Quiz Dec 1 @ 18:00 - Dec 2 @ 23:59 
+
+No Practical Session 
+
+*Dates for all lectures and practical sessions are listed. Students attend one lecture and one practical session. **Reference material and chapters, with PFDA = Python for Data Analysis, 2nd Edition, MML = Mathematics for Machine Learning, ESL = The Elements of Statistical Learning 
+
+Student responsibilities: 
+
+It is the student's responsibility to attend lectures and labs, and ensure projects are submitted on time. 
+
+Academic honesty: 
+
+Do not submit code that you have not written yourself. Students suspected of plagiarism on a project, midterm or exam will be referred to the department for formal discipline for breaches of the Student Code of Conduct. 
+
+Inclusivity Statement: 
+
+All students and faculty at the University of Toronto have a right to learn, work and create in a welcoming, respectful, inclusive and safe environment. In this class we are all responsible for our language, action and interactions. Discriminatory comments or actions of any kind will not be permitted. This includes but is not limited to acts of racism, sexism, Islamophobia, anti-Semitism, homophobia, transphobia, and ableism. As a class we will work together to create an inclusive learning environment and support each other's learning. 
+
+APS1070: Foundations of Data Analytics and Machine Learning 
+
+If you experience or witness any form of discrimination, please reach out to the Engineering Equity Diversity & Inclusion Action Group online, an academic advisor, a U of T Equity Office, or any U of T Engineering faculty or staff member that you feel comfortable approaching. 
+
+Accommodations: 
+
+If you have a learning need requiring an accommodation the University of Toronto recommends that students immediately register at Accessibility Services at www.studentlife.utoronto.ca/as. 
+
+Location: 4th floor of 455 Spadina Avenue, Suite 400 
+
+Voice: 416-978-8060 
+
+Fax: 416-978-5729 
+
+Email: accessibility.services@utoronto.ca 
+
+The University of Toronto supports accommodations of students with special learning needs, which may be associated with learning disabilities, mobility impairments, functional/fine motor disabilities, acquired brain injuries, blindness and low vision, chronic health conditions, addictions, deafness and hearing loss, psychiatric disabilities, communication disorders and/or temporary disabilities, such as fractures and severe sprains, recovery from an operation, serious infections or pregnancy complications. 
+
+Mental Health: 
+
+As a university student, you may experience a range of health and/or mental health issues that may result in significant barriers to achieving your personal and academic goals. The University of Toronto offers a wide range of free and confidential services and programs that may be able to assist you. We encourage you to seek out these resources early and often. 
+
+Health & Wellness Resources: undergrad.engineering.utoronto.ca/advising-and-wellness/health- wellness/ 
+
+U of T Health & Wellness Website: studentlife.utoronto.ca/hwc 
+
+If, at some point during the year, you find yourself feeling distressed and in need of more immediate support, visit the Feeling Distressed Webpage: www.studentlife.utoronto.ca/feeling-distressed, for 
+
+more campus resources. 
+
+Off campus, immediate help is available 24/7 through Good2Talk, a post-secondary student helpline at 
+
+1-866-925-5454. 
+
+All students in the Faculty of Engineering have an Academic Advisor who can advise on academic and personal matters. You can find your department's Academic Advisor here: uoft.me/engadvising

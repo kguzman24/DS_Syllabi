@@ -1,0 +1,181 @@
+Archived Content 
+
+This website is an archive of the Fall 2021 semester of STAT 107: Data Science Discovery. 
+
+Click here for the Spring 2022 webpage. 
+
+Syllabus 
+
+Data Science Discovery is the intersection of statistics, computation, and real-world relevance. As a project-driven course, students perform hands-on-analysis of real-world datasets to analyze and discover the impact of the data. Throughout each experience, students reflect on the social issues surrounding data analysis such as privacy and design. 
+
+Prerequisites: None 
+
+General Education Credit: Quantitative Reasoning I (QR1) 
+
+Office Hours 
+
+In-person open office hours are held most days in 0060 Siebel Center for Design (south campus): 
+
+• Mondays, 4:00pm - 6:00pm, 0060 SCD 
+
+• 
+
+Tuesday, 4:00pm - 6:00pm, 0060 SCD 
+
+• 
+
+Thursdays, 4:00pm - 6:00pm, 0060 SCD 
+
+• 
+
+Fridays, 4:00pm - 6:00pm, 0060 SCD 
+
+Online office hours are held two times a week: 
+
+• 
+
+Wednesday, 5:00pm - 6:00pm, Zoom Office Hours (Link: https://illinois.zoom.us/j/88250118937? pwd=NWIBZkdBZGM1RWJSQXcraUXGZ083UT09) 
+
+• Thursdays, 9:00pm - 11:00pm, Zoom Office Hours (Link: https://illinois.zoom.us/j/88250118937? pwd=NWIBZkdBZGM1 RWJSQXcraUxGZ083UT09) 
+
+Open office hours are fantastic for getting help on understanding course concepts, getting help on assignments, debugging your code, and more! All open office hours will have multiple TAs and/or CAs available to help you out! 
+
+Course Section 
+
+This course is comprised of two sections: 
+
+• Lecture Section: Asynchronous with no scheduled meeting times, lead by Prof. Wade Fagen-Ulmschneider and Prof. Karle Flanagan 
+
+• Lab Section: 
+
+• Small-group, weekly conceptual and problem-solving discussion sections lead by a Teaching Assistant (TA). Not computer-based. (~15 minutes /week) 
+
+• Small-group, weekly computer-based programming sections with the assistance of course staff. Some sections will be BYOD ("Bring Your Own Device") and others will be in computer labs for students who do not have or choose not 
+
+to use their own device. 
+
+You are required to be registered for BOTH one lecture section and one lab/discussion section. 
+
+Course Materials 
+
+• 
+
+Laptop Computer: You need a laptop running Windows, OS X, or Linux. Android Tablets, Chromebooks, and iPads are not supported. You will need to be able to install both Python and git to complete the labs (instructions provided). 
+
+Course Assignments and Grades 
+
+Course grades are given in points, totaling 1,000 points throughout the semester. The breakdown of points is as follows: 
+
+• Labs: 280 points (14 x 20 points), points over 280 are extra credit 
+
+• Homework: 245 points (35 x 7 points) 
+
+• Project: 75 points 
+
+• Midterm Exam 1: 100 points 
+
+1/2 
+
+• Midterm Exam 2: 100 points 
+
+Comprehensive Final Exam: 200 points 
+
+Final Course Grade 
+
+Course points will be translated into a course grade at the end of the semester. 
+
+Points Earned 
+
+Minimum Grade 
+
+Points Earned 
+
+Minimum Grade 
+
+Points Earned 
+
+Minimum Grade 
+
+[1070, 1100] 
+
+A+ 
+
+[930, 1070) 
+
+A 
+
+[900, 930) 
+
+A- 
+
+[870,900) 
+
+B+ 
+
+[830, 870) 
+
+B 
+
+[800, 830) 
+
+B- 
+
+[770, 800) 
+
+C+ 
+
+[730, 770) 
+
+C 
+
+[700, 730) 
+
+C- 
+
+[670, 700) 
+
+D+ 
+
+[630, 670) 
+
+D 
+
+[600, 630) 
+
+D- 
+
+[600, 0) 
+
+F 
+
+We might lower these cutoffs; for example, perhaps 670 points will turn out to be enough for a C-; however, we won't raise them. (In recent semesters these cutoffs have not moved significantly from these targets.) 
+
+Extra Credit 
+
+There is an opportunity for significant extra credit in this course (usually called "+1 points"). Points for extra credit work will be assigned after grade cutoffs are determined, so they are a true bonus to your score. The total amount of extra credit you can earn is capped at 107 points, or slightly more than one letter grade. 
+
+Projects 
+
+One significant component to this course is the completion of the course project (145 points). You will have ~5 weeks to complete the project, including a lab/discussion dedicated to working with the course staff on your project. With the project, you will focus on the analysis of a single real-world dataset to discover interesting and insightful features and perform a detailed reflection on your findings to understand the social issues that arise from such analysis. 
+
+Late Submissions 
+
+No late submissions are accepted. However, we do drop your 3 lowest HW assignments at the end of the semester. So missing 3 assignmnets won't hurt your grade. Also, extra credit opportunities will be offered. All sources of extra credit cannot exceed +107 points to your final grade. 
+
+Learning Collaboratively 
+
+Data Science is a collaborative science. Do not try to tackle this course alone. 
+
+We strongly encourage you to discuss all of your course activities (with the exception of exams) with your friends and classmates! You will learn more though talking through the problems, teaching others, and sharing ideas. 
+
+Continue to read on "Academic Integrity" to understand the difference between collaboration and giving an answer away. 
+
+Academic Integrity 
+
+Collaboration is about working together. Collaboration is not giving the direct answer to a friend or sharing the source code to an assignment. Collaboration requires you to make a serious attempt at every assignment and discuss your ideas and doubts with others so everyone gets more out of the discussion Your answers must be your own words and your code must be typed (not copied/pasted) by you. 
+
+Academic dishonesty is taken very seriously in STAT 107 and all cases will be brought to the University, your college, and your department. You should understand how academic integrity applies specifically to STAT 107: the sanctions for cheating on an assignment includes a loss of all points for the assignment, the loss of all extra credit in STAT 107, and that the final course grade is lowered by one whole letter grade (100 points). A second incident, or any cheating on an exam, results in an automatic F in the course. 
+
+Academic integrity includes protecting your work. If you work ends up submitted by someone else, we have considered this a violation of academic integrity just as though you submitted someone else's work. 
+
+2/2

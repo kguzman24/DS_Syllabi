@@ -27,6 +27,10 @@ all_data <- lapply(files, readr::read_lines)
 
 ## Rename index (?) with file names -.txt
 names(all_data) <- gsub("\\.txt$", "", files)
+
+## List of school names to use later
+schools <- names(all_data)
+schools <-  Filter(function(x) !any(grep("TextMiningExploration", x)), schools)
 ```
 
 Then we make a data frame for each syllabus, and for each data frame use `unnest_tokens(word, value)` to separate each word, and `anti_join(stop_words)` to remove the stop words (common words like: it, the, to, etc.), and `filter(is.na(as.numeric(word)))` to remove numeric tokens.
@@ -187,6 +191,18 @@ UUtah_df <- UUtah_df %>%
   anti_join(stop_words) %>%    
   filter(is.na(as.numeric(word)))
 
+UVA_SDS_df <- data_frame(as.tibble(all_data$UVA_SDS))
+UVA_SDS_df <- UVA_SDS_df %>% 
+  unnest_tokens(word, value) %>%    
+  anti_join(stop_words) %>%    
+  filter(is.na(as.numeric(word)))
+
+UVA_Stat_df <- data_frame(as.tibble(all_data$UVA_Stat))
+UVA_Stat_df <- UVA_Stat_df %>% 
+  unnest_tokens(word, value) %>%    
+  anti_join(stop_words) %>%    
+  filter(is.na(as.numeric(word)))
+
 UWashington_df <- data_frame(as.tibble(all_data$UWashington))
 UWashington_df <- UWashington_df %>% 
   unnest_tokens(word, value) %>%    
@@ -239,7 +255,7 @@ df_list = mget(ls(pattern = "_df"))
 For each data frame, we now get a word count and pull the top k (mutable) words in each syllabus. We put these into a data frame `top_10_df` and rename the columns/rows.
 ```{r}
 top_k_df <- data.frame()
-k = 10
+k = 20
 for (i in seq_along(df_list)) {
   temp <- df_list[[i]] %>% 
     count(word, sort = TRUE) %>% 
@@ -249,21 +265,11 @@ for (i in seq_along(df_list)) {
 }
 
 colnames(top_k_df) <- seq(1, k, 1)
-row.names(top_k_df) <- c("ASU", "BostonU", "Brown", 
-                          "Cornell", "CUNY", "Drexel", 
-                          "GeorgiaTech", "Harvard", "LSU", 
-                          "MIT", "MontgomeryColl", "NYUDS4E", 
-                          "NYUIntroDS", "Princeton", "Rutgers",
-                          "UCBerkeley", "UCSanDiego", "UIU107",
-                          "UIU207", "UKentucky", "UMaine",
-                          "UMD", "UniSystemGeorgia", "USouthampton",
-                          "UToronto", "UUtah", "UWashington",
-                          "UWiscMadisonModeling", "UWiscMadisonProgramming", 
-                          "UWisconsin", "UZurich", "WashingtonState", "WandM")
+row.names(top_k_df) <- schools
 top_k_df
 ```
 
-Next, we create a horizontal bar chart for each with the top k words
+Next, we create a horizontal bar chart for each with the top k words in each syllabus.
 ```{r}
 
 for (i in seq_along(df_list)) {
@@ -275,19 +281,17 @@ for (i in seq_along(df_list)) {
     geom_col() +
     xlab(NULL) +
     coord_flip() +
-    ggtitle(row.names(top_k_df)[i]))
+    ggtitle(schools[i]))
 }
 ```
 We can also create word clouds for the top k words from each syllabus.
 ```{r}
 for (i in seq_along(df_list)) {
-  print(row.names(top_k_df)[i])
+  print(schools[i])
   df_list[[i]] %>%
   count(word) %>%
   with(wordcloud(word, n, min.freq=4, max.words = 10))
 }
 ```
-```{r}
 
-```
 

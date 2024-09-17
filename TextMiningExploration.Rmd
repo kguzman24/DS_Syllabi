@@ -2,7 +2,9 @@
 title: "Intro_DS_TextMining"
 author: "Ali Rivera"
 date: "2023-08-25"
-output: html_document
+output: 
+  html_document: 
+    theme: cosmo
 ---
 
 ```{r setup, include=FALSE}
@@ -12,171 +14,307 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse)
 library(tidytext)
+library(wordcloud)
+library(topicmodels)
+```
+
+First, we read in all .txt files (you can do this individually with `as.tibble(read_lines("file_name.txt)`) in the current working directory.
+**Note: This means the file must be saved in the same folder as the .txt files.**
+```{r}
+## Get list of all file names in folder
+files = list.files()
+
+## Make a large list with text from each files (n=number of files)
+all_data <- list()
+all_data <- lapply(files, readr::read_lines)
+
+## Rename index (?) with file names -.txt
+names(all_data) <- gsub("\\.txt$", "", files)
+
+## List of school names to use later
+schools <- names(all_data)
+schools <-  Filter(function(x) !any(grep("TextMiningExploration", x)), schools) #removes r files from list
+```
+
+After seeing some of the top tokens, there are some "words" that aren't meaningful or are consistent across all syllabi like class, http, etc. `remove.words` is a list of those to be removed - this is really just to get a holistic idea - we will use tf-idf to do this later.
+```{r}
+remove.words <- data.frame(word=c("class", "http", "https", "students", "students", "disability", "sexual", "harrassment", "academic", "policy", "office", "disability", "discrimination", "behavior", "accomodation", "questions", "email", "conduct", "59pm", "answers", "gradescope", "hours", "assignment", "assignments", "grade", "unit", "ch", "ta", "days", "pm", "est", "ta", "hours", "due", "blackboard", "link", "hw", "homework", "comp6235", "www.southampton.ac.uk", "sep", "oct", "nov", "dec", "week", "www.umgc.edu", "en.wikipedia.org", "www.uky.edu"))
+```
+
+
+Then we make a data frame for each syllabus:
+```{r}
+ASU_df <- data_frame(as.tibble(all_data$ASU))
+Boston_Uni_df <- data_frame(as.tibble(all_data$Boston_Uni))
+Brown_df <- data_frame(as.tibble(all_data$Brown))
+Cornell_df <- data_frame(as.tibble(all_data$Cornell))
+CUNY_df <- data_frame(as.tibble(all_data$CUNY))
+Drexel_df <- data_frame(as.tibble(all_data$Drexel))
+Georgia_Tech_df <- data_frame(as.tibble(all_data$Georgia_Tech))
+Harvard_df <- data_frame(as.tibble(all_data$Harvard))
+LSU_df <- data_frame(as.tibble(all_data$LSU))
+MIT_df <- data_frame(as.tibble(all_data$MIT))
+Montgomery_Coll_df <- data_frame(as.tibble(all_data$Montgomery_Coll))
+NYU_DS4E_df <- data_frame(as.tibble(all_data$NYU_DS4E))
+NYU_IntroDS_df <- data_frame(as.tibble(all_data$NYU_IntroDS))
+Princeton_df <- data_frame(as.tibble(all_data$Princeton))
+Rutgers_df <- data_frame(as.tibble(all_data$Rutgers))
+UCBerkeley_df <- data_frame(as.tibble(all_data$UCBerkeley))
+UCSanDiego_df <- data_frame(as.tibble(all_data$UCSanDiego))
+UIU_107_df <- data_frame(as.tibble(all_data$UIU_107))
+UIU_207_df <- data_frame(as.tibble(all_data$UIU_207))
+UKentucky_df <- data_frame(as.tibble(all_data$UKentucky))
+UMaine_df <- data_frame(as.tibble(all_data$UMaine))
+UMD_df <- data_frame(as.tibble(all_data$UMD))
+UniSys_Georgia_df <- data_frame(as.tibble(all_data$UniSys_Georgia))
+USouthampton_df <- data_frame(as.tibble(all_data$USouthampton))
+UToronto_df <- data_frame(as.tibble(all_data$UToronto))
+UUtah_df <- data_frame(as.tibble(all_data$UUtah))
+UVA_SDS_df <- data_frame(as.tibble(all_data$UVA_SDS))
+UVA_Stat_df <- data_frame(as.tibble(all_data$UVA_Stat))
+UWashington_df <- data_frame(as.tibble(all_data$UWashington))
+UWisc_Madison_Modeling_df <- data_frame(as.tibble(all_data$UWisc_Madison_Modeling))
+UWisc_Madison_Programming_df <- data_frame(as.tibble(all_data$UWisc_Madison_Programming))
+UWisconsin_df <- data_frame(as.tibble(all_data$UWisconsin))
+UZurich_df <- data_frame(as.tibble(all_data$UZurich))
+Washington_state_df <- data_frame(as.tibble(all_data$Washington_State))
+William_and_Mary_df <- data_frame(as.tibble(all_data$William_and_Mary))
+```
+
+Next, we compile these data frames into a list for easy batch processing.
+```{r}
+## NTOE: Run once (sequentially) to avoid error 
+df_list = mget(ls(pattern = "_df"))
+```
+
+...and for each data frame use `unnest_tokens(word, value)` to separate each word, and `anti_join(stop_words)` to remove the stop words (common words like: it, the, to, etc.), and `filter(is.na(as.numeric(word)))` to remove numeric tokens. The line commented out removes the words in the `remove.words` list above.
+```{r,warning=FALSE, error=FALSE, message=FALSE}
+for (i in seq_along(df_list)) {
+  df_list[[i]] <- df_list[[i]] %>% 
+    unnest_tokens(word, value) %>%    
+    anti_join(stop_words) %>%    
+    anti_join(remove.words, by=join_by(word)) %>%
+    filter(is.na(as.numeric(word)))
+}
+```
+
+For each data frame, we now get a word count and pull the top k (mutable) words in each syllabus. We put these into a data frame `top_k_df` and rename the columns/rows.
+```{r}
+top_k_df <- data.frame()
+k = 20
+for (i in seq_along(df_list)) {
+  temp <- df_list[[i]] %>% 
+    count(word, sort = TRUE) %>% 
+    head(k)
+  
+  top_k_df = rbind(top_k_df, temp$word)
+}
+
+colnames(top_k_df) <- seq(1, k, 1)
+row.names(top_k_df) <- schools
+#top_k_df
+```
+
+Next, we create a horizontal bar chart for each with the top k words in each syllabus.
+```{r}
+
+for (i in seq_along(df_list)) {
+  print(df_list[[i]] %>%
+    count(word, sort = TRUE) %>%
+    head(k) %>%
+    mutate(word = reorder(word, n)) %>%
+    ggplot(aes(word, n)) +
+    geom_col() +
+    xlab(NULL) +
+    coord_flip() +
+    ggtitle(schools[i]))
+}
+```
+We can also create word clouds for the top k words from each syllabus.
+```{r}
+for (i in seq_along(df_list)) {
+  print(schools[i])
+  df_list[[i]] %>%
+  count(word) %>%
+  with(wordcloud(word, n, min.freq=4, max.words = 10))
+}
+```
+
+
+In order to use the tf-idf for analysis we need a dataframe containing each token labeled by the corresponding syllabus. Here we make this from our data frames:
+
+## Need to add commentary on tf-idf
+```{r}
+allschools_df <- data.frame()
+for (i in seq_along(df_list)) {
+  allschools_df <- rbind(allschools_df, data.frame(syllabus = schools[i], word = df_list[[i]]))
+}
 ```
 
 ```{r}
-ASU <- as.tibble(read_lines("txt_files/ASU.txt"))
-Boston_Uni <- as.tibble(read_lines("txt_files/Boston_Uni.txt"))
-Brown <- as.tibble(read_lines("txt_files/Brown.txt"))
-Cornell <- as.tibble(read_lines("txt_files/Cornell.txt"))
-CUNY <- as.tibble(read_lines("txt_files/CUNY.txt"))
-Drexel <- as.tibble(read_lines("txt_files/Drexel.txt"))
-Georgia_Tech <- as.tibble(read_lines("txt_files/Georgia_Tech.txt"))
-Harvard <- as.tibble(read_lines("txt_files/Harvard.txt"))
-LSU <- as.tibble(read_lines("txt_files/LSU.txt"))
-MIT <- as.tibble(read_lines("txt_files/MIT.txt"))
-Montgomery_Coll <- as.tibble(read_lines("txt_files/Montgomery_Coll.txt"))
-NYU_DS4E <- as.tibble(read_lines("txt_files/NYU_DS4E.txt"))
-NYU_IntroDS <- as.tibble(read_lines("txt_files/NYU_IntroDS.txt"))
-Princeton <- as.tibble(read_lines("txt_files/Princeton.txt"))
-Rutgers <- as.tibble(read_lines("txt_files/Rutgers.txt"))
-UCBerkeley <- as.tibble(read_lines("txt_files/UCBerkeley.txt"))
-UCSanDiego <- as.tibble(read_lines("txt_files/UCSanDiego.txt"))
-UIU_107 <- as.tibble(read_lines("txt_files/UIU_107.txt"))
-UIU_207 <- as.tibble(read_lines("txt_files/UIU_207.txt"))
-UKentucky <- as.tibble(read_lines("txt_files/UKentucky.txt"))
-UMaine <- as.tibble(read_lines("txt_files/UMaine.txt"))
-UMD <- as.tibble(read_lines("txt_files/UMD.txt"))
-UniSys_Georgia <- as.tibble(read_lines("txt_files/UniSys_Georgia.txt"))
-USouthampton <- as.tibble(read_lines("txt_files/USouthampton.txt"))
-UToronto <- as.tibble(read_lines("txt_files/UToronto.txt"))
-UUtah <- as.tibble(read_lines("txt_files/UUtah.txt"))
-UWashington <- as.tibble(read_lines("txt_files/UWashington.txt"))
-UWisc_Madison_Modeling <- as.tibble(read_lines("txt_files/UWisc_Madison_Modeling.txt"))
-UWisc_Madison_Programming <- as.tibble(read_lines("txt_files/UWisc_Madison_Programming.txt"))
-UWisconsin <- as.tibble(read_lines("txt_files/UWisconsin.txt"))
-UZurich <- as.tibble(read_lines("txt_files/UZurich.txt"))
-Washington_state <- as.tibble(read_lines("txt_files/Washington_state.txt"))
-William_and_Mary <- as.tibble(read_lines("txt_files/William_and_Mary.txt"))
+allschools_df <- allschools_df %>% count(syllabus, word, sort=TRUE)
 ```
 
 ```{r}
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+total_words <- allschools_df %>% 
+  group_by(syllabus) %>% 
+  summarize(total=sum(n))
 
-Boston_Uni_df <- data_frame(Boston_Uni)
-Boston_Uni_df <- Boston_Uni_df %>% 
-  unnest_tokens(word, value)
+syllabus_words <- left_join(allschools_df, total_words)
+```
+```{r}
+syllabus_words
+```
+```{r}
+freq_by_rank <- syllabus_words %>%
+  group_by(syllabus) %>%
+  mutate(rank = row_number(),
+         `term frequency` = n/total)
 
-Brown_df <- data_frame(Brown)
-Brown_df <- Brown_df %>% 
-  unnest_tokens(word, value)
+freq_by_rank
+```
 
-Cornell_df <- data_frame(Cornell)
-Cornell_df <- Cornell_df %>% 
-  unnest_tokens(word, value)
+```{r}
+allschools_df %>%
+  bind_tf_idf(word, syllabus, n)%>%
+  arrange(desc(tf_idf))
+```
 
-CUNY_df <- data_frame(CUNY)
-CUNY_df <- CUNY_df %>% 
-  unnest_tokens(word, value)
+## LDA
 
-Drexel_df <- data_frame(Drexel)
-Drexel_df <- Drexel_df %>% 
-  unnest_tokens(word, value)
+First we make our tidy df of word counts for all schools and make it into a document term matrix where:
+- each row is a syllabus, 
+- each column is a term, and 
+- each cell has the count of that term in that syllabus. 
 
-Georgia_Tech_df <- data_frame(Georgia_Tech)
-Georgia_Tech_df <- Georgia_Tech_df %>% 
-  unnest_tokens(word, value)
+This format creates a sparse matrix.
+```{r}
+allschools_dtm <- allschools_df %>% 
+  cast_dtm(syllabus, word, n)
+```
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+Let's start with a 2 topic model and a 3 topic model.
+```{r}
+#a 2 topic model
+lda.2 <- LDA(allschools_dtm, k = 2, control = list(seed = 54))
+lda.2.topics <- tidy(lda.2, matrix = 'beta')
+lda.2.docs <- tidy(lda.2, matrix = 'gamma')
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+#a 3 topic model
+lda.3 <- LDA(allschools_dtm, k = 3, control = list(seed = 54))
+lda.3.topics <- tidy(lda.3, matrix = 'beta')
+lda.3.docs <- tidy(lda.3, matrix = 'gamma')
+```
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+Now we can look at the results:
+```{r}
+lda.2.topics
+lda.2.docs
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+lda.3.topics
+lda.3.docs
+```
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+```{r}
+top.terms2 <- lda.2.topics %>%
+  group_by(topic) %>%
+  top_n(15, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+top.terms3 <- lda.3.topics %>%
+  group_by(topic) %>%
+  top_n(15, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+top.terms2
+top.terms3
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+```
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+```{r}
+plt.2 <- top.terms2 %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  coord_flip() +
+  scale_x_reordered()
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+plt.2
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+plt.3 <- top.terms3 %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  coord_flip() +
+  scale_x_reordered()
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+plt.3
+```
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+```{r}
+beta_spread2 <- lda.2.topics %>%
+  mutate(topic = paste0("topic", topic)) %>%
+  spread(topic, beta) %>%
+  filter(topic1 > .001 | topic2 > .001) %>%
+  mutate(log_ratio = log2(topic2 / topic1)) %>% 
+  arrange(log_ratio)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+#Two topics
+beta_spread2
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+data_plt2 <- tail(beta_spread2, 15)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+data_plt2 <- rbind(data_plt2, head(beta_spread2, 15))
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+split_plt2 <- data_plt2 %>% 
+  mutate(term = fct_reorder(term, log_ratio)) %>%
+  ggplot(aes(x=term,
+            y=log_ratio)
+            )+ geom_col()+
+            coord_flip()
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+split_plt2
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+#3 topics
+beta_spread3 <- lda.3.topics %>%
+  mutate(topic = paste0("topic", topic)) %>%
+  spread(topic, beta) %>%
+  filter(topic1 > .001 | topic2 > .001) %>%
+  mutate(log_ratio = log2(topic2 / topic1)) %>% 
+  arrange(log_ratio)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+beta_spread3
 
-ASU_df <- data_frame(ASU)
-ASU_df <- ASU_df %>% 
-  unnest_tokens(word, value)
+data_plt3 <- tail(beta_spread3, 15)
+
+data_plt3 <- rbind(data_plt3, head(beta_spread3, 15))
+
+split_plt3 <- data_plt3 %>% 
+  mutate(term = fct_reorder(term, log_ratio)) %>%
+  ggplot(aes(x=term,
+            y=log_ratio)
+            )+ geom_col()+
+            coord_flip()
+
+split_plt3
+```
+```{r}
+tidy(lda.2, matrix = "gamma")
+
+tidy(lda.3, matrix = "gamma")
+```
+```{r}
+assignments <- augment(lda.2, data = allschools_dtm)
+assignments <- assignments %>%
+  inner_join(lda.2.topics, by = c(".topic" = "topic"))
+assignments
 ```
 

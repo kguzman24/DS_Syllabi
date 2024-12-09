@@ -1,0 +1,302 @@
+Metropolitan State University of Denver  
+Regular Course Syllabus 
+Page 1 of 4 
+ 
+CS 3120  Machine Learning                      Spring 2018 
+Status 
+completed 
+Hierarchy Entities 
+Department of Mathematical and Computer Sciences 
+Approval Process Name 
+10. UG New Course No Special Designation (17-18) 
+Current Step 
+Registrar's Office 
+Originator 
+Steve Beaty 
+Department 
+Department of Mathematical and Computer Sciences 
+Status: 
+Active-Visible 
+Prefix: 
+CS 
+Course Number: 
+3120 
+Course Type: 
+Computer Science 
+Course Title: 
+Machine Learning 
+Transcript Course Title: 
+Machine Learning 
+Equivalent/ Crosslisted? 
+ 
+List all equivalent 
+courses: 
+ 
+List all crosslisted 
+courses: 
+ 
+Check All That Apply: 
+Elective 
+Resource Implication 
+Narrative 
+We've been teaching independent study courses on this subject, and we have 
+the resources to put it in our regular course rotation. The CS group offers a 
+rotating selection of 6-7 upper division electives each semester, according to 
+faculty availability, and this course will be slotted into that selection of 
+electives. 
+Justification for Proposal 
+Machine learning is becoming a very important topic in computer science and 
+we need a course that addresses this. It is also the case that machine learning 
+is a part of data science and the statistics professors have requested the 
+computer science faculty create this course. 
+Credit Hours: 
+4 
+Distribution of Credit 
+Hours 
+4+0 
+Schedule Type: 
+Lecture 
+Grade Mode: 
+Letter 
+Lecture: 
+60 
+Lab: 
+ 
+Internship: 
+ 
+Practicum: 
+ 
+Other: 
+ 
+Additional Student Work 
+Hours per course: 
+120 
+Variable topics umbrella 
+course: 
+No 
+If yes, number of credits/ 
+repeats allowed 
+ 
+Specified repeatable 
+course: 
+No 
+If yes, number of credits/ 
+repeats allowed 
+ 
+CS 3210 
+Page 2 of 4 
+ 
+Prerequisite(s): 
+CS 2050 or MTH 2520, MTH 2140, and MTH 3210 all with a grade of C- or 
+better 
+Corequisite(s): 
+ 
+Prerequisite(s) and/or 
+Corequisite(s): 
+ 
+Banner Prerequisite(s): 
+CS 2050 or MTH 2520, MTH 2140, and MTH 3210 
+Minimum Passing Grade 
+for Banner Enforced 
+Prerequisite Courses 
+C- 
+Banner Corequisite(s): 
+ 
+Minimum passing grade 
+for Banner enforced 
+corequisite course(s) 
+ 
+Banner Prerequisite(s) 
+and/or Corequisite(s): 
+ 
+Minimum passing grade 
+for Banner enforced 
+pre/co-requisites 
+ 
+Level 
+ 
+Class 
+ 
+Program 
+ 
+Student attribute 
+ 
+Major 
+ 
+Other Registration 
+Restrictions 
+ 
+Catalog Course 
+Description: 
+Machine learning is the ability of computers to learn without explicitly 
+programming an algorithm. Machine learning techniques learn about hyper-
+dimensional spaces with either explicit direction or implicit reinforcement. This 
+course covers a variety of machine learning techniques and their application to 
+actual data. Topics include the clustering of data and the retrieval of related 
+data, the use of machine learning for recommender systems, and the creation 
+of deep learning systems. This course includes both the underlying theory of 
+machine learning and the creation of machine learning software for real-world 
+problems. 
+Required Reading and 
+Other Materials will be 
+equivalent to: 
+Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, 
+Tools, and Techniques to Build Intelligent Systems, (2017) 1st Edition, 
+Aurélien Géron 
+Specific, Measurable 
+Student Behavioral 
+Learning Objectives: 
+1. 
+Evaluate and choose an appropriate machine learning technique for a 
+given problem. 
+2. 
+Analyze how a neural network model is represented and how it 
+encodes non-linear features.    
+3. 
+Select appropriate neural networks and deep learning for differing 
+problems. 
+4. 
+Create and analyze models that reflect real-world data. 
+5. 
+Perform back propagation for a neural network. 
+6. 
+Assess how hidden layers contribute to a neural network’s capabilities. 
+7. 
+Compare supervised, unsupervised, and reinforcement learning. 
+8. 
+Construct a recommender system. 
+9. 
+Uncover hidden patterns and structures in data with clustering. 
+CS 3210 
+Page 3 of 4 
+ 
+Detailed Outline of Course 
+Content (Major Topics and 
+Subtopics) or Outline of 
+Field Experience/ 
+Internship 
+I. 
+ Biological basis 
+a. Neurons 
+b. Perceptrons 
+i. The XOR problem 
+c. Multi-layer neural networks 
+i. Deep learning 
+II. 
+Training 
+a. Linear regression 
+b. Gradient descent 
+c. Back propagation 
+III. 
+Hyperparameters 
+a. Topology 
+i. Feed forward 
+ii. Convolutional 
+iii. Recurrent 
+b. Weights 
+c. Activation functions 
+i. Sigmoid etc. 
+IV. 
+Data quality 
+a. Dimensionality reduction 
+V. 
+Overfitting and generalization 
+a. Cross validation 
+VI. 
+Learning 
+a. Supervised and unsupervised 
+i. Support vector machines 
+b. Reinforcement 
+c. Ensemble 
+i. Random forests 
+VII. 
+Problem types 
+a. Classification 
+b. Clustering 
+c. Regression 
+i. Lasso 
+d. Text, image, language, etc. recognition 
+e. Recommender systems 
+f. Sentiment analysis 
+Evaluation of Student 
+Performance 
+A combination of the following. 
+I. 
+Quizzes  
+II. 
+Exams  
+III. 
+Participation 
+IV. 
+Classwork 
+V. 
+Homework 
+VI. 
+Papers Projects 
+Learning Objectives 
+ 
+ 
+Steps 
+ 
+Decision 
+ 
+Date 
+Originator 
+ 
+Steve Beaty 
+approve 
+02/08/2018 05:35AM 
+CS 3210 
+Page 4 of 4 
+ 
+Department Curriculum 
+Committee Chair 
+ 
+Clark Dollard 
+approve 
+02/14/2018 06:59PM 
+Department Chair 
+ 
+Lindsay Packer 
+approve 
+02/15/2018 08:26AM 
+Substantive College Level 
+ 
+Carla Aguilar 
+approve 
+04/16/2018 12:01PM 
+Linda Lang-Peralta 
+approve 
+04/16/2018 02:37PM 
+Steve Beaty 
+approve 
+04/09/2018 12:02PM 
+Curriculum Manager 
+ 
+Erica Buckland 
+approve 
+04/17/2018 12:57PM 
+AVP Academic and 
+Student Affairs 
+ 
+Chad Harris 
+approve 
+04/27/2018 04:01PM 
+Registrar's Office 
+ 
+Connie Sanders 
+None 
+ 
+Manny Escarcega 
+None 
+ 
+Erica Buckland 
+restart 
+04/30/2018 10:46AM 
+Registrar's Office 
+ 
+Manny Escarcega 
+approve 
+05/08/2018 02:08PM 
+ 
+

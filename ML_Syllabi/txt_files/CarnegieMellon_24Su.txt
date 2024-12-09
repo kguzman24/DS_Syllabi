@@ -1,0 +1,708 @@
+CMU MLD Logo
+Narwhal Net
+10-301/601 
+Syllabus
+Staff
+Schedule
+Recitations
+Assignments
+Course Calendar
+10-301/601: Introduction to
+Machine Learning
+Summer 2024
+Key Information
+and Links
+Instructor: Henry Chai
+Education Associate: Nichelle Phillips
+Announcements/Q&A: We will be using Piazza for making announcements and answering
+questions.
+Lectures:
+Monday, Tuesdays and Wednesdays from 9:30 AM to 10:50 AM (EDT)
+in SH 105. Lectures will be recorded for students to review after the
+fact; the recordings will be hosted by Panopto.
+In-class Polls:
+Some portion of your grade will be determined based on participation
+in polls during lecture. The latest poll can always be found at
+pollev.com/301601polls; in order to respond, you must be logged in
+with your CMU email.
+Recitations:
+Thursdays from 9:30 AM to 10:50 AM (EDT) in SH 105. Attendance at
+recitations is optional and therefore, outside of extraordinary
+circumstances, these will not be recorded. Recitation handouts can be
+found under the Recitations tab.
+Assignments:
+Homework handouts will be posted to the course website under the
+Assignments tab. All code and written responses to empirical
+questions should be submitted via Gradescope.
+Office Hours: The time and location of office hours can be found on the course
+calendar.
+Syllabus
+1. Course Description
+Machine Learning is concerned with computer programs that automatically improve their performance through
+experience, e.g., programs that learn to recognize human faces, recommend music and movies, and drive autonomous
+robots. This course covers the theory and practical algorithms for machine learning from a variety of perspectives.
+Specific topics include Bayesian networks, decision tree learning, support vector machines, statistical learning
+methods, unsupervised learning and reinforcement learning as well as theoretical concepts such as inductive bias, the
+PAC learning framework, Bayesian learning methods, margin-based learning, and Occam’s Razor. Programming
+assignments include hands-on experiments with various learning algorithms. This course is designed to give a graduate-
+level student a thorough grounding in the methodologies, technologies, mathematics and algorithms currently needed
+by people who do research in machine learning.
+10-301 and 10-601 are identical. Undergraduates must register for 10-301 and graduate students must register for 10-
+601.
+Learning Outcomes: By the end of the course, students should be able to:
+Implement and analyze existing learning algorithms, including well-studied methods for classification, regression,
+structured prediction, clustering, and representation learning.
+Integrate multiple facets of practical machine learning in a single system: data preprocessing, learning,
+regularization and model selection.
+Describe the formal properties of models and algorithms for learning and explain the practical implications of
+those results.
+Compare and contrast different paradigms for learning (supervised, unsupervised, etc...).
+Design experiments to evaluate and compare different machine learning techniques on real-world problems.
+Employ probability, statistics, calculus, linear algebra, and optimization in order to develop new predictive models
+or learning methods.
+Given a description of a ML technique, analyze it to identify (1) the expressive power of the formalism; (2) the
+inductive bias implicit in the algorithm; (3) the size and complexity of the search space; (4) the computational
+properties of the algorithm: (5) any guarantees (or lack thereof) regarding termination, convergence, correctness,
+accuracy or generalization power.
+2. Prerequisites
+Students entering the class are expected to have a pre-existing working knowledge of probability, linear algebra,
+statistics and algorithms; some recitation sessions will be held to review basic concepts.
+1. You need to have, before starting this course, significant experience programming in a general programming
+language. Specifically, you need to have written from scratch programs consisting of several hundred lines of code.
+For undergraduate students, this will be satisfied for example by having passed 15-122 (Principles of Imperative
+Computation) with a grade of ‘C’ or higher, or comparable courses or experience elsewhere.
+Note: For each programming assignment, you will be required to use Python. You will be expected to know, or be
+able to quickly pick up, that programming language.
+2. You need to have, before starting this course, basic familiarity with probability and statistics, as can be achieved
+at CMU by having passed 36-217 (Probability Theory and Random Processes) or 36-225 (Introduction to
+Probability and Statistics I), or 15-259, or 21-325, or comparable courses elsewhere, with a grade of ‘C’ or higher.
+3. You need to have, before starting this course, college-level maturity in discrete mathematics, as can be achieved
+at CMU by having passed 21-127 (Concepts of Mathematics) or 15-151 (Mathematical Foundations of Computer
+Science), or comparable courses elsewhere, with a grade of ‘C’ or higher.
+You must strictly adhere to these pre-requisites! Even if CMU’s registration system does not prevent you from
+registering for this course, it is still your responsibility to make sure you have all of these prerequisites before you
+register.
+3. Recommended Textbooks
+This course does not exactly follow any one textbook. However, most lectures will have some optional reading to help
+you better understand the material or see a different presentation/perspective. We recommend you read these after the
+corresponding lecture. These readings will typically be drawn from the following texts, many of which are freely
+available online:
+A Course in Machine Learning, Hal Daumé III.
+Machine Learning, Tom Mitchell.
+Machine Learning: a Probabilistic Perspective, Kevin P. Murphy.
+Pattern Recognition and Machine Learning, Christopher M. Bishop.
+The textbook below is a great resource for those hoping to brush up on the prerequisite mathematics background for
+this course:
+Mathematics for Machine Learning, Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong.
+4. Course Components
+The graded components of this course consist of participation in lectures, midterm and final exams, programming
+assignments and in-class quizzes. The breakdown is as follows:
+9 Homework Assignments = 45%
+Midterm = 25%
+Final = 25%
+Participation = 5%
+We will convert numerical course grades to letter grades based on grade boundaries that are determined at the end of
+the semester. The following is a list of upper bounds on the grade cutoffs we will use; in all likelihood, these will be
+adjusted down at the end of the semester:
+A+: ≥ 97%
+A: ≥ 93%
+A-: ≥ 90%
+B+: ≥ 87%
+B: ≥ 83%
+B-: ≥ 80%
+C+: ≥ 77%
+C: ≥ 73%
+C-: ≥ 70%
+D+: ≥ 67%
+D: ≥ 63%
+R: < 63%
+Homework
+There are two types of homework assignments in this course: programming and written. The programming assignments
+will ask you to implement machine learning algorithms from scratch; they emphasize understanding of real-world
+applications, building end-to-end systems, and experimental design. The written assignments will focus on core
+concepts, “on-paper” implementations of classic learning algorithms, derivations, and understanding of theory.
+LaTeX is a valuable tool for communicating machine learning concepts to others. As such, we are requiring that your
+homework submissions be completed in LaTex. To facilitate this, we will always release a LaTeX starter template that
+you can simply fill in with your answers.
+Your code for programming assignments will be autograded by our grading scripts. However, a major issue with
+autograders is that some submissions can receive close to zero points despite being mostly correct due to some small
+bug. For all of our programming assignments, we will give partial credit (through manual grading of code) to those
+submissions which receive fewer than 75% of the points on the autograder. The total number of points that such a
+submission can receive will be 75% of the original point total so those assignments that we do not manually grade will
+remain unaffected by this policy.
+Midterm and Final Exams
+You are required to attend all the exams. Unless otherwise noted, all exams will be closed-book. You may bring one
+sheet of A4 or letter-sized paper as a cheatsheet (both back and front may be used). You are encouraged to handwrite
+this cheatsheet as a form of preparing for the exam but you may typeset it if you so choose.
+Both exams will be scheduled by the registrar sometime during the official university exam periods; note that we will be
+using the mini-5 final exam date as the date of our midterm exam. The dates of both exams can be found on the lecture
+schedule; please plan your travel accordingly as we will not be able accommodate individual travel needs.
+If you have an unavoidable conflict with an exam (e.g., an exam in another course), notify us as soon as possible by
+making a private post on Piazza.
+Participation
+We will be using PollEverywhere for in-class polls. In order to access these polls, you must create an account using your
+CMU email address. You can always access the latest poll at pollev.com/301601polls.
+You will always be allowed to submit multiple times so if there are multiple questions during a lecture, you should
+submit multiple times. Your participation grade will be based on the percentage of in-class polls answered:
+5% for 80% or greater poll participation.
+3% for 65%-80% poll participation.
+1% for 50%-65% poll participation.
+The correctness of your responses will not be taken into account when computing participation grades, all that matters
+is that you submit something. All in-class polls will only be live until the start of the next lecture or recitation
+(roughly a 24-hour period); you will receive 50% credit for any poll you respond to after the corresponding lecture ends,
+i.e., if you were to respond to every poll after the end of the corresponding lecture, then your overall participation grade
+would be 1%.
+5. Office Hours
+The schedule of office hours will always appear on the course calendar. All office hours will be held in-person.
+Instructor office hours will (usually) be held immediately after class in either the classroom or a nearby space. We
+encourage you to stick around and ask any questions you have about lecture material, homework problems, exam
+preparation, course logistics, etc...
+In office hours, when it is your turn, you should pose your question to the TA(s) and they will determine whether or not
+your question would be best addressed privately or publicly, i.e., to anyone in the room who wants to listen in.
+We will make use of the following (informal) rules:
+10 Minute Rule: Each student’s question will be addressed by the TA for at most 10 minutes. The only exception
+to this will be if a TA is answering a question publicly that has broad interest to many other students.
+The Pseudo Code Rule: This is not a programming course; you are expected to know how to debug code. As
+such, if your question is of the form "Could you help me to debug my code?", you must bring with you detailed
+pseudocode that describes your implementation design. If you do not have pseudocode, the TA will not look at your
+code, but instead ask you to sketch out pseudocode at the chalkboard and discuss there instead. After discussing at
+a high-level, if your 10 minutes have not expired, the TA may have time to look at your code.
+While you're awaiting your turn, we encourage you to listen in to the answers to any publicly answered questions.
+Please be courteous and allow the student who posed the question to primarily direct the discussion with the TA. We
+also encourage you to collaborate with others (following our collaboration policies below) while waiting.
+6. General Policies
+Late homework policy
+Late homework submissions are only eligible for 75% of the points the first day (24-hour period) after the deadline and
+only eligible for 50% the second day after the deadline.
+You have a total of 10 grace days for use on any homework assignment. We will automatically keep a tally of these
+grace days for you; they will be applied greedily. No assignment will be accepted more than 2 days after the deadline.
+This has two important implications: (1) you may not use more than 2 grace days on any single assignment (2) you may
+not combine grace days with the late policy above to submit more than 2 days late.
+All homeworks will be submitted electronically via Gradescope. As such, lateness will be determined by the latest
+timestamp of any part of your submission. For example, suppose the homework requires two submission uploads – if
+you submit the first upload on time but the second upload 1 minute late, your entire homework will be penalized for the
+full 24-hour period.
+Extensions
+In general, we do not grant extensions on assignments. There are several exceptions:
+Medical Emergencies: If you are sick and unable to complete an assignment or attend class, please go to
+University Health Services. For minor illnesses, we expect grace days or our late penalties to provide sufficient
+accommodation. For medical emergencies (e.g., prolonged hospitalization), students may request an extension
+afterwards.
+Family/Personal Emergencies: If you have a family emergency (e.g., death in the family) or a personal
+emergency (e.g., mental health crisis), please contact your academic adviser and/or Counseling and Psychological
+Services (CaPS).
+University-Approved Travel: If you are traveling out-of-town to a university approved event or an academic
+conference, you may request an extension for any time lost due to traveling. For university approved absences, you
+must provide confirmation of attendance, usually from a faculty or staff organizer of the event or via
+travel/conference receipts.
+For any of the above situations, you may request an extension by emailing Nichelle at nichellp@andrew.cmu.edu – do
+not email the instructor or TAs. Please be specific about which assessment(s) you are requesting an extension for
+and the number of hours requested. The email should be sent as soon as you are aware of the conflict and at least 5
+days prior to the deadline. In the case of an emergency, no notice is needed.
+If this is a medical emergency or mental health crisis, you must also CC your CMU college liaison and/or your academic
+advisor. Do not submit any medical documentation to the course staff. If necessary, your college liaison and The
+Division of Student Affairs (DoSA) will request such documentation and they will view the health documentation and
+conclude whether a retroactive extension is appropriate. If you haven’t interacted with your college liaison before, they
+are experienced student affairs staff who work in partnership with students, housefellows, advisors, faculty, and
+associate deans in each college to assure support for students regarding their overall Carnegie Mellon experience.
+Audit Policy
+Formal auditing of this course is permitted. You must follow the official procedures for a course audit as outlined by the
+HUB/registrar. Please do not email the instructor requesting permission to audit. Instead, you should first register for
+the appropriate section. Next fill out the Course Audit Approval form, obtain your academic advisor's signature and
+then approach the instructor in-person immediately after class to obtain their signature.
+Auditors are required to:
+Attend or watch all of the lectures.
+Receive a 65% participation grade or higher.
+Submit at least 4 of the 9 homework assignments.
+Auditors are encouraged to sit for the exams, but should only do so if they plan to put forth actual effort in solving
+them.
+Pass/Fail Policy
+You are allowed to take this course as Pass/Fail; instructor permission is not required. What letter grade is the cutoff
+for a Pass will depend on your specific program; we do not specify whether or not you Pass but rather we compute your
+letter grade the same as everyone else in the class and your program converts that letter grade to a Pass or Fail
+depending on their cutoff. Be sure to check with your program/department as to whether you can count a Pass/Fail
+course towards your degree requirements.
+Accommodations for Students with Disabilities
+If you have a disability and have an accommodations letter from the Disability Resources office, please email Nichelle at
+nichellp@andrew.cmu.edu to set up a meeting for the purposes of discussing your accommodations and needs as early
+in the semester as possible. He will work with you to ensure that accommodations are provided as appropriate. If you
+suspect that you may have a disability and would benefit from accommodations but are not yet registered with the
+Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.
+7. Technologies
+We will use a variety of technologies throughout the summer:
+Piazza: we will use Piazza for all course discussion. Questions about homeworks, course content, logistics, etc...
+should all be directed to Piazza. If you have a question, chances are several others had the same question. By
+posting your question publicly, the course staff can answer once and everyone benefits. If you have a private
+question, you should also use Piazza as it will likely receive a faster response.
+Gradescope: we will use Gradescope to collect PDF submissions of open-ended questions on the homework e.g.,
+mathematical derivations, plots, short answers. The course staff will manually grade your submission, and you’ll
+receive personalized feedback explaining your final marks.
+You will also submit your code for programming questions on the homework to Gradescope. After uploading your
+code, our grading scripts will autograde your assignment by running your program on a virtual machine. This
+provides you with immediate feedback on the performance of your submission.
+If you believe an error was made during manual grading, you’ll be able to submit a regrade request on
+Gradescope. For each quiz, regrade requests will be open for only 1 week after the grades have been published.
+This is to encourage you to check the feedback you’ve received early.
+Panopto: lecture recordings will be hosted by Panopto; note that recordings may not be immediately available after
+lecture due to editing/processing time.
+PollEverywhere: in-class polls will be conducted through Polleverywhere. You can access the most recent poll at
+pollev.com/301601polls but you must be logged into an account associated with your CMU email in order to do so.
+8. Collaboration and Academic Integrity
+Read this carefully!
+Collaboration among Students
+The purpose of student collaboration is to facilitate learning, not to circumvent it. Studying the material in groups is
+strongly encouraged. You are also allowed to seek help from other students in understanding the material needed to
+solve a particular homework problem, provided any written notes (including code) are taken on an impermanent surface
+(e.g., whiteboard, chalkboard), and provided learning is facilitated, not circumvented. The actual solution must be
+written by each student alone.
+A good method to follow when collaborating is to meet with your peers, discuss ideas at a high level, but do not copy
+down any notes from each other or from a white board. Any scratch work done at this time should be your own only.
+Before writing the assignment solutions, you should make sure that you are doing this without anyone else present,
+putting all notes away, closing all tabs on your computer, and writing it completely by yourself with no other resources.
+You are absolutely not allowed to share/compare answers or screen share your work with one another.
+The presence or absence of any form of help or collaboration, whether given or received, must be explicitly stated and
+disclosed in full by all involved. Specifically, each assignment solution must include answers to the following questions:
+1. Did you receive any help whatsoever from anyone in solving this assignment? Yes / No.
+If you answered ‘yes’, give full details: ____________
+(e.g., "Jane Doe explained to me what is asked in Question 3.4")
+2. Did you give any help whatsoever to anyone in solving this assignment? Yes / No.
+If you answered ‘yes’, give full details: _____________
+(e.g., "I pointed Joe Smith to section 2.3 since he didn’t know how to proceed with Question 2")
+3. Did you find or come across code that implements any part of this assignment? Yes / No. (See below policy on
+"found code")
+If you answered ‘yes’, give full details: _____________
+(book & page, URL & location within the page, etc.).
+If you gave help after turning in your own assignment and/or after answering the questions above, you must update
+your answers before the assignment’s deadline, if necessary by emailing the course staff.
+Collaboration without full disclosure will be handled severely, in compliance with CMU’s Policy on Academic
+Integrity.
+Note that the policies outlined above only apply to the programming assignments. Students are allowed to collaborate
+to any extent when working on the study guides, including directly working together to arrive at solutions and sharing
+solutions with other members of the class. The only aspect of this collaboration policy that extends to the study guide
+material is the Duty to Protect One's Work: while sharing work with other students enrolled in the course is permitted,
+you should never post solutions publicly (see below for more details).
+Previously Used Assignments
+Some of the programming assignments used in this class may have been used in prior offerings, in classes at other
+institutions, or elsewhere. Solutions to them may be, or may have been, available online, or from other people or
+sources. It is explicitly forbidden to use any such sources, or to consult people who have solved these problems before.
+It is explicitly forbidden to search for these problems or their solutions on the internet. You must complete the
+programming assignments completely on your own. We will be actively monitoring your compliance. Collaboration with
+other students who are currently taking the class is allowed, but only under the conditions stated above.
+AI Assistance
+To best support your own learning, you should complete all graded assignments in this course yourself, without any use
+of generative artificial intelligence (AI), such as ChatGPT. Please refrain from using AI tools to generate any content
+(text, video, audio, images, code, etc.) for an assessment. Passing off any AI generated content as your own (e.g.,
+cutting and pasting content into written assignments, or paraphrasing AI content) constitutes a violation of CMU’s
+academic integrity policy.
+Policy Regarding "Found Code"
+You are encouraged to read books and other instructional materials, both online and offline, to help you understand the
+concepts and algorithms taught in class. These materials may contain example code or pseudocode, which may help you
+better understand an algorithm or an implementation detail. However, when you implement your own solution to an
+assignment, you must put all materials aside, and write your code completely on your own, starting "from scratch".
+Specifically, you may not use any code you found or came across. If you find or come across code that implements any
+part of your assignment, you must disclose this fact in your collaboration statement.
+Duty to Protect One’s Work
+Students are responsible for proactively protecting their work from copying and misuse by other students. If a student’s
+work is copied by another student, the original author is also considered to be in violation of the course policies. It does
+not matter whether the author allowed the work to be copied or was merely negligent in preventing it from being
+copied. When overlapping work is submitted by different students, both students will be punished.
+To protect future students, do not post your solutions publicly, neither during the course nor afterwards.
+Penalties for Violations of Course Policies
+All violations of course policies (even the first one) will always be reported to the university authorities (your
+department head, associate dean, the dean of Student Affairs, etc.) as an official Academic Integrity Violation and will
+carry severe penalties.
+1. The penalty for the first violation is a negative 100% on the assignment i.e., it would have been better to submit
+nothing and receive a 0%.
+2. The penalty for the second violation is failure in the course, and can even lead to dismissal from the university.
+9. Support
+Take care of yourself. Do your best to maintain a healthy lifestyle by eating well, exercising, avoiding drugs and alcohol,
+getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
+All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available
+on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner
+rather than later is often helpful.
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression,
+we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-
+2922 and visit their website at http://www.cmu.edu/counseling/.
+If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
+CaPS: 412-268-2922
+Re:solve Crisis Network: 888-796-8226
+If the situation is life threatening, call the police:
+On campus: CMU Police: 412-268-2323
+Off campus: 911
+Henry
+Nichelle
+Alex
+Doris
+Zhifei
+Zoe
+10. Diversity
+We must treat every individual with respect. We are diverse in many ways, and this diversity is fundamental to building
+and maintaining an equitable and inclusive campus community. Diversity can refer to multiple ways that we identify
+ourselves, including but not limited to race, color, national origin, language, sex, disability, age, sexual orientation,
+gender identity, religion, creed, ancestry, belief, veteran status, or genetic information. Each of these diverse identities,
+along with many others not mentioned here, shape the perspectives our students, faculty, and staff bring to our
+campus. We, at CMU, will work to promote diversity, equity and inclusion not only because diversity fuels excellence
+and innovation, but because we want to pursue justice. We acknowledge our imperfections while we also fully commit
+to the work, inside and outside of our classrooms, of building and sustaining a campus community that increasingly
+embraces these core values.
+Each of us is responsible for creating a safer, more inclusive environment.
+Unfortunately, incidents of bias or discrimination do occur, whether intentional or unintentional. They contribute to
+creating an unwelcoming environment for individuals and groups at the university. Therefore, the university
+encourages anyone who experiences or observes unfair or hostile treatment on the basis of identity to speak out for
+justice and support, within the moment of the incident or after the incident has passed. Anyone can share these
+experiences using the following resources:
+Center for Student Diversity and Inclusion: csdi@andrew.cmu.edu, 412-268-2150
+Report-It online anonymous reporting platform: reportit.net
+username: tartans
+password: plaid
+All reports will be documented and deliberated to determine if there should be any following actions. Regardless of
+incident type, the university will use all shared experiences to transform our campus climate to be more equitable and
+just.
+Staff
+Instructor
+Henry Chai
+Education Associate
+Nichelle Phillips
+Teaching Assistants
+Alex Xie
+Doris Gao
+Zhifei Li
+Zoe Xu
+Class Mascot
+Neural the Narwhal
+Schedule
+Date
+Topic
+Slides
+Readings/Resources
+Mon,
+5/13
+Introduction: Notation &
+Problem Formulation
+Lecture
+1
+Neural
+(Inked)
+Tue,
+5/14
+Decision Trees - Model
+Definition & Making
+Predictions
+Lecture
+2
+(Inked)
+Daumé III, Chapter 1:
+Decision Trees 
+Olah, Visual Information
+Theory (blog post)
+Wed,
+5/15 Decision Trees - Learning
+Lecture
+3
+(Inked)
+Daumé III, Chapter 1:
+Decision Trees 
+Olah, Visual Information
+Theory (blog post)
+Mon,
+5/20 Nearest Neighbors
+Lecture
+4
+(Inked)
+Daumé III, Chapter 3:
+Geometry and Nearest
+Neighbors
+Tue,
+5/21
+Model Selection (Mini-
+lecture)
+Lecture
+5
+(Inked)
+Daumé III, Chapter 2: Limits
+of Learning
+Wed,
+5/22 Perceptron
+Lecture
+6
+(Inked)
+Mitchell, Chapter 4.4
+Mon,
+5/27 No Class (Memorial Day)
+Tue,
+5/28
+Linear Regression (Mini-
+lecture)
+Lecture
+7
+(Inked)
+Murphy, Chapters 7.1-7.3
+Wed,
+5/29
+Optimization for Machine
+Learning
+Lecture
+8
+(Inked)
+Mon,
+6/3
+MLE & MAP
+Lecture
+9
+(Inked)
+Mitchell, Estimating
+Probabilities
+Tue,
+6/4
+Logistic Regression
+(Mini-lecture)
+Lecture
+10
+(Inked)
+Murphy, Chapters 8.1-8.3
+Wed,
+6/5
+Feature Engineering &
+Regularization
+Lecture
+11
+(Inked)
+Murphy, Chapter 7.5
+Mon,
+6/10
+Neural Networks - Model
+Definition & Making
+Predictions
+Lecture
+12
+(Inked)
+Mitchell, Chapter 4.1-4.6
+Tue,
+6/11
+Differentiation &
+Computation Graphs
+(Mini-lecture)
+Lecture
+13
+(Inked)
+Wed,
+6/12
+Neural Networks -
+Learning & Advanced
+Optimization
+Lecture
+14
+(Inked)
+Mon,
+6/17 Societal Impacts of ML
+Lecture
+15
+(Inked)
+Tue,
+6/18
+Recitation in lieu of
+Lecture
+Wed,
+6/19 No Class (Juneteenth)
+Fri,
+6/21
+Midterm Exam (Time and
+Location TBD)
+Mon,
+6/24
+Unsupervised Learning:
+Dimensionality Reduction
+Lecture
+16
+(Inked)
+Daumé III, Chapter 15:
+Unsupervised Learning 
+Murphy, Chapters 12.2.1-
+12.2.3
+Tue,
+6/25
+Unsupervised Learning:
+Clustering (Mini-lecture)
+Lecture
+17
+(Inked)
+Daumé III, Chapter 15:
+Unsupervised Learning 
+Murphy, Chapters 25.5.1-
+25.5.2
+Wed,
+6/26 Deep Learning - CNNs
+Lecture
+18
+(Inked)
+Mon,
+7/1
+Deep Learning - RNNs
+Lecture
+19
+(Inked)
+Tue,
+7/2
+Deep Learning -
+Attention & Transformers
+Lecture
+20
+(Inked)
+Wed,
+7/3
+Recitation in lieu of
+Lecture
+Thu,
+7/4
+No Class (Independence
+Day)
+Mon,
+7/8
+Reinforcement Learning:
+MDPs & Value Functions
+Lecture
+21
+(Inked)
+Mitchell, Chapter 13
+Tue,
+7/9
+Reinforcement Learning:
+Value & Policy Iteration
+(Mini-lecture)
+Lecture
+22
+(Inked)
+Mitchell, Chapter 13
+Wed,
+7/10
+Reinforcement Learning:
+Q-learning & Deep RL
+Lecture
+23
+(Inked)
+Mitchell, Chapter 13
+Mon,
+7/15 Learning Theory
+Lecture
+24
+(Inked)
+Mitchell, Chapters 7.1-7.3
+Tue,
+7/16
+Learning Theory (Mini-
+lecture)
+Lecture
+25
+(Inked)
+Mitchell, Chapter 7.4
+Wed,
+7/17 Boosting
+Lecture
+26
+(Inked)
+Schapire, The Boosting
+Approach to Machine
+Learning: An Overview (2001)
+Mon,
+7/22
+Random Forests (Mini-
+lecture)
+Lecture
+27
+(Inked)
+Tue,
+7/23 No Class
+Wed,
+7/24
+Special Topics:
+Pretraining, Fine-tuning
+& In-context Learning
+Lecture
+28
+(Inked)
+Mon,
+7/29
+Special Topics:
+Generative Models for
+Vision
+Lecture
+29
+(Inked)
+Tue,
+7/30
+Instructor OH in lieu of
+Lecture
+Wed,
+7/31 No Class (Reading Day)
+Fri,
+8/2
+Final Exam (Time and
+Location TBD)
+Recitations
+Attendance at recitations is not required, but strongly encouraged. Recitations will be interactive and focus on problem
+solving; we strongly encourage you to actively participate. A problem sheet will usually be released prior to the
+recitation. If you are unable to attend one or you missed an important detail, feel free to stop by office hours to ask the
+TAs about the content that was covered. Of course, we also encourage you to exchange notes with your peers.
+Date
+Topic
+Handout
+Thu, 5/16 HW2 Recitation
+Recitation 1 (Solutions)
+Thu, 5/23 HW3 Recitation
+Recitation 2 (Solutions)
+Thu, 5/30 No Recitation
+Thu, 6/6
+HW4 Recitation
+Recitation 3 (Solutions)
+Thu, 6/13 HW5 Recitation
+Recitation 4 (Solutions)
+Tue, 6/18 Midterm Review
+Midterm Practice Problems (Solutions)
+Thu, 6/20 No Recitation (Reading Day)
+Thu, 6/27 HW6 Recitation
+Recitation 5 (Solutions)
+Wed, 7/3 HW7 Recitation
+Recitation 6 (Solutions)
+Thu, 7/11 HW8 Recitation
+Recitation 7 (Solutions)
+Thu, 7/18 HW9 Recitation
+Recitation 8 (Solutions)
+Thu, 7/25 Final Review
+Final Practice Problems (Solutions)
+Thu, 8/1
+No Recitation (Reading Day)
+Homework Assignments
+Release Date
+Topic
+Files
+Due Date
+Mon, 5/13
+HW1: Background Material
+HW1, Overleaf Thu, 5/16 at 11:59 PM
+Thu, 5/16
+HW2: Decision Trees
+HW2, Overleaf Thu, 5/23 at 11:59 PM
+Thu, 5/23
+HW3: KNN, Perceptron & Linear Regression
+HW3, Overleaf Tue, 6/4 at 11:59 PM
+Tue, 6/4
+HW4: Logistic Regression
+HW4, Overleaf Tue, 6/11 at 11:59 PM
+Tue, 6/11
+HW5: Neural Networks
+HW5, Overleaf Tue, 6/18 at 11:59 PM
+Tue, 6/25
+HW6: Unsupervised Learning & Algorithmic Bias HW6, Overleaf Tue, 7/2 at 11:59 PM
+Tue, 7/2
+HW7: Deep Learning in PyTorch
+HW7, Overleaf Thu, 7/11 at 11:59 PM
+Thu, 7/11
+HW8: Reinforcement Learning
+HW8, Overleaf Thu, 7/18 at 11:59 PM
+Thu, 7/18
+HW9: Learning Theory & Ensemble Methods
+HW9, Overleaf Thu, 7/25 at 11:59 PM
+Course Calendar
+404 Not Found
+nginx/1.18.0 (Ubuntu)
+

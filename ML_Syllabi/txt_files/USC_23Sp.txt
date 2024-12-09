@@ -1,0 +1,429 @@
+ 
+ 
+ 
+ 
+CSCI 467: Introduction to Machine Learning 
+Units: 4.0 
+Spring 2023, Tuesday/Thursday, 2:00-3:20pm 
+Section: Friday 10:00-10:50am 
+ 
+Location:  
+Lecture: CPA 201 
+Section: GFS 101 
+Course website: https://robinjia.github.io/classes/spring2023-csci467/  
+ 
+Instructor: Robin Jia 
+Office: SAL 236 
+Office Hours: Thursday 11am-12pm 
+Contact Info: robinjia@usc.edu. I will reply within 48 hours. Please include “CSCI 467” in your email subject.  
+ 
+Teaching Assistants: Ting-Yun Chang, Qinyuan Ye 
+Office Hours: TBD (see course website) 
+Contact Info: tingyun@usc.edu, qinyuany@usc.edu   
+ 
+Course Description 
+This course provides a broad introduction to machine learning, a family of methods through which 
+programs can infer desired behavior from data. We will start with supervised learning, where our goal is to 
+learn an input-to-output mapping given a set of correct input-output pairs. Next, we will study unsupervised 
+learning, which seeks to identify hidden structure in data. Finally, we will cover reinforcement learning, in 
+which an agent learns from observations it makes as it explores the world. The course will focus both on 
+applying machine learning techniques and on theoretically understanding these methods and their 
+algorithmic properties. 
+ 
+Learning Objectives  
+By the end of this course, students will be able to apply machine learning techniques—including supervised 
+learning, unsupervised learning, and reinforcement learning—to a wide variety of problem domains. This 
+includes being able to choose appropriate methods, implement them, evaluate them, and diagnose factors 
+contributing to poor performance. They will also be able to prove properties of machine learning algorithms 
+and derive new machine learning algorithms to suit new problems. 
+ 
+Prerequisite(s): CSCI 270, MATH 225, EE 364 or MATH 407 or BUAD 310 
+ 
+Course Notes 
+Grading type: Letter or Credit/No Credit 
+ 
+Technological Proficiency and Hardware/Software Required 
+Assignments will require a computer with python and the ability to install python packages. Students must 
+complete programming assignments in python 3. 
+ 
+Optional Readings and Supplementary Materials 
+ 
+ 
+ 
+Page 2 
+ 
+There are no required readings for this class. You may find the following references useful: 
+• 
+Probabilistic Machine Learning: An Introduction (PML) and Probabilistic Machine Learning: 
+Advanced Topics (PML2) by Kevin Murphy 
+• 
+The Elements of Statistical Learning by Trevor Hastie, Robert Tibshirani, and Jerome Friedman 
+• 
+Patterns, Predictions, and Actions: A Story about Machine Learning by Moritz Hardt and Benjamin 
+Recht 
+• 
+Fairness and Machine Learning: Limitations and Opportunities (FAML) by Solon Barocas, Moritz 
+Hardt, and Arvind Narayanan. 
+ 
+Description and Assessment of Assignments  
+Grades will be based on homework assignments (40%), a class project (20%), and two exams (40%). 
+ 
+The final project can be done individually or in groups of up to 3. This is your chance to freely explore 
+machine learning methods and how they can be applied to a task of our choice. You will also learn about 
+best practices for developing machine learning methods—inspecting your data, establishing baselines, and 
+analyzing your errors. 
+ 
+Grading Breakdown 
+ 
+Assessment Tool (assignments) 
+% of Grade 
+Homework 0 
+4% 
+Homework 1-4 
+9% each = 36% 
+Project proposal 
+2% 
+Project midterm report 
+3% 
+Project final report 
+15% 
+Midterm exam 
+15% 
+Final exam 
+25% 
+TOTAL 
+100% 
+ 
+Grading Scale 
+The course will use the following grading scale as a default: 
+ 
+Letter grade 
+Corresponding numerical point range 
+A 
+[95, ∞) 
+A- 
+[90, 95) 
+B+ 
+[87, 90) 
+B 
+[83, 87) 
+B- 
+[80, 83) 
+C+ 
+[77, 80) 
+C 
+[73, 77) 
+C- 
+[70, 73) 
+D+ 
+[67, 70) 
+D 
+[63, 67) 
+D- 
+[60, 63) 
+F 
+[0, 60) 
+ 
+We may alter this grading scale but only to lower these thresholds, i.e., only to make the final letter grades 
+higher. 
+ 
+Assignment Submission Policy 
+Assignments should be submitted on Gradescope. All assignments will be due by 11:59pm on the due date. 
+For additional information, see the course website. 
+ 
+ 
+ 
+Page 3 
+ 
+ 
+Grading Timeline 
+Assignments will be graded within ten days of submission. 
+ 
+Course Specific Policies 
+You have 6 late days you may use on any assignment excluding the Project Final Report. Each late day 
+allows you to submit the assignment 24 hours later than the original deadline. You may use a maximum of 3 
+late days per assignment. If you are working in a group for the project, submitting the project proposal or 
+midterm report one day late means that each member of the group spends a late day. We do not allow use 
+of late days for the final project report because we must grade the projects in time to submit final course 
+grades. 
+ 
+If you have used up all your late days and submit an assignment late, you will lose 10% of your grade on 
+that assignment for each day late. We will not accept any assignments more than 3 days late. 
+ 
+Academic Integrity 
+The University of Southern California is foremost a learning community committed to fostering successful 
+scholars and researchers dedicated to the pursuit of knowledge and the transmission of ideas. Academic 
+misconduct is in contrast to the university’s mission to educate students through a broad array of first-rank 
+academic, professional, and extracurricular programs and includes any act of dishonesty in the submission 
+of academic work (either in draft or final form).   
+ 
+This course will follow the expectations for academic integrity as stated in the USC Student Handbook. All 
+students are expected to submit assignments that are original work and prepared specifically for the 
+course/section in this academic term. You may not submit work written by others or “recycle” work 
+prepared for other courses without obtaining written permission from the instructor(s). Students suspected 
+of engaging in academic misconduct will be reported to the Office of Academic Integrity. 
+ 
+You may discuss the homework problems at a high level with other students, but you should not look at 
+another student’s solutions. Trying to find solutions online or from any other sources for any homework or 
+project is prohibited. Using AI tools to automatically generate solutions to written or programming 
+problems is also prohibited. To prevent any future plagiarism, uploading any material from the course (your 
+solutions, quizzes etc.) on the internet is prohibited. Other violations of academic misconduct include, but 
+are not limited to, cheating, plagiarism, fabrication (e.g., falsifying data), knowingly assisting others in acts 
+of academic dishonesty, and any act that gains or is intended to gain an unfair academic advantage. 
+Plagiarism includes the submission of code written by, or otherwise obtained from someone or somewhere 
+else. 
+ 
+The impact of academic dishonesty is far-reaching and is considered a serious offense against the university 
+and could result in outcomes such as failure on the assignment, failure in the course, suspension, or even 
+expulsion from the university. 
+ 
+For more information about academic integrity see the student handbook or the Office of Academic 
+Integrity’s website, and university policies on Research and Scholarship Misconduct. 
+ 
+If found responsible for an academic violation, students may be assigned university outcomes, such as 
+suspension or expulsion from the university, and grade penalties, such as an “F” grade on the assignment, 
+exam, and/or in the course. 
+ 
+Course Content Distribution and Synchronous Session Recordings Policies  
+USC has policies that prohibit recording and distribution of any synchronous and asynchronous course 
+content outside of the learning environment. 
+ 
+ 
+ 
+ 
+Page 4 
+ 
+Recording a university class without the express permission of the instructor and announcement to the 
+class, or unless conducted pursuant to an Office of Student Accessibility Services (OSAS) accommodation. 
+Recording can inhibit free discussion in the future, and thus infringe on the academic freedom of other 
+students as well as the instructor. (Living our Unifying Values: The USC Student Handbook, page 13). 
+ 
+Distribution or use of notes, recordings, exams, or other intellectual property, based on university classes or 
+lectures without the express permission of the instructor for purposes other than individual or group study. 
+This includes but is not limited to providing materials for distribution by services publishing course 
+materials. This restriction on unauthorized use also applies to all information, which had been distributed to 
+students or in any way had been displayed for use in relationship to the class, whether obtained in class, via 
+email, on the internet, or via any other media. (Living our Unifying Values: The USC Student Handbook, page 
+13). 
+ 
+Course Schedule 
+ 
+ 
+ 
+Topics/Daily Activities 
+Readings/Preparation Deliverables  
+Week 1 
+ 
+Introduction; Linear Regression 
+PML 1, 7.8, 8.1-8.2 
+ 
+Week 2 
+ 
+Featurization, Normal Equations, Maximum 
+Likelihood Estimation; Logistic Regression, 
+Softmax Regression 
+PML2.6.3,  4.2, 11.1-
+11.2, 10.1-10.4 
+Homework 0 due 
+Week 3 
+ 
+Regularization, Bias and Variance; Generative 
+Classifiers, Naïve Bayes 
+PML 4.5, 4.7, 11.3-11.4, 
+9.3-9.4 
+ 
+Week 4 
+ 
+Nearest Neighbors, Locally Weighted Linear 
+Regression, Kernel methods 
+PML 16.1, 16.3, 17.1 
+Homework 1 due 
+Week 5 
+ 
+Convexity, Second-Order Optimization, 
+Support Vector Machines 
+PML 8.1, 8.3, 4.3, 17.3 
+Project Proposal 
+due 
+Week 6 
+ 
+Generalization bounds; Introduction to Neural 
+networks 
+PML 5.4, 13.1-13.3 
+ 
+Week 7 
+ 
+Dropout, Optimizing Neural Networks, 
+Convolutional Neural Networks, Weight 
+Sharing 
+PML 13.4-13.5, 14.1-
+14.2 
+ 
+Week 8 
+ 
+Recurrent neural networks, Vanishing 
+Gradients, Attention, Transformers 
+PML 15.1-15.2, 15.4-
+15.7 
+Homework 2 due 
+Week 9 
+ 
+Decision Trees, Ensembles; In-class Midterm 
+Exam 
+PML 18.1-18.5 
+ 
+Week 10 
+ 
+k-Means Clustering, Gaussian Mixture Models, 
+Expectation Maximization 
+PML 21.3-21.4; PML2 
+8.1-8.2 
+Project Midterm 
+Report due 
+Week 11 
+ 
+Hidden Markov Models, Dimensionality 
+Reduction, Principal Component Analysis 
+PML2 29.1-29.4; PML 
+20.1, 20.4 
+ 
+Week 12 
+ 
+Learned embeddings, Word Vectors; Multi-
+armed Bandits 
+PML 20.3, 20.5; PML2 
+34.1-34.4 
+Homework 3 due 
+Week 13 
+ 
+Markov Decision Processes, Reinforcement 
+Learning 
+PML2 34.5-34.6, 35.1-
+35.4 
+ 
+Week 14 
+ 
+Robustness, Adversarial Examples, 
+Distribution Shift, Fairness in ML 
+PML2 19.1-19.8; FAML 
+1-4 
+Homework 4 due 
+Week 15 
+ 
+Active Learning; Conclusion 
+PML2 34.7 
+ 
+FINAL 
+ 
+Final Exam May 4, 2-4pm 
+ 
+Project Final 
+Report due May 9 
+ 
+ 
+ 
+Page 5 
+ 
+Statement on Academic Conduct and Support Systems  
+ 
+Academic Integrity: 
+The University of Southern California is a learning community committed to developing successful scholars 
+and researchers dedicated to the pursuit of knowledge and the dissemination of ideas. Academic 
+misconduct, which includes any act of dishonesty in the production or submission of academic work, 
+comprises the integrity of the person who commits the act and can impugn the perceived integrity of the 
+entire university community. It stands in opposition to the university’s mission to research, educate, and 
+contribute productively to our community and the world.  
+  
+All students are expected to submit assignments that represent their own original work, and that have been 
+prepared specifically for the course or section for which they have been submitted. You may not submit 
+work written by others or “recycle” work prepared for other courses without obtaining written permission 
+from the instructor(s). 
+  
+Other violations of academic integrity include, but are not limited to, cheating, plagiarism, fabrication (e.g., 
+falsifying data), collusion, knowingly assisting others in acts of academic dishonesty, and any act that gains 
+or is intended to gain an unfair academic advantage. 
+  
+The impact of academic dishonesty is far-reaching and is considered a serious offense against the 
+university. All incidences of academic misconduct will be reported to the Office of Academic Integrity and 
+could result in outcomes such as failure on the assignment, failure in the course, suspension, or even 
+expulsion from the university. 
+  
+For more information about academic integrity see the student handbook or the Office of Academic 
+Integrity’s website, and university policies on Research and Scholarship Misconduct. 
+  
+Please ask your instructor if you are unsure what constitutes unauthorized assistance on an exam or 
+assignment, or what information requires citation and/or attribution. 
+ 
+Students and Disability Accommodations:  
+ 
+USC welcomes students with disabilities into all of the University’s educational programs. The Office of 
+Student Accessibility Services (OSAS) is responsible for the determination of appropriate accommodations 
+for students who encounter disability-related barriers. Once a student has completed the OSAS process 
+(registration, initial appointment, and submitted documentation) and accommodations are determined to 
+be reasonable and appropriate, a Letter of Accommodation (LOA) will be available to generate for each 
+course. The LOA must be given to each course instructor by the student and followed up with a discussion. 
+This should be done as early in the semester as possible as accommodations are not retroactive. More 
+information can be found at osas.usc.edu. You may contact OSAS at (213) 740-0776 or via email at 
+osasfrontdesk@usc.edu. 
+ 
+Support Systems:  
+ 
+Counseling and Mental Health - (213) 740-9355 – 24/7 on call 
+Free and confidential mental health treatment for students, including short-term psychotherapy, group 
+counseling, stress fitness workshops, and crisis intervention.  
+ 
+988 Suicide and Crisis Lifeline - 988 for both calls and text messages – 24/7 on call 
+The 988 Suicide and Crisis Lifeline (formerly known as the National Suicide Prevention Lifeline) provides free 
+and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a 
+week, across the United States. The Lifeline is comprised of a national network of over 200 local crisis 
+centers, combining custom local care and resources with national standards and best practices. The new, 
+shorter phone number makes it easier for people to remember and access mental health crisis services 
+ 
+ 
+ 
+Page 6 
+ 
+(though the previous 1 (800) 273-8255 number will continue to function indefinitely) and represents a 
+continued commitment to those in crisis. 
+ 
+Relationship and Sexual Violence Prevention Services (RSVP) - (213) 740-9355(WELL) – 24/7 on call 
+Free and confidential therapy services, workshops, and training for situations related to gender- and power-
+based harm (including sexual assault, intimate partner violence, and stalking). 
+ 
+Office for Equity, Equal Opportunity, and Title IX (EEO-TIX) - (213) 740-5086  
+Information about how to get help or help someone affected by harassment or discrimination, rights of 
+protected classes, reporting options, and additional resources for students, faculty, staff, visitors, and 
+applicants.  
+ 
+Reporting Incidents of Bias or Harassment - (213) 740-5086 or (213) 821-8298 
+Avenue to report incidents of bias, hate crimes, and microaggressions to the Office for Equity, Equal 
+Opportunity, and Title for appropriate investigation, supportive measures, and response. 
+ 
+The Office of Student Accessibility Services (OSAS) - (213) 740-0776 
+OSAS ensures equal access for students with disabilities through providing academic accommodations and 
+auxiliary aids in accordance with federal laws and university policy. 
+ 
+USC Campus Support and Intervention - (213) 740-0411 
+Assists students and families in resolving complex personal, financial, and academic issues adversely 
+affecting their success as a student. 
+ 
+Diversity, Equity and Inclusion - (213) 740-2101 
+Information on events, programs and training, the Provost’s Diversity and Inclusion Council, Diversity 
+Liaisons for each academic school, chronology, participation, and various resources for students.  
+ 
+USC Emergency - UPC: (213) 740-4321, HSC: (323) 442-1000 – 24/7 on call  
+Emergency assistance and avenue to report a crime. Latest updates regarding safety, including ways in 
+which instruction will be continued if an officially declared emergency makes travel to campus infeasible. 
+ 
+USC Department of Public Safety - UPC: (213) 740-6000, HSC: (323) 442-1200 – 24/7 on call  
+Non-emergency assistance or information. 
+ 
+Office of the Ombuds - (213) 821-9556 (UPC) / (323-442-0382 (HSC)  
+A safe and confidential place to share your USC-related issues with a University Ombuds who will work with 
+you to explore options or paths to manage your concern. 
+ 
+Occupational Therapy Faculty Practice - (323) 442-2850 or otfp@med.usc.edu  
+Confidential Lifestyle Redesign services for USC students to support health promoting habits and routines 
+that enhance quality of life and academic performance.  
+ 
+

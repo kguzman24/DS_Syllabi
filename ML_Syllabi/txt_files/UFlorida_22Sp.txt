@@ -1,0 +1,295 @@
+EEL 3773 Introduction to Machine Learning 
+ 
+Page 1 
+Dr. Alina Zare 
+Introduction to Machine Learning 
+Course Number: 3773    
+Location:   LAR 330 
+Academic Term:  Spring 2022 
+ 
+Instructor 
+ 
+Name:  Alina Zare 
+ 
+Email Address:  azare@ufl.edu 
+ 
+Office Hours:   By Appointment 
+ 
+Teaching Assistants 
+Please contact through the Canvas website 
+ 
+Name:  TBD 
+ 
+Email Address:  TBD 
+ 
+Office Hours:   TBD 
+ 
+Course Description 
+4 credits. This course will cover introductory topics in pattern recognition and machine learning and use of 
+these methods towards a variety of real-world applications. The focus of this course is to be introduced to basic 
+machine learning concepts and how to use associated state-of-the-art machine learning tools. Topics covered 
+include: deep learning, linear and non-linear classifiers 
+Course Pre-Requisites / Co-Requisites 
+EEL 3135 Signals and Systems 
+ 
+Course Objectives 
+Understand and use the concepts of machine learning for data science. Focus on tools for application of deep 
+learning and multivariate data analysis to real world data and problems.  
+ 
+These objectives will be accomplished through: 
+1. Semester-long group project that involves implementing a deep learning system 
+2. Discussion of pattern recognition and machine learning methods   
+3. Implementation of a variety of machine learning methods in code 
+ 
+Professional Component (ABET) 
+This course consists of 1.5 credits of Engineering Design and 1.5 credits of Engineering Science 
+ 
+Relation to Program Outcomes (ABET) 
+ 
+Outcome 
+Coverage* 
+1. 
+An ability to identify, formulate, and solve engineering problems by 
+applying principles of engineering, science, and mathematics. 
+High 
+2. 
+An ability to apply both analysis and synthesis in the engineering 
+design process, resulting in designs that meet desired needs. 
+High 
+3. 
+An ability to develop and conduct appropriate experimentation, 
+analyze and interpret data, and use engineering judgment to draw 
+conclusions. 
+High 
+ 
+ 
+ 
+EEL 3773 Introduction to Machine Learning 
+ 
+Page 2 
+Dr. Alina Zare 
+ 
+Required Textbooks and Software 
+ 
+Title:  Python Machine Learning  
+ 
+Author:  S. Raschka 
+ 
+ISBN number:  978-1-78355-513-0   
+ 
+ 
+Software: Python 3+, Git, Pytorch 
+ 
+ 
+Course Schedule 
+• 
+Weeks 1-3: Introduction to Machine Learning and Evaluation of Methods:  What is Machine Learning?  Error 
+and Accuracy Metrics, Machine Learning Terminology, Introduction to Git (Assignment 1-3 due) 
+• 
+Weeks 4-6: Introduction to Supervised Classification: K-Nearest Neighbors, Decision Trees, Random Forests, 
+and Linear Classifiers; Experimental Design and Hyperparameter Tuning Strategies   (Assignments 4-6 due) 
+• 
+Weeks 7-9: Introduction to Neural Networks: The Perceptron and Brief history of Neural Networks; Multi-layer 
+Perceptron; Introduction to Pytorch   (Assignments 7-8 due)  
+• 
+Mid-Term Exam: During Week 9    
+• 
+Weeks 10-12: Introduction to Deep Learning: Deep Learning Fundamentals and Applications; Introduction to 
+Convolutional Neural Networks: Applications and Implementation in Pytorch  (Assignment 10 due) 
+• 
+Weeks 13-15: Project Focus, Project Presentations 
+ 
+Attendance Policy, Class Expectations, and Make-Up Policy 
+ 
+Excused 
+absences 
+must 
+be 
+consistent 
+with 
+university 
+policies 
+in 
+the 
+undergraduate 
+catalog 
+(https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx) 
+and 
+require 
+appropriate 
+documentation. 
+ 
+ 
+Evaluation of Grades: 
+ 
+Assignment 
+Percentage of Final Grade 
+Assignments  
+50% 
+Midterm Exam 
+20% 
+Final Project 
+30% 
+TOTAL 
+100% 
+ 
+ 
+Grading Policy: 
+ 
+Percent 
+Grade 
+Grade Points 
+93.0 - 100 
+A 
+4.00 
+90.0 – 92.9 
+A- 
+3.67 
+87.0 – 89.9 
+B+ 
+3.33 
+83.0 – 86.9 
+B 
+3.00 
+EEL 3773 Introduction to Machine Learning 
+ 
+Page 3 
+Dr. Alina Zare 
+80.0 – 82.9 
+B- 
+2.67 
+77.0 – 79.9 
+C+ 
+2.33 
+73.0 – 76.9 
+C 
+2.00 
+70.0 – 72.9 
+C- 
+1.67 
+67.0 – 69.9 
+D+ 
+1.33 
+63.0 – 66.9 
+D 
+1.00 
+60.0 – 62.9 
+D- 
+0.67 
+0 – 59.9 
+E 
+0.00 
+ 
+A “C-” will not be a qualifying grade for critical tracking courses. In order to graduate, students must have an 
+overall GPA and an upper-division GPA of 2.0 or better (C or better).  Note: A “C-” average is equivalent to a GPA of 
+1.67, and therefore, it does not satisfy this graduation requirement. 
+ 
+More information on UF grading policy may be found at: 
+https://catalog.ufl.edu/ugrad/current/regulations/info/grades.aspx 
+ 
+Students Requiring Accommodations  
+Students with disabilities requesting accommodations should first register with the Disability Resource Center (352-
+392-8565, https://www.dso.ufl.edu/drc) by providing appropriate documentation. Once registered, students will 
+receive an accommodation letter which must be presented to the instructor when requesting accommodation. 
+Students with disabilities should follow this procedure as early as possible in the semester. 
+ 
+Course Evaluation  
+Students are expected to provide professional and respectful feedback on the quality of instruction in this course by 
+completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and 
+respectful manner is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the 
+evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their 
+Canvas course menu under GatorEvals, or via https://ufl.bluera.com/ufl/. Summaries of course evaluation results 
+are available to students at https://gatorevals.aa.ufl.edu/public-results/. 
+ 
+University Honesty Policy  
+UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, 
+pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. 
+On all work submitted for credit by students at the University of Florida, the following pledge is either required or 
+implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.” The Honor 
+Code (https://sccr.dso.ufl.edu/policies/student-honor-code-student-conduct-code/) specifies a number of 
+behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any 
+condition that facilitates academic misconduct to appropriate personnel. If you have any questions or concerns, 
+please consult with the instructor or TAs in this class. 
+ 
+Commitment to a Safe and Inclusive Learning Environment 
+The Herbert Wertheim College of Engineering values broad diversity within our community and is committed to 
+individual and group empowerment, inclusion, and the elimination of discrimination.  It is expected that every 
+person in this class will treat one another with dignity and respect regardless of gender, sexuality, disability, age, 
+socioeconomic status, ethnicity, race, and culture. 
+ 
+If you feel like your performance in class is being impacted by discrimination or harassment of any kind, please 
+contact your instructor or any of the following: 
+• Your academic advisor or Graduate Program Coordinator 
+• Robin Bielling, Director of Human Resources, 352-392-0903, rbielling@eng.ufl.edu 
+• Curtis Taylor, Associate Dean of Student Affairs, 352-392-2177, taylor@eng.ufl.edu 
+• Toshikazu Nishida, Associate Dean of Academic Affairs, 352-392-0943, nishida@eng.ufl.edu 
+ 
+EEL 3773 Introduction to Machine Learning 
+ 
+Page 4 
+Dr. Alina Zare 
+Software Use 
+All faculty, staff, and students of the University are required and expected to obey the laws and legal agreements 
+governing software use.  Failure to do so can lead to monetary damages and/or criminal penalties for the individual 
+violator.  Because such violations are also against University policies and rules, disciplinary action will be taken as 
+appropriate.  We, the members of the University of Florida community, pledge to uphold ourselves and our peers to 
+the highest standards of honesty and integrity. 
+ 
+Student Privacy 
+There are federal laws protecting your privacy with regards to grades earned in courses and on individual 
+assignments.  For more information, please see:  https://registrar.ufl.edu/ferpa.html 
+ 
+Campus Resources:  
+ 
+Health and Wellness  
+ 
+U Matter, We Care:  
+Your well-being is important to the University of Florida.  The U Matter, We Care initiative is committed to 
+creating a culture of care on our campus by encouraging members of our community to look out for one another 
+and to reach out for help if a member of our community is in need.  If you or a friend is in distress, please contact 
+umatter@ufl.edu so that the U Matter, We Care Team can reach out to the student in distress.  A nighttime and 
+weekend crisis counselor is available by phone at 352-392-1575.  The U Matter, We Care Team can help connect 
+students to the many other helping resources available including, but not limited to, Victim Advocates, Housing 
+staff, and the Counseling and Wellness Center.  Please remember that asking for help is a sign of strength.  In case 
+of emergency, call 9-1-1. 
+ 
+Counseling and Wellness Center: http://www.counseling.ufl.edu/cwc, and  392-1575; and the University 
+Police Department: 392-1111 or 9-1-1 for emergencies.  
+ 
+Sexual Discrimination, Harassment, Assault, or Violence 
+If you or a friend has been subjected to sexual discrimination, sexual harassment, sexual assault, or violence 
+contact the Office of Title IX Compliance, located at Yon Hall Room 427, 1908 Stadium Road, (352) 273-1094, 
+title-ix@ufl.edu 
+ 
+Sexual Assault Recovery Services (SARS)  
+Student Health Care Center, 392-1161.  
+ 
+University Police Department at 392-1111 (or 9-1-1 for emergencies), or http://www.police.ufl.edu/.  
+ 
+ 
+Academic Resources 
+ 
+E-learning technical support, 352-392-4357 (select option 2) or e-mail to Learning-support@ufl.edu. 
+https://lss.at.ufl.edu/help.shtml. 
+ 
+Career Resource Center, Reitz Union, 392-1601.  Career assistance and counseling. https://www.crc.ufl.edu/. 
+ 
+Library Support, http://cms.uflib.ufl.edu/ask. Various ways to receive assistance with respect to using the 
+libraries or finding resources. 
+ 
+Teaching Center, Broward Hall, 392-2010 or 392-6420. General study skills and tutoring. 
+https://teachingcenter.ufl.edu/. 
+ 
+EEL 3773 Introduction to Machine Learning 
+ 
+Page 5 
+Dr. Alina Zare 
+Writing Studio, 302 Tigert Hall, 846-1138. Help brainstorming, formatting, and writing papers. 
+https://writing.ufl.edu/writing-studio/. 
+ 
+Student Complaints Campus: https://www.dso.ufl.edu/documents/UF_Complaints_policy.pdf. 
+ 
+On-Line Students Complaints: http://www.distance.ufl.edu/student-complaint-process. 
+ 
+ 
+

@@ -1,0 +1,243 @@
+ Contact Information
+Instructor: Akash Nanavati
+Email: akash.nanavati@sjsu.edu
+Office Hours
+Monday, Wednesday, 4:30 PM to 5:30 PM, DH282
+TA: Quang Duy Tran
+Email: quangduy.tran@sjsu.edu
+Office Hours
+Tuesday, Thursday, 3:00 PM to 4:00 PM, DH282
+ Course Information
+Lectures
+Monday, Wednesday, 3:00 PM to 4:15 PM, MH225
+ Course Description and Requisites
+Covers a selection of classic machine learning techniques including backpropagation and several currently
+popular neural networking and deep learning architectures. Hands-on lab exercises are a significant part of
+the course. A major project is required.
+Prerequisite(s): CS 146 (with a grade of "C-" or better). Computer Science or Software Engineering majors
+only.
+Letter Graded
+College of Science · Computer Science
+Introduction to Machine Learning Section 02
+CS 171
+Fall 2024  3 Unit(s)  08/21/2024 to 12/09/2024  Modified 09/01/2024
+ Program Information
+Diversity Statement - At SJSU, it is important to create a safe learning environment where we can explore,
+learn, and grow together. We strive to build a diverse, equitable, inclusive culture that values, encourages,
+and supports students from all backgrounds and experiences.
+ Course Learning Outcomes (CLOs)
+The focus of this course will be machine learning, with examples from fields such as computer vision and
+natural language processing. After completing this course students should have a working knowledge of a
+wide variety of machine learning topics, tools, and techniques, and how to apply them to real-world
+problems.
+ Course Materials
+Hands-On Machine Learning with Scikit-Learn, Keras, and
+TensorFlow
+Author: Aurélien Géron
+Publisher: O'Reilly
+Edition: 3rd Edition
+Online (https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+ Grading Information
+Percentage range
+Grade range
+90-100
+A- to A+
+80-89
+B- to B+
+70-79
+C- to C+
+60-69
+D- to D+
+0-59
+F
+Breakdown
+Homeworks (5) - 25%
+In-class exams (2) - 50%
+Final project & presentation (1) - 25%
+ University Policies
+Per University Policy S16-9 (PDF) (http://www.sjsu.edu/senate/docs/S16-9.pdf), relevant university policy
+concerning all courses, such as student responsibilities, academic integrity, accommodations, dropping and
+adding, consent for recording of class, etc. and available student services (e.g. learning assistance,
+counseling, and other resources) are listed on the Syllabus Information
+(https://www.sjsu.edu/curriculum/courses/syllabus-info.php) web page. Make sure to visit this page to
+review and be aware of these university policies and resources.
+ Course Schedule
+Topics
+Why learn ML
+Regression, Classification
+ANN, Perceptron, MLP
+Backpropagation
+Deep Nets
+Transformers
+CNN, RNN, LSTM, Computer Vision applications
+LLMs and Applications
+SVM, Trees
+Reinforcement Learning
+ 
+Course Schedule Outline
+Date
+Day of
+Week
+Week
+number
+Lecture
+number
+Topic
+8/21
+W
+1
+1
+First day of classes. Why learn ML, Intro to Python and Colab.
+Assignment-1 is out.
+8/26
+M
+2
+2
+Linear Regression
+8/28
+W
+2
+3
+Linear Algebra. Assignment-1 is due.
+9/2
+M
+3
+ 
+Holiday for Labor Day
+9/4
+W
+3
+4
+Linear Algebra. Assignment-2 is out.
+9/9
+M
+4
+5
+Classification
+9/11
+W
+4
+6
+Artificial Neural Networks, Perceptron
+9/16
+M
+5
+7
+Multi-Layer Perceptron
+9/18
+W
+5
+8
+Backpropagation. Assignment-2 is due. Assignment-3 is out.
+9/23
+M
+6
+9
+Deep Nets
+9/25
+W
+6
+10
+Transformers
+9/30
+M
+7
+11
+Transformers
+10/2
+W
+7
+12
+Review for exam-1. Assignment-3 is due.
+10/7
+M
+8
+ 
+In-class Exam-1
+10/9
+W
+8
+ 
+Answers to Exam-1
+10/14
+M
+9
+13
+Final project ideas
+10/16
+W
+9
+14
+CNN, RNN, LSTM
+10/21
+M
+10
+15
+Computer Vision application. Assignment-4 is out.
+10/23
+W
+10
+16
+Large Language Models
+10/28
+M
+11
+17
+Applications on LLMs
+10/30
+W
+11
+18
+SVM. Assignment-4 is due. Assignment-5 is out.
+11/4
+M
+12
+19
+Trees
+11/6
+W
+12
+20
+Autoencoders
+11/11
+M
+13
+ 
+Holiday for Veteran's Day
+11/13
+W
+13
+21
+Reinforcement Learning. Assignment-5 is due.
+11/18
+M
+14
+22
+Reinforcement Learning
+11/20
+W
+14
+23
+Review for exam-2
+11/25
+M
+15
+ 
+In-class Exam-2
+11/27
+W
+15
+ 
+Non-Instructional Day (day before Thanksgiving)
+12/2
+M
+16
+ 
+Presentations - extra hour in (room)
+12/4
+W
+16
+ 
+Presentations - extra hour in (room)
+Course Schedule Outline
+

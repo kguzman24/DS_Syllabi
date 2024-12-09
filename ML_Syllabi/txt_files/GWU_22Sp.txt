@@ -1,0 +1,208 @@
+GWU
+CS 4364/6364
+Introduction to Machine Learning, Spring 2022
+GWU Computer Science
+Syllabus
+Schedule and Lectures
+Assignments
+Ed Discussion Board
+Blackboard
+Schedule
+How to read:
+The Schedule is divided into weeks
+Topic indicates the main concepts and the link for the activity
+Due indicates the assignments that you must complete before this lecture.
+The schedule is tentative, and may need to be adjusted during the semester
+Spring 2022
+Date
+Topic
+Due
+Week 1
+Tues 01/11 and
+Thurs 01/13
+Introduction: Syllabus, introduction to course
+Lecture 0: Introduction to machine learning, project selection
+and discussion, environment setup
+Pick homework groups of four
+students (post to Ed)
+Project 0: Environment setup (due
+01/17 11:59pm)
+Optional: Group project proposal
+(due 01/19 at 11:59pm)
+Date
+Topic
+Due
+Week 2
+Tues 01/18 and Thurs 01/20 Lecture 1: classification: decision trees 
+Lecture 2: classification: ensembles
+Homework 1 (due 01/24 at 11:59pm) 
+Homework 2 (due 01/26 at 11:59pm) 
+Date
+Topic
+Due
+Week 3
+Tues 01/25 and Thurs
+01/27
+Lecture 3: classification practical issues: dataset engineering
+Lecture 4: classification practical issues: model training and
+evaluation
+Homework 3 (due 01/31 at
+11:59pm) 
+Homework 4 (due 02/02 at
+11:59pm) 
+Date
+Topic
+Due
+Week 4
+Tues
+02/01
+and
+Thurs
+02/03
+Lecture 5: Exam 1
+Tuesday
+sample Exam 1
+Lecture 6: Go over
+Exam 1, begin
+Project 1 (or group
+project)
+Individual Project 1: Tabular data and RandomForests (due 02/14 11:59pm)
+Group project: under the Project 1 that covers grading rubric through "14. Discuss and
+implement how you will handle any dataset imbalance." Include the modified grading
+rubric for all items up to this point if you are using one. (due 02/14 11:59pm on BB using
+Project 1 link)
+Date
+Topic
+Due
+Week 5
+Tues 02/08 and Thurs 02/10
+Lecture 7: Regression, Linear models
+Lecture 8: HPC group guest lecture Gradient descent I
+Date
+Topic
+Due
+Week 6
+Tues 02/15 and Thurs 02/17 Lecture 9: Gradient descent II
+Lecture 10: Perceptrons
+Date
+Topic
+Due
+Week 7
+Tues 02/22 and Thurs 02/24 Lecture 11: start Neural Nets
+Lecture 12: continue Neural Nets Homework 5 (due 02/28 at 11:59pm)
+Date
+Topic
+Due
+Week 8
+Tues 03/01 and Thurs 03/03 Lecture 13: finish Neural Nets
+Lecture 14: Deep Learning: CNNs Homework 6 (due 03/07 at 11:59pm)
+Date
+Topic
+Due
+Week 9
+Tues 03/08 and
+Thurs 03/10
+Lecture 15: Guest speaker: States, sequences, Hidden Markov Models,
+Active learning and reinforcement learning
+Lecture 16: Kernels, SVM, and KNN
+Homework 7 (due 03/21
+at 11:59pm) 
+study for exam next
+week
+Date
+Topic
+Due
+Week 10
+Tues 03/15 and Thurs 03/17 NO CLASS -- SPRING BREAK!
+Date
+Topic
+Due
+Week 11
+Tues
+03/22
+and
+Thurs
+03/24
+Lecture 17:
+Recommendation
+Systems, sample
+Exam 2
+Lecture 18:
+Exam 2
+Thursday
+Begin Individual Project 2: CNNs (due 04/05 at 11:59pm)
+Group project: submit to BB code that covers grading rubric through "48. Graph training
+versus validation accuracy using matplotlib.pyplot (or other). Score your model on its
+predictions on the holdout. Discuss why you think your results will or will not generalize."
+Include the modified grading rubric for all items up to this point if you are using one. (due
+04/07 11:59pm -- submit code to BB under Project 2 link please)
+Date
+Topic
+Due
+Week 12
+Tues 03/29 and Thurs
+03/31
+Lecture 19: Go over Exam 2, work on
+Project 2
+Lecture 20: Unsupervised learning, NLP
+intro
+Homework 8 (as EXTRA CREDIT, due 04/04 at
+11:59pm)
+Date
+Topic
+Due
+Week 13
+Tues
+04/05
+and
+Thurs
+04/07
+Lecture 21:
+Natural
+Language
+Processing,
+BERT
+Lecture 22:
+Testing for
+Machine
+Learning
+Go over Project
+3 instructions
+Begin Individual Project 3 (due 04/21 11:59pm)
+Group project: Complete gradic rubric through item 57 (due 12/03 at 11:59pm), and prepare
+a ten minute (powerpoint) presentation of your results for following classes (due 04/21 at
+11:59pm). You do not need to have items 48-57 done by this presentation, but can if you
+want to.
+Date
+Topic
+Due
+Week 14
+Tues 04/12
+and Thurs
+04/14
+Lecture 23: Generative
+Advesarial Networks
+(GANs, guest speaker)
+Lecture 24: Group project
+demos 1
+Project 3: real world modeling (due 12/10 11:59pm)
+Group project: Code submitted to BB, with markdown used to annotate each
+grading rubric item (copy the sentence from the rubric into your comments).
+(due 04/22 11:59pm under Project 3 link on BB)
+Date
+Topic
+Due
+Week 15
+Tues 04/19 and Thurs 04/21 Lecture 25: Group project demos 2
+Lecture 26: Review for final exam: sample exam study for final exam
+Date
+Topic
+Due
+Week 15
+Tues 04/26 and Thurs 04/28 NO CLASS - MAKEUP DAY
+NO CLASS - READING DAY study for final exam
+Date
+Topic Prep
+FINALS
+See official final exam time for CS4364 (note: GWU may change the date/time)
+

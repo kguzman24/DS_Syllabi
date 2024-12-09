@@ -1,0 +1,432 @@
+Schedule
+RIT Academic Calendar: 
+https://www.rit.edu/calendar
+Machine Learning Schedule: Fall 2022
+W
+e
+e
+k
+Topics
+Delivera
+bles
+Notes
+Sourc
+es
+1
+A
+u
+g
+2
+2
+Overview: 
+What exactly
+is Machine
+Learning?
+Classificatio
+n vs. 
+Regression:
+Choosing vs.
+Scoring/Ranki
+ng
+Tues
+Aug 23
+First
+Lecture
+* Hasti
+e Ch.
+1, 2.1-
+2.3
+*
+Revie
+w
+#ml-
+applic
+ations
+on disc
+ord 
+2
+A
+u
+g
+2
+9
+Least
+Squares:
+A
+parametric
+linear
+regression
+and 
+classification
+model
+k-Nearest
+Neighbors:
+A non-
+parametric
+regression
+and
+classification
+model 
+Thursda
+y:
+Quiz 1
+Mon
+Aug 29
+Add/Dro
+p ends
+3
+S
+e
+pt
+5
+Bayesian
+Decision
+Theory
+Example:
+parametric
+models
+using
+Gaussian
+feature
+distributions
+Tuesday
+:
+Assignme
+nt 1
+(Least
+Squares,
+Nearest
+N.)
+Thursda
+y:
+Quiz 2
+Prof.
+Zanibbi
+away
+Lectures
+from
+TA/onlin
+e
+Readin
+gs in
+MyCou
+rses:
+*
+Charni
+ak SLL
+Ch 2
+*
+DuinEt
+Al Ch 2
+4
+Machine Learning
+Fall 2022
+S
+e
+pt
+1
+2
+Bayesian
+Decision
+Theory,
+continued
+Thursda
+y:
+Quiz 3
+5
+S
+e
+pt
+1
+9
+Support
+Vector
+Machines:
+Optimal
+linear binary
+classification 
+(i.e., for two
+classes)
+Thursda
+y:
+Quiz 4
+Career
+Fair
+Hastie
+Ch.
+12.1-
+12.1.3
+6
+S
+e
+pt
+2
+6
+Ensembles:
+Combining
+classifiers,
+regression
+using
+multiple
+models
+(e.g.,
+decision tree
+ensembles)
+Thursda
+y:
+Quiz 5
+Hastie
+Ch 9.2,
+15
+(skim)
+Crimini
+si 3.1-
+3.4 
+7
+O
+ct
+3
+Neural
+Networks:
+Overview
+Loss
+functions &
+Backpropagat
+ion
+Example
+Neuron: 
+'Classic'
+Perceptron
+Tuesday
+:
+Assignme
+nt 2
+(Bayesian
+)
+Thursda
+y:
+Quiz 6
+Charni
+ak DL
+Chs 1
+and 2
+8
+O
+ct
+1
+0
+Backpropagat
+ion &
+Autogradient
+Data use and
+training
+networks
+Mon-
+Tues
+(Oct
+10-11):
+Fall
+Break
+Lecture
+Cancell
+ed
+Tuesda
+y
+9
+O
+ct
+1
+7
+Basic neural
+nets in
+TensorFlow
+Tuesday
+:
+Assignme
+nt 3
+(SVM/Ens
+)
+Thursda
+y:
+Quiz 7
+Thursd
+ay:
+Group
+Project
+Overvie
+w 
+1
+0
+Wednes
+day:
+O
+ct
+2
+4
+TensorFlow
+Group
+teams
+due
+1
+1
+O
+ct
+3
+1
+Convolution
+al Neural
+Networks
+CNNs,
+continued
+Thursda
+y:
+Project
+Proposal
+Charni
+ak DL,
+Ch 3
+1
+2
+N
+o
+v
+7
+Recurrent
+Neural
+Networks
+Registr
+ation
+Wk
+(for
+Spring
+2023)
+Charni
+ak DL,
+Ch 4
+1
+3
+N
+o
+v
+1
+4
+Tuesday
+:
+Quiz 8
+Thursda
+y:
+Assign 4
+(CNNs)
+Tuesda
+y:
+Group
+Project
+Discussi
+on
+Course
+eval
+forms
+availabl
+e
+1
+4
+N
+o
+v
+2
+1
+Tuesday:
+Quiz 9
+Tuesda
+y:
+Group
+project
+discussi
+on
+Wed-Fri
+(Nov
+23-25):
+Thanksg
+iving
+Break
+Lecture
+Cancell
+ed
+Thursd
+ay
+1
+5
+N
+o
+v
+2
+8
+Final topics +
+Project
+Friday:
+Quiz 10
+1
+Exam Week:
+Monday:
+Assign 5
+Mon
+Dec 5
+End of
+Classes
+Tues
+6
+D
+e
+c
+5
+No Lectures
+Exam on
+Friday
+1:30pm-
+4pm
+(RNNs)
+Friday
+(Exam):
+Project
+Presentat
+ion
+Dec 6
+Reading
+Day
+Friday
+Dec 9
+**Exam,
+1:30-
+4pm
+1
+7
+D
+e
+c
+1
+2
+Exam Week:
+(Class
+finished)
+Monday:
+Project
+report
++ code
+Wed
+Dec 14
+Last Day
+of
+Exams
+Fri Dec
+16
+Final
+Grades
+Due
+Machine Learning
+Home & News
+Syllabus
+Schedule
+Contact Instructor & TA
+Resources
+MyCourses
+

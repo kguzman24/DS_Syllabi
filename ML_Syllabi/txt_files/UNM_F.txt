@@ -1,0 +1,248 @@
+ECE517 Machine Learning  
+ 
+Syllabus 
+DESCRIPTION AND LEARNING OBJECTIVES 
+Instructor’s name: Manel Martínez-Ramòn 
+Additional information: 
+1.  
+a. Office Location: 237b 
+b. Office Hours: MO-WED 11:00 to 12 
+c. Email: manel@unm.edu 
+d. Office Phone: (505) 277-3008 
+e. Term / Semester: Fall 
+This class covers several advanced topics in machine learning, including statistical learning 
+theory, kernels, gaussian processes and deep learning. The course opens with an 
+introduction to the basics of Statistical Learning Theory, that leads to the well known SVM. 
+Here, the SVM principle is taken as an optimization criterion that can be applied virtually 
+to any linear algorithm. For Dimensionality Reduction, the SVM will be used as a particular 
+technique for feature extraction or dimensionality reduction strategies. Block Reproducing 
+Kernel Hilbert Spaces will be used to provide an introduction to kernel methods, and a 
+view of kernels as a similarity measure tool that allows us to generalize any linear 
+algorithm by extending them with nonlinear properties. In particular, some LS algorithms 
+and SVMs will be extended to the nonlinear case. Also, we will go deeper in the concept of 
+regularization already introduced in first part of the course. In the section on Gaussian 
+Process Networks, we will introduce an alternative criterion, based on ML particularly 
+successful for regression, that will be generalized using kernels. Finally, Deep Learning 
+Machines will be reviewed as a third major criterion for constructing ML algorithms.  
+This graduate-level class will provide students with a strong foundation for both applying 
+machine learning to complex real world problems and for addressing core research topics 
+in machine learning. Student taking the class should have the prerequisite undergraduate 
+knowledge of probability, statistics and, linear algebra. The background material will also 
+be reviewed in the course. 
+MATERIALS, TOPICS AND ASSESSMENT 
+Textbook 
+The topics of this course are not covered by a single book. Students will find all the 
+materials in three different ones. The books are written by some of the original authors of 
+the topics (Hastie and Tibshirani, Shawe-Taylor and Cristianini. Rasmussen and 
+Williams).  Two of the boosk are released their works for free access., and the other is 
+available online for all UNM students. This means that while materials are mandatory, 
+students are not forced to purchase the rather expensive books, but they can use the 
+online versions for free. 
+The Elements of Statistical Learning, T. Hastie et al., Springer, 2009 Available online, free 
+access.  
+Kernel Methods for Pattern Analysis, J. Shawe-Taylor, N. Cristianini, Cambridge University 
+Press, 2004. Available online through UNM Libraries 
+Gaussian Processes for Machine Learning,  C. Rasmussen et al., MIT Press, 2006 (Available 
+online, free access) 
+Other supplemental materials: 
+• 
+"A Tutorial on Support Vector Machines for Pattern Recognition", by Christopher Burge 
+• 
+Hinton, G. A practical guide to train Restricted Boltzmann Machines.  
+• 
+Hinton, G. E. and Salakhutdinov, R. R. (2006) Reducing the dimensionality of data with 
+neural networks. Science, Vol. 313. no. 5786, pp. 504 - 507, 28 July 2006. 
+• 
+Software of  Hinton, G. E. and Salakhutdinov, R. R. (2006) 
+• 
+Hinton, G. E., Osindero, S. and Teh, Y. (2006) A fast learning algorithm for deep belief nets. 
+Neural Computation, 18, pp 1527-1554 
+• 
+Deep learining page at University of Toronto: http://learning.cs.toronto.edu/ 
+Specific course information 
+1. Brief description of the content of the course (catalog description). 
+This course covers topics in machine learning, including statistical learning 
+theory, kernels, gaussian processes and deep learning. The course opens 
+with an introduction to the basics of Statistical Learning Theory, that leads 
+to the well known SVM. Here, the SVM principle is taken as an optimization 
+criterion that can be applied virtually to any linear allgorithm. 
+For Dimensionality Reduction, the SVM will be used as a particular 
+technique for feature extraction or dimensionality reduction strategies. 
+Block Reproducing Kernel Hilbert Spaces will be used to provide an 
+introduction to kernel methods, and a view of kernels as a similarity 
+measure tool that allows us to generalize any linear algorithm by extending 
+them with nonlinear properties. In particular, some LS algorithms and SVMs 
+will be extended to the nonlinear case. Also, we will go deeper in the 
+concept of regularization already introduced in first part of the course. In 
+the section on Gaussian Process Networks, we will introduce an alternative 
+criterion, based on ML particularly successful for regression, that will be 
+generalized using kernels. Finally, Deep Learning Machines will be reviewed 
+as a third major criterion for constructing ML algorithms. 
+2. Prerequisites or co-requisites 
+Student taking the class should have knowledge of probability, statistics 
+and, linear algebra. The background material will also be reviewed in the 
+course. Also, it is mandatory to have basic knowledge of Matlab, Phython 
+or similar language programming.  
+Specific goals for the course 
+This graduate-level class will provide students with a strong foundation for both 
+applying machine learning to complex real world problems and for addressing core 
+research topics in machine learning. 
+ 
+Topics covered 
+Introduction 
+    
+Statistical learning theory. 
+• 
+Estimation function and risk minimization. 
+• 
+Definition of learning problems: classification, estimation, unsupervised learning. 
+• 
+Empirical risk minimization. The generalization ability of a learning machine. 
+• 
+Consistency of learning. 
+• 
+VC dimension and the structural risk minimization.  
+• 
+The Support Vector Machine approach. Detailed derivation. SVC, SVR, SVDD, variants.  
+• 
+Optimization procedures. 
+Reproducing Kernel Hilbert Spaces. 
+• 
+Overview 
+• 
+Positive definite kernels. 
+• 
+Main theorems. The kernel trick.  
+• 
+Kernel based learning machines. 
+• 
+Some basic kernels and kernel properties 
+• 
+Kernel development and special kernel classes. 
+Gaussian Process Networks 
+• 
+Basic concepts.  
+• 
+Gaussian process networks for regression and classification.  
+• 
+Kernel versions of the GPN.  
+o Dual formulation of the GPN. 
+o The idea of covariance matrices. 
+• 
+Parameter optimization and model selection. 
+ 
+Assignemnts, Projects and software 
+A number of assignments will be required. They will be published at the beginning of the 
+course, thorugh UNMLearn. Their due dates will be posted.  
+Student can optionally suggest a project at the beginning of the course. The proposed 
+projects will be based on published articles in machine learning or in their current 
+research. The students will have to write a report in a standard research paper format, 
+and provide simulations and proofs or evidences of the report’s claims, plus a discussion 
+of their results. The professor will waive the student conducting a project of part or all of 
+the homework as a function of the estimated difficulty and scope of the suggested 
+project. 
+Experimental projects will be accepted in any platform, but the use of Matlab, Octave or 
+Python is strongly advised. 
+ 
+ 
+Assessment and grading policy 
+The class will be graded accordingly to a final exam plus the grades resulting from the 
+assignments. Prior the exam, students will have knowledge of their assignments grades. 
+The grading percentages are: 
+Final exam: 50%. A passing grade on the final exam is required for passing the course.  
+Homework 50%. Must be delivered before the deadlines 
+Students choosing the grade/no grade option will be also required to deliver the 
+homework. Audit students are welcome upon proper UNM registration. 
+ 
+Attendance Policy 
+Regular and punctual attendance is required. UNM Pathfinder policies apply, which in part 
+means instructor drops based on non-attendance are possible. This policy applies 
+regardless of the grading option you have chosen. 
+Accommodation Statement 
+Accessibility Services (Mesa Vista Hall 2021, 277-3506) provides academic support to 
+students who have disabilities. If you think you need alternative accessible formats for 
+undertaking and completing coursework, you should contact this service right away to 
+assure your needs are met in a timely manner. If you need local assistance in contacting 
+Accessibility Services, see the Bachelor and Graduate Programs office. 
+Academic Integrity 
+The University of New Mexico believes that academic honesty is a foundation principle for 
+personal and academic development. All University policies regarding academic honesty 
+apply to this course. Academic dishonesty includes, but is not limited to, cheating or 
+copying, plagiarism (claiming credit for the words or works of another from any type of 
+source such as print, Internet or electronic database, or failing to cite the source), 
+fabricating information or citations, facilitating acts of academic dishonesty by others, 
+having unauthorized possession of examinations, submitting work of another person or 
+work previously used without informing the instructor, or tampering with the academic 
+work of other students. The University's full statement on academic honesty and the 
+consequences for failure to comply is available in the college catalog and in the 
+Pathfinder. 
+ Cell Phones and Technology 
+As a matter of courtesy, please mute cell phones, pagers, and other communication and 
+entertainment devices prior to the beginning of class. The use of cell phones or other 
+devices to chat, browse the Internet or for any other purpose during the class should be 
+avoided. Notify me in advance if you are monitoring an emergency, for which cell phone 
+ringers should be switched to vibrate. 
+Netiquette 
+• 
+“In following with the UNM Student Handbook, all students will show respect to their 
+fellow students and instructor when interacting in this course. Take Netiquette suggestions 
+seriously. Flaming is considered a serious violation and will be dealt with promptly. 
+Postings that do not reflect respect will be taken down immediately.” (Rebecca Adams, 
+OLIT 535) 
+• 
+“This course encourages different perspectives related to such factors as gender, race, 
+nationality, ethnicity, sexual orientation, religion, and other relevant cultural identities. 
+The course seeks to foster understanding and inclusiveness related to such diverse 
+perspectives and ways of communicating.” 
+• 
+Link to Netiquette document: 
+http://online.unm.edu/help/learn/students/pdf/discussion-netiquette.pdf 
+ 
+REQUIRED MATERIALS AND TECHNICAL REQUIREMENTS 
+The Elements of Statistical Learning, T. Hastie et al. (Available online, free access) Gaussian 
+Processes for Machine Learning, C. Rasmussen et al. (Available online, free access) Pattern 
+Recognition, C. Bishop Kernel Methods for Pattern Analysis, J. Shawe-Taylor, N. 
+CristianiniA number of tutorials will be available online through UNM library access. 
+Computer 
+• 
+A high speed Internet connection is highly recommended. 
+• 
+Supported browsers include: Internet Explorer, Firefox, and Safari. Detailed Supported 
+Browsers and Operating Systems: http://online.unm.edu/help/learn/students/ 
+• 
+Any computer capable of running a recently updated web browser should be sufficient to 
+access your online course.  However, bear in mind that processor speed, amount of RAM 
+and Internet connection speed can greatly affect performance. Many locations offer free 
+high-speed Internet access including UNM’s Computer Pods. 
+• 
+For using the Kaltura Media Tools inside Learn, be sure you have downloaded and 
+installed the latest version of Java, Flash, and Mozilla Firefox. They may not come 
+preloaded. 
+• 
+Microsoft Office products are available free for all UNM students (more information on 
+the UNM IT Software Distribution and Downloads 
+page: http://it.unm.edu/software/index.html) 
+• 
+MATLAB or PYTHON is required. 
+For UNM Learn Technical Support: (505) 277-0857 (24/7) or use the “Create a Support 
+Ticket” link in your course. 
+  
+WEB CONFERENCING 
+Web conferencing will be used in this course during the following times and dates: 
+For the online sessions, you will need: 
+• 
+A USB headset with microphone. Headsets are widely available at stores that sell 
+electronics, at the UNM Bookstore or online. 
+• 
+A high-speed internet connection is highly recommended for these sessions.   A wireless 
+Internet connection may be used if successfully tested for audio quality prior to web 
+conferencing. 
+• 
+For UNM Web Conference Technical Help: (505) 277-0857 
+  
+Tracking Course Activity UNM Learn automatically records all students’ activities 
+including: your first and last access to the course, the pages you have accessed, the 
+number of discussion messages you have read and sent, web conferencing, discussion 
+text, and posted discussion topics. This data can be accessed by the instructor to evaluate 
+class participation and to identify students having difficulty 
+

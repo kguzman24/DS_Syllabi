@@ -1,0 +1,149 @@
+COMPSCI 389 Introduction to Machine Learning
+Lecture Time and Place: 4:00pm–5:15pm in Computer Science Building Room 140.
+Instructor: Philip Thomas (pthomas@cs.umass.edu, CS Building Room 346)
+Teaching Assistants: Simon Andrews (sbandrews@umass.edu).
+Graders: Hitesh Golchha (hgolchha@umass.edu) and Sai Phani Teja Vallabhaneni (saiphaniteja@umass.edu).
+Number of Credits: 3
+Type of Course and Format: Lecture
+Course Webpage: https://people.cs.umass.edu/~pthomas/courses/COMPSCI_389_Spring2022.html
+Book: None. Readings will be provided using open access digital resources.
+Prerequisites: COMPSCI 220 (or COMPSCI 230), COMPSCI 240 (or STAT 515), and Math 233. A grade of C or better is
+required for all prerequisites.
+Course Description
+The course provides an introduction to machine learning algorithms and applications.
+Machine learning algorithms answer
+the question: “How can a computer improve its performance based on data and from its own experience?” The course is
+roughly divided into thirds: supervised learning (learning from labeled data), reinforcement learning (learning via trial and
+error), and real-world considerations like ethics, safety, and fairness. Speciﬁc topics include linear and non-linear regression,
+(stochastic) gradient descent, neural networks, backpropagation, classiﬁcation, Markov decision processes, state-value and action-
+value functions, temporal diﬀerence learning, actor-critic algorithms, the reward prediction error hypothesis for dopamine,
+connectionism for philosophy of mind, and ethics, safety, and fairness considerations when applying machine learning to real-
+world problems.
+Learning Objectives
+To understand the mathematical representation of machine learning problems and techniques for solving them; to be capable of
+applying machine learning algorithms responsibly to real problems, accounting for issues of safety and fairness; to be prepared
+for ethical considerations that arise with the use of machine learning; to understand key machine learning concepts including
+regression, classiﬁcation, neural networks, and reinforcement learning, among others.
+Oﬃce Hours
+• Mondays: [Prof. Thomas] 11am-noon, https://umass-amherst.zoom.us/j/93633023618
+• Tuesdays: [TA Simon Andrews] 2pm-3pm, in Lederle Graduate Research Tower (LGRT) 225.
+• Wednesdays: [Prof. Thomas] 1pm-2pm, CS Building Room 346
+Piazza and Gradescope
+If you have questions that you would like to ask outside of oﬃce hours, please use Piazza. If you do not have access to Piazza
+after the ﬁrst lecture, e-mail Prof. Thomas and he will add you to the system. Any question asked on Piazza before 3pm on a
+Monday, (not Tuesday!) Wednesday, Thursday, or Friday that is not a holiday will be answered by midnight that same day. If
+your question is not answered by midnight, please e-mail Prof. Thomas and he will look into it.
+Assignments will be posted on the course webpage (https://people.cs.umass.edu/~pthomas/courses/COMPSCI_389_
+Spring2022.html) and submitted using Gradescope. If you do not have access to gradescope after the ﬁrst lecture, e-mail
+Prof. Thomas and he will add you to the system.
+1
+Grading
+• Homework Assignments (60%). The homework assignment with the lowest grade will be dropped.
+• Midterm (15%)
+• Final Exam (25%)
+The following table will be used for converting numerical grades at the end of the course to letter grades. Minimum values are
+inclusive, while maximum values are exclusive (except for 100). For example, 90 corresponds to an A, not an A-. If a curve is
+applied, it will only lower these thresholds – they will not be increased.
+Minimum
+Maximum
+Letter
+0
+45
+F
+45
+50
+D
+50
+55
+D+
+55
+60
+C–
+60
+65
+C
+65
+70
+C+
+70
+75
+B–
+75
+80
+B
+80
+85
+B+
+85
+90
+A–
+90
+100
+A
+Schedule
+The course will be divided into thirds. The list below indicates planned topics, in order. This is subject to alteration, depending
+on pacing and student abilities. Each number corresponds to a week (two lectures).
+Part I: Supervised Learning
+1. Introduction, regression, nonparametric methods (k-nearest neighbors).
+2. Parametric methods, linear regression, gradient descent part 1.
+3. Gradient descent part 2, basis functions, feature normalization.
+4. Perceptrons, artiﬁcial neural networks.
+5. Backpropagation, classiﬁcation, over-ﬁtting, and other topics.
+Part II: Reinforcement Learning
+1. Introduction, notation, problem formulation
+2. Episodes, policy representations, softmax and likely the midterm.
+3. MENACE, value functions, temporal diﬀerence error.
+4. Actor-critics (and their relation to gradient descent), options, and oﬀ-policy evaluation.
+Part III: Ethics, Safety, Fairness, and Connections to other Areas
+1. Issues of safety, fairness, accountability, and transparency when applying machine learning to make decisions that impact
+people.
+2. Ethical considerations when applying machine learning.
+3. Connections to psychology, neuroscience, and philosophy of mind.
+Part IV: Conclusion This fourth part of the course is not listed in the discussion of the course being broken into thirds because
+it will likely be a single concluding lecture (perhaps two).
+1. A high-level survey of other topics in machine learning, including natural language processing, computer vision, robotics,
+intelligent tutoring systems, and ecological and social science applications. This includes pointers to other courses for
+continued learning at UMass.
+2
+Inclusivity Statement
+We celebrate the diversity in our community and actively seek to include and listen to voices that are often silenced in the
+computing world. We welcome all individuals regardless of age, background, citizenship, disability, sex, education, ethnicity,
+family status, gender, gender identity, geographical origin, language, military experience, political views, race, religion, sexual
+orientation, socioeconomic status, and work experience.
+This course may require you to work in groups.
+As such, we expect that you will observe social decorum at all times
+when interacting with peers.
+Please make sure to read the UMass Guidelines for Classroom Civility and Respect: http:
+//www.umass.edu/dean_students/campus-policies/classroom.
+Accommodation Statement
+The University of Massachusetts Amherst is committed to providing an equal educational opportunity for all students. If you
+have a documented physical, psychological, or learning disability on ﬁle with Disability Services (DS), you may be eligible for
+reasonable academic accommodations to help you succeed in this course. If you have a documented disability that requires an
+accommodation, please notify me within the ﬁrst two weeks of the semester so that we may make appropriate arrangements.
+Class Policies
+Attendance: There is no required attendance policy; students who cannot attend class are responsible for any material covered
+during their absence. Late arrivals must enter the classroom quietly and discreetly.
+Exams: The midterm and ﬁnal exams will be open notes, though no electronic devices will be allowed (except perhaps a
+calculator).
+Collaboration on Assignments: Instructions regarding allowed collaboration and consultation of outside sources will be
+included with each assignment, and may vary from assignment to assignment.
+Late Submissions: Late homework submissions will not be accepted. However, the homework assignment with the lowest
+grade will be dropped. If an assignment will be late due to extenuating circumstances (for example, you are sick or have a family
+emergency) please email Prof. Thomas and this will be handled separately from this policy.
+Academic Honesty
+General Statement:
+Since the integrity of the academic enterprise of any institution of higher education requires honesty
+in scholarship and research, academic honesty is required of all students at the University of Massachusetts. Academic dishon-
+esty is prohibited in all programs of the University. Academic dishonesty includes but is not limited to: cheating, fabrication,
+plagiarism, and facilitating dishonesty. Appropriate sanctions may be imposed on any student who has committed an act of
+academic dishonesty. Instructors should take reasonable steps to address academic misconduct. Any person who has reason to
+believe that a student has committed academic dishonesty should bring such information to the attention of the appropriate
+course instructor as soon as possible. Instances of academic dishonesty not related to a speciﬁc course should be brought to
+the attention of the appropriate department Head or Chair. Since students are expected to be familiar with this policy and
+the commonly accepted standards of academic integrity, ignorance of such standards is not normally suﬃcient evidence of lack
+of intent. Further details can he found here: https://www.umass.edu/honesty/sites/default/files/academic_honesty_
+policy_rev_sen_doc_no16-038a.pdf.
+Course-Speciﬁc Statement: For this course the penalty for cheating on a homework assignment, the midterm, or the ﬁ-
+nal exam will be a failing letter grade for the course.
+3
+

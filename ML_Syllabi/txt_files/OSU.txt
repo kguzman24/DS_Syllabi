@@ -1,0 +1,206 @@
+ECE 5307 (Approved): Introduction to Machine Learning for ECE
+Course Description
+Introduction to Machine Learning.  Coverage includes linear regression, linear classification, model and feature 
+selection, neural networks, clustering, and principle components analysis.  Python will be used for 
+implementation examples.
+Prior Course Number: 4300, 5300
+Transcript Abbreviation: Intro Machin Learn
+Grading Plan: Letter Grade
+Course Deliveries: Classroom, 100% at a distance
+Course Levels: Undergrad, Graduate
+Student Ranks: Senior, Masters, Doctoral
+Course Offerings: Autumn, Spring
+Flex Scheduled Course: Never
+Course Frequency: Every Year
+Course Length: 14 Week
+Credits: 4.0
+Repeatable: No
+Time Distribution: 3.0 hr Lec, 2.0 hr Lab
+Expected out-of-class hours per week: 7.0
+Graded Component: Lecture
+Credit by Examination: No
+Admission Condition: No
+Off Campus: Never
+Campus Locations: Columbus
+Prerequisites and Co-requisites: Prereq: ECE major; and CSE 1222 or ENGR 1281; and Math 2568 and Stat 
+3470; or grad standing.
+Exclusions: Not open to students with credit for ECE5300 or ECE 4300 or ECE 4194.02 Sp19 or MECHENG 
+5194 Au19
+Cross-Listings: 
+Course Rationale: Adding 1 hour laboratory component, and changing from 5300 to 5307, allows us to add 
+more in-depth instruction on coding.
+The course is required for this unit's degrees, majors, and/or minors: No
+The course is a GEC: No
+The course is an elective (for this or other units) or is a service course for other units: Yes
+Subject/CIP Code: 14.1001
+Subsidy Level: Doctoral Course
+Programs
+ 
+Course Goals
+ 
+Abbreviation
+Description
+CpE
+Computer Engineering
+EE
+Electrical Engineering
+Learn how to formulate and solve linear regression problems, linear classification problems, and clustering problems.
+Course Topics
+ 
+Representative Assignments
+ 
+Grades
+ 
+Representative Textbooks and Other Course Materials
+ 
+ABET-EAC Criterion 3 Outcomes
+ 
+Learn how to implement basic machine-learning tasks in Python.
+Gain familiarity with model-order selection, feature selection, neural networks, and PCA.  
+Gain experience applying concepts from linear algebra and probability to engineering tasks.
+Topic
+Lec
+Rec
+Lab
+Cli
+IS
+Sem
+FE
+Wor
+Introduction to Machine Learning
+1.0
+Linear Regression
+6.0
+4.0
+Model-order Selection and Feature Selection
+6.0
+4.0
+Linear Classification, Logistic Regression, and Support 
+Vector Machine
+6.0
+4.0
+Optimization 
+3.0
+2.0
+Neural Networks and Deep Learning
+9.0
+6.0
+Principal Components Analysis and Clustering
+6.0
+4.0
+Homework problems that involve deriving and/or analyzing aspects of machine-learning algorithms.
+Coding labs that involve programming a machine-learning method in Python and applying it to a real-world dataset.
+Aspect
+Percent
+Homework
+19%
+Labs
+19%
+Two midterm exams
+38%
+Final project
+19%
+Participation
+5%
+Title
+Author
+An Introduction to Statistical Learning
+G. James, D. Witten, T. Hastie, and R. Tibshirani
+Machine Learning with Python Cookbook
+C. Albon
+Deep Learning with PyTorch
+E. Stevens and L. Antiga
+Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
+A. Geron
+Course Contribution
+College Outcome
+***
+a
+An ability to apply knowledge of mathematics, science, and engineering.
+b
+An ability to design and conduct experiments, as well as to analyze and interpret data.
+**
+c
+An ability to design a system, component, or process to meet desired needs.
+d
+An ability to function on multi-disciplinary teams.
+**
+e
+An ability to identify, formulate, and solve engineering problems.
+f
+An understanding of professional and ethical responsibility.
+CpE ABET-EAC Criterion 9 Program Criteria Outcomes
+ 
+EE ABET-EAC Criterion 9 Program Criteria Outcomes
+ 
+Additional Notes or Comments
+Change from ECE 5300 to add lab
+Prepared by: Philip Schniter
+Course Contribution
+College Outcome
+Course Contribution
+College Outcome
+g
+An ability to communicate effectively.
+h
+The broad education necessary to understand the impact of engineering solutions in a global and 
+societal context.
+i
+A recognition of the need for, and an ability to engage in life-long learning.
+j
+A knowledge of contemporary issues.
+**
+k
+An ability to use the techniques, skills, and modern engineering tools necessary for engineering 
+practice.
+Course Contribution
+Program Outcome
+***
+1
+an ability to identify, formulate, and solve complex engineering problems by applying principles 
+of engineering, science, and mathematics
+2
+an ability to apply engineering design to produce solutions that meet specified needs with 
+consideration of public health, safety, and welfare, as well as global, cultural, social, 
+environmental, and economic factors
+3
+an ability to communicate effectively with a range of audiences
+4
+an ability to recognize ethical and professional responsibilities in engineering situations and 
+make informed judgments, which must consider the impact of engineering solutions in global, 
+economic, environmental, and societal contexts
+*
+5
+an ability to function effectively on a team whose members together provide leadership, create a 
+collaborative and inclusive environment, establish goals, plan tasks, and meet objectives
+6
+an ability to develop and conduct appropriate experimentation, analyze and interpret data, and 
+use engineering judgment to draw conclusions
+7
+an ability to acquire and apply new knowledge as needed, using appropriate learning strategies 
+Course Contribution
+Program Outcome
+***
+1
+an ability to identify, formulate, and solve complex engineering problems by applying principles 
+of engineering, science, and mathematics
+2
+an ability to apply engineering design to produce solutions that meet specified needs with 
+consideration of public health, safety, and welfare, as well as global, cultural, social, 
+environmental, and economic factors
+3
+an ability to communicate effectively with a range of audiences
+4
+an ability to recognize ethical and professional responsibilities in engineering situations and 
+make informed judgments, which must consider the impact of engineering solutions in global, 
+economic, environmental, and societal contexts
+*
+5
+an ability to function effectively on a team whose members together provide leadership, create a 
+collaborative and inclusive environment, establish goals, plan tasks, and meet objectives
+6
+an ability to develop and conduct appropriate experimentation, analyze and interpret data, and 
+use engineering judgment to draw conclusions
+7
+an ability to acquire and apply new knowledge as needed, using appropriate learning strategies 
+

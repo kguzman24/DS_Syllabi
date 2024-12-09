@@ -1,0 +1,176 @@
+ELEC 378: Machine Learning: Concepts and Techniques 
+Rice University 
+Syllabus 
+Spring 2023 
+ 
+Overview 
+ 
+This course deals with machine learning, from its theoretical mathematical foundations to 
+practical implementation in computer algorithms for data science applications. The course 
+follows a deterministic rather than probabilistic approach to focus on the key concepts; linear 
+algebra plays a starring role.  
+ 
+Goals 
+ 
+At the conclusion of ELEC 378, you should have a solid understanding of 
+• 
+Machine learning concepts and theory 
+• 
+Machine learning algorithms for supervised and unsupervised tasks 
+• 
+The unifying role of linear algebra in machine learning 
+• 
+How these tools are used in real applications 
+ 
+Prerequisites 
+ 
+Open to students at all levels who are comfortable with 1) linear algebra and 2) coding in 
+Python (ideally), R, MATLAB.  The ideal linear algebra preparation is via a course such as 
+MATH/CAAM 335: Linear Algebra/Matrix Analysis. 
+ 
+Course Topics 
+ 
+Introduction 
+• 
+What is machine learning, data mining, and data science? 
+• 
+Mathematical preliminaries 
+ 
+Optimization 
+ 
+Unsupervised learning 
+• 
+Principal components analysis 
+• 
+k-means clustering 
+• 
+Hierarchical clustering 
+ 
+Supervised learning – Regression 
+• 
+Least squares 
+• 
+Ridge regression 
+• 
+Lasso 
+ 
+Supervised learning – Classification 
+• 
+k-nearest neighbors 
+• 
+Support vector machine (SVM) 
+• 
+Logistic regression 
+• 
+Feature engineering and learning 
+ 
+Kernel methods 
+• 
+The kernel trick 
+• 
+Kernel regression 
+• 
+Kernel SVM 
+ 
+Decision trees 
+ 
+Deep (neural) networks 
+• 
+Multilayer perceptron 
+• 
+Backpropagation learning 
+• 
+Deep networks 
+ 
+Course Textbooks 
+ 
+• 
+Recommended:  An Introduction to Statistical Learning, Gareth James, Daniela Witten, 
+Trevor Hastie, Robert Tibshirani (free at www.statlearning.com) 
+• 
+Highly recommended:  Linear Algebra and Its Applications, Gilbert Strang 
+• 
+For the ambitious and mathematically inclined:  An Introduction to Hilbert Space, N. 
+Young, Cambridge Mathematical Textbooks, 1988 
+ 
+Grading 
+ 
+25%  - Midterm Exam  
+25%  - Final Exam 
+25%  - Homework 
+25%  - Group Project 
+Up to 3% bonus for outstanding class participation (see below) 
+ 
+Study Groups 
+ 
+Students will form formal study groups to discuss and work on the homework assignment 
+together. We recommend that you meet as a group at least once per week. While group 
+discussion of homework problems is highly encouraged, students must always submit their 
+own work. Moreover, group work should not substitute for study on your own; at test time, only 
+a pencil and a notes sheet will accompany you. 
+ 
+Team Project Competition 
+ 
+Students will organize into groups to conduct a team project that applies the concepts learned 
+in the class. Teams will be mentored by an ECE grad student or postdoc researcher. The 
+project will involve a competitive aspect using Kaggle; the grade on a competition project will 
+be determined by (1) depth of exploration of the relevant concepts, and (2) quality of the 
+competition report, (3) performance on the test data set. 
+ 
+Class Participation 
+ 
+Up to 3% bonus to your grade will be assessed based on (1) your attendance, (2) your 
+participation in class, which includes posing and answering questions, (3) not using your laptop 
+or smartphone during class, (4) completing group activities during class, (5) participating in 
+office hours and Q/A sessions, and (6) finding errata in the course materials (see below). 
+ 
+Homework Policy 
+ 
+Homework will be posted each week on Piazza and is due by 5pm the following Friday. After 
+the due date, 0% credit will be issued. However, ALL ASSIGNMENTS MUST BE COMPLETED 
+AND TURNED IN, OR AN INCOMPLETE GRADE WILL BE ASSIGNED. Homework, tests, and 
+solutions from previous offerings of this course are off limits, under the honor code. 
+ 
+Errata 
+ 
+You will receive a bonus in the class participation section of your course grade for sufficient 
+contributions of errata to the course notes and CNX course text. Errata must be submitted on 
+this google form: http://bit.ly/301errata 
+ 
+Testing Policy 
+ 
+Unless otherwise noted on the test instructions, all tests are timed (typically 3 hours), closed 
+notes/books, and must be taken on your own (i.e., no collaboration with anyone else). Typically 
+you will be allowed bring a hand-written note sheet to the exam. Homework, tests, and 
+solutions from previous offerings of this course are off limits, under the honor code. 
+ 
+Honor Code 
+ 
+Homework, tests, and solutions from previous offerings of this course are off limits, under the 
+honor code. 
+ 
+Students with Disabilities 
+ 
+Any student with a documented disability needing academic adjustments or accommodations 
+is requested to speak with me during the first two weeks of class. All discussions will remain 
+confidential. Students with disabilities should also contact Disabled Student Services in the 
+Ley Student Center. 
+ 
+Suggestions 
+ 
+• 
+Remember the big picture 
+• 
+Read the textbooks and reference materials and explore the connections 
+• 
+Learn linear algebra! 
+• 
+Prepare your own summaries from texts and notes 
+• 
+Work seriously in your study group for homework and studying; explain the main 
+concepts to each other 
+• 
+This course is not about solving specific problems but about developing a problem-
+solving process that you can apply to general problems 
+ 
+

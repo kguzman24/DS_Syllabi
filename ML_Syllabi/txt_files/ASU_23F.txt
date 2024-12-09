@@ -1,0 +1,767 @@
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+CSE 475: Foundations of
+Machine Learning (Fall 2023)
+Goal: This course covers machine learning techniques to include data preparation,
+model evaluation, supervised learning, feature-based learning, deep neural networks,
+other machine learning techniques, machine learning operations, and ethical concerns.
+Prerequisites: No exceptions will be made to prerequisite requirements. Min C grade:
+Comp Sci BS, Comp Sys Engr BSE, Data Sci BS, or Informatics BS maj; CSE 310; DAT
+300 or IEE 380; MAT 342 or 343 OR Comp Sci or Software Engr grad student; Credit for
+only CSE 475 or 494 (Intro Machine Learning) OR Visiting University Student
+Course information
+Meeting times: M/W 4:30-5:45pm
+Location: CAVC 101 (ASU interactive map)
+Website: Canvas (https://canvas.asu.edu/courses/159370)
+Instructional team
+Name
+Role
+Email
+Office
+location
+Office
+hours
+Dr. Hannah Kerner
+Professor
+/Instructor
+hkerner@asu.edu
+BYENG
+570
+M/W
+2-3pm
+Gedeon Muhawenayo
+TA (Teaching
+Assistant)
+gmuhawen
+@asu.edu
+TBD
+TBD
+Harshit Pandey
+IA (Instructional
+Assistant)
+hpandey4
+@asu.edu
+TBD
+TBD
+Bhanu Tokas
+Grader
+btokas@asu.edu
+TBD
+TBD
+Kartik Jawanjal
+Grader
+kjawanja
+@asu.edu
+TBD
+TBD
+Textbook
+Required: zyBooks-based CSE 475 online textbook - textbook costs approximately $75
+and must be purchased to take the course. No exceptions and no sharing of textbooks.
+Other reference materials:
+●
+Deep Learning online textbook https://www.deeplearningbook.org
+1
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+●
+A Survey on Bias and Fairness in Machine Learning
+https://arxiv.org/pdf/1908.09635.pdf
+●
+Deep Learning: A Critical Appraisal
+https://arxiv.org/ftp/arxiv/papers/1801/1801.00631.pdf
+●
+Various other assigned online readings
+Software
+Students will use the following software packages during the course:
+●
+Python https://www.python.org/
+●
+scikit-learn https://scikit-learn.org/stable/
+●
+Pandas https://pandas.pydata.org/
+●
+Matplotlib https://matplotlib.org/
+●
+PyTorch https://pytorch.org/
+●
+Jupyter Labs (or similar) https://jupyter.org/
+Debugging
+All students are expected, as a prerequisite, to be knowledgeable in basic programming
+and IT skills, to include (but not limited to) installing software and libraries, writing
+Python programs, debugging code, reading text files, etc. No member of the
+instructional team will debug student code.
+Computer requirements and IT notes
+●
+Students are required to have a functioning laptop that they bring to class
+●
+Third party cookies need to be unblocked
+●
+Google Chrome is the recommended web browser for the course, use of other
+web browsers may result in improper rendering of course materials
+●
+Students are responsible to report personal IT issues (e.g., browser settings,
+camera settings etc.)
+●
+Extensions will not be granted for connectivity or bandwidth issues
+Course topics
+Course intro / syllabus
+●
+1 module (Module 0)
+Unit 1: Basic Concepts
+●
+4 modules (Module 1-4)
+●
+1 proctored exam (entire class period)
+Unit 2: Feature-based learning
+●
+4 modules (Module 5-8)
+●
+1 proctored exam (entire class period)
+Unit 3: Deep Learning I
+2
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+●
+3 modules (Module 9-11)
+●
+1 proctored exam (entire class period)
+Unit 4: Deep Learning II
+●
+4 modules (Module 12-15)
+●
+1 proctored exam (entire class period)
+Unit 5: Advanced Topics
+●
+5 modules (Module 16-20)
+●
+1 proctored exam (entire class period)
+Learning outcomes
+By the end of this course, students will:
+1. Survey the basic concepts of a machine learning solution to include data
+preparation, training, testing, and deployment.
+i.
+1.1. Examine the basic characteristics of a machine learning approach.
+ii.
+1.2. Prepare data for use by a feature-based machine learning approach
+iii.
+1.3. Prepare a simple supervised, feature-based model for classification
+(decision tree)
+iv.
+1.4. Prepare a supervised machine learning model for deployment
+2. Formulate the concepts inherent to feature-based supervised machine
+learning
+i.
+2.1. Prepare a random forest model for classification
+ii.
+2.2. Prepare a model for a regression task
+iii.
+2.3. Sketch how optimization techniques are used in machine learning
+iv.
+2.4. Outline other approaches for feature-based supervised learning.
+3. Formulate the basic concepts inherent to supervised deep learning
+approaches.
+i.
+3.1. Sketch the basic concept of neural network structure
+ii.
+3.2. Sketch how neural networks are trained and the considerations of
+training and prepare a neural network by supervised training
+iii.
+3.3. Prepare a convolutional neural network (CNN) for deployment
+4. Sketch advanced neural network concepts
+i.
+4.1. Prepare a recurrent neural network (RNN) for deployment
+ii.
+4.2. Examine deployment issues for deep learning and describe how they
+can impact performance
+iii.
+4.3. Sketch the transformer architecture and the use of pre-trained
+transformer models
+iv.
+4.4. Sketch reinforcement learning / deep reinforcement learning
+5. Formulate the concepts of machine learning used in non-parametric and
+unsupervised cases
+i.
+5.1. Prepare a nonparametric model for deployment
+ii.
+5.2. Prepare an unsupervised model for deployment
+iii.
+5.3. Prepare a rule learning framework for deployment
+6. Survey key concepts regarding ethics and limitations in machine learning.
+3
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+i.
+6.1. Survey bias and fairness in machine learning
+ii.
+6.2. Critique key shortcomings of current machine learning methods
+including adversarial attacks and data considerations
+Class routine
+Flipped classroom: This course uses a “flipped classroom” format in which course
+material is reviewed by the student independently prior to class, and in-class time is
+dedicated to discussion, inquiry, application, and assessment of the topics reviewed
+prior to class.
+Class structure: The course consists of 5 units, with each unit containing 3-5 modules
+(most contain 4 modules). Each module is associated with one in-class session.
+●
+Prior to the in-class session: The student must complete online lectures,
+reading, and exercises for that module on Zybooks.
+●
+First 15 minutes (4:30-4:45pm): The instructor will give a short presentation
+which may consist of a review of the module topic, contextualization of the
+module topic in research or real-world applications, guest lecture/interview, or
+other short activity.
+●
+Next 30 minutes (4:45-5:15pm): During the next 30 minutes of the in-class
+session, students will be issued a review sheet via Canvas covering major topics.
+Some class periods will also have an ICE to be completed during this time.
+Students can work individually or in small groups to complete the questions on
+the review sheet and ICE. The review sheet is not graded, but the ICE is graded.
+The instructor and TA will be available to help answer questions.
+●
+Remaining 30 minutes (5:15-5:45pm): All students must individually complete a
+quiz for the module, for which they have 30 minutes to complete. The quiz is
+graded and can only be taken once.
+●
+Workshop classes: Unit 3 and Unit 4 contain a “Workshop Module” on the class
+session before the exam is administered (October 16 for Unit 3 and November 6
+for Unit 4). The Workshops will be TA-led and are designed to allow students to
+ask questions about the lab or upcoming examination (that are both due in the
+following session). There are no graded assignments during the Workshop
+Module.
+Key dates and deadlines
+Zybooks module completion (readings, videos, exercises, etc.) are due by the start
+of class on the day of class for that module (e.g., Module 1 should be completed by
+4:30pm on August 23, 2023 and Module 18 should be completed by 4:30pm on
+November 20, 2023). All times are in the Arizona time zone.
+Module quizzes will open after the first 45 minutes of class (5:15pm) and are due at the
+end of each class (5:45pm).
+Unit exams will open at the start of the class period and are due at the end of the class
+period (5:45pm) on the day they are administered.
+4
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+In-Class Exercises (ICEs) and Unit labs are due on the day of the exam at the end of
+the class period (5:45pm).
+Tentative Schedule
+Day
+Unit
+Theme
+Module
+Unit
+17-Aug-23
+Term Start
+21-Aug-23
+0
+Intro
+0 (Course introduction)
+0
+23-Aug-23
+1
+ML Basics
+1 (Machine learning basics)
+1
+28-Aug-23
+2 (Data and features)
+1
+30-Aug-23
+3 (Supervised classification)
+1
+4-Sept-23
+NO CLASS (LABOR DAY)
+NO CLASS
+6-Sept-23
+4 (Model evaluation)
+1
+11-Sept-23
+Unit 1 exam / lab due
+1
+13-Sept-23
+2
+Supervised
+Machine
+Learning
+5 (Random forest)
+2
+18-Sept-23
+6 (Linear regression)
+2
+20-Sept-23
+7 (Optimization)
+2
+25-Sept-23
+8 (Other methods)
+2
+27-Sept-23
+Unit 2 exam / lab due
+2
+2-Oct-23
+3
+Neural
+Networks
+9 (Intro to neural networks)
+3
+4-Oct-23
+10 (Neural network training)
+3
+9-Oct-23
+NO CLASS (FALL BREAK)
+NO CLASS
+11-Oct-23
+11 (Convolutional networks)
+3
+16-Oct-23
+Workshop module for Unit 3
+3
+18-Oct-23
+Unit 3 exam / lab due
+3
+23-Oct-23
+4
+Neural
+Networks II
+12 (Recurrent networks)
+4
+25-Oct-23
+13 (Advanced deep learning)
+4
+30-Oct-23
+14 (Transformers/pre-training)
+4
+1-Nov-23
+15 (Reinforcement learning)
+4
+6-Nov-23
+Workshop module for Unit 4
+4
+8-Nov-23
+Unit 4 exam / lab due
+4
+13-Nov-23
+5
+Ethics &
+limitations
+16 (Non-parametric models)
+5
+15-Nov-23
+17 (Clustering)
+5
+20-Nov-23
+18 (Rule learning)
+5
+22-Nov-23
+19 (Bias and fairness)
+5
+27-Nov-23
+20 (Limitations of ML)
+5
+29-Nov-23
+Unit 5 exam / lab due
+5
+1-Dec-23
+Term End
+5
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+Assignment types and point distribution
+There are 1,000 base points in this class. Percentages can be multiplied by 1,000 to
+determine point amounts.
+Category
+Quantity
+Assignment types
+Percent of
+total grade
+Unit exams
+5
+Multiple choice exam, 1 page (double sided)
+notes allowed, auto-graded on Canvas
+25%
+Module
+quizzes
+20
+One quiz per module, administered via
+Canvas (1.5% per module)
+30%
+Module
+reading and
+exercises
+20
+Reading and exercises in Zybooks for each
+module (1.4% per module)
+28%
+Unit labs
+5
+Graded labs, administered in Gradescope:
+3% for full labs (units 1, 2, 5) and 1.5% for
+half-labs (units 3, 4)
+12%
+In-class
+exercises
+(ICEs)
+10
+Administered throughout the course through
+either zyBooks or Gradescope, 0.4% each
+4%
+Syllabus
+quiz
+1
+Quiz about syllabus in Canvas
+1%
+Total
+100%
+Description of assignment types
+●
+Syllabus quiz: Multiple-choice / short answer, administered electronically and
+automatically graded
+○
+Individual completion
+○
+Use of notes and computer permitted
+○
+Use of electronic communication is prohibited
+○
+Students may attempt this quiz only once
+●
+Module reading and exercises: These activities can be thought of as
+“participation credit” - these are points awarded for working through the required
+materials in Zybooks and are graded based on completion
+○
+These assignments must be completed by the individual student, but
+students may discuss module readings, videos, and exercises amongst
+each other (note this does not apply to the labs)
+○
+Use of notes and computer permitted
+○
+Students may attempt exercises in the modules multiple times
+6
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+○
+All Zybooks exercises must be accessed via a link in Canvas in order to
+obtain credit; otherwise the student will receive a score of ZERO
+●
+Module quizzes: Multiple-choice / short answer, administered electronically
+in-class and automatically graded
+○
+Individual completion
+○
+Use of notes and computer permitted
+○
+Use of electronic communication is prohibited
+○
+Students may attempt each quiz only once
+○
+Note that the quizzes have very specific instructions on rounding,
+punctuation, capitalization, spacing etc. Failure to follow those instructions
+will result in the loss of points. Students are required to read and follow all
+quiz instructions and review their work prior to submission.
+●
+In-Class Exercises (ICEs): Short programming exercises done in-class
+○
+Individual completion, but students may work on the ICE’s outside of class
+○
+Use of notes and computer permitted
+○
+Students may attempt each ICE only once
+○
+All Zybooks ICE’s must be accessed via a link in Canvas in order to obtain
+credit; otherwise the student will receive a score of ZERO
+●
+Unit labs: Administered electronically and consist of short programming
+exercises relating to certain objectives in each unit; they are automatically graded
+○
+Individual event
+○
+Students may attempt each lab only once
+○
+Use of notes and computer permitted
+○
+All Zybooks labs must be accessed via a link in Canvas in order to obtain
+credit; otherwise the student will receive a score of ZERO
+●
+Unit exams: Multiple-choice / short answer, administered electronically in-class
+and automatically graded
+○
+Individual completion
+○
+One page of notes on 8.5”x11” paper front and back is permitted. Note
+sheets must be turned in with the exam and must be hardcopy
+(handwritten or typed) – electronic note sheets are not permitted.
+○
+Students may bring scratch paper as long as it is totally blank and they
+show it to a member of the instruction team on the day of the exam.
+○
+Only the online test and the calculator in the online testing platform are
+permitted to be used during the exam. Students MAY NOT use a handheld
+calculator.
+○
+No other notes permitted and no other electronic devices (e.g., computer,
+phone) permitted
+○
+The use of a phone is NOT PERMITTED during an exam. If you are
+caught using your phone, you will automatically receive a zero on
+the exam – no exceptions. The best practice is to ensure that all
+phones are off during the exam.
+○
+No external software applications or websites beyond those stated above
+○
+Students may attempt each exam only once
+○
+Students will have the entire class period to complete the exam
+7
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+Grading
+Your grade will be determined based on the following grading scheme:
+Grade
+Percentage
+Grade
+Percentage
+A+
+100-97%
+B-
+<84-80%
+A
+<97-94%
+C+
+<80-77%
+A-
+<94-90%
+C
+<77-70%
+B+
+<90-87%
+D
+<70-60%
+B
+<87-84%
+E
+<60%
+Grade appeals
+Any grade appeal must happen within 24 hours of the grade’s posting. Later appeal will
+not be considered. Grade appeals must be sent by Canvas mail. If an automatically
+graded assignment (other than labs or re-grades announced by the instructional team)
+does not post within 24 hours of completion, the student should assume the assignment
+was scored a zero and should contact the instructional team with any discrepancy.
+Grade changes will only be made if there is an error in assignment grading. No
+grade changes will be made based on student requests for rounding, alternate
+interpretations of assignments, or any other reason.
+Lecture notes and course materials
+Lecture notes will be available via ASU Canvas and Zybooks. The notes will be posted
+before each lecture. All contents of these lectures, including notes and assignments
+distributed to the class, are under copyright protection. They may not be redistributed,
+sold or commercialized without the express permission of the instructor. In other
+words, you may not post the course materials on CourseHero, share them with
+other students, or any other re-distribution of the material.
+Copyright policy
+Course content, including lectures, are copyrighted materials and students may not
+share outside the class, upload to online websites not approved by the instructor, sell, or
+distribute course content or notes taken during the conduct of the course (see ACD
+304–06, “Commercial Note Taking Services ” and ABOR Policy 5-308 F.14 for more).
+Students may not upload or submit any material that is not the student's original work,
+unless the students comply with all applicable copyright laws; faculty members reserve
+the right to delete materials on the grounds of suspected copyright infringement.
+8
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+Absences and late or missed assignments
+Graded events for which a student is not present will be scored as zero. Any
+assignment not submitted by the due date/time will be scored zero. In extreme cases,
+there may be special approvals. As most of the graded events are already built with
+maximum flexibility already in mind, the approval standards differ by graded assignment
+– and will only be considered in the cases of quizzes or exams.
+●
+Syllabus quiz: The syllabus quiz will be issued on the first day of instruction. If
+you cannot attend the first day of instruction, please contact the TA team prior to
+the first day of class. Appropriate documentation must be provided for approval.
+●
+Module readings, videos, and exercises (Zybooks): Since all Zybooks
+materials will be available starting on the first day of the course, there will be no
+extension granted to the due date for any module reading, video, exercise group.
+●
+In-Class Exercises (ICE’s): If a student misses class, they may complete the
+ICE on their own. No extensions for ICE completion will be granted.
+●
+Module quizzes:
+○
+All students: The lowest two module quiz scores will be dropped and
+replaced with a score of 15/15. This is designed to support students who
+may miss in-class quizzes for excused reasons.
+○
+Students who miss 1 or 2 quizzes: No documentation is required (and
+none will be accepted), as the missed quizzes will be the replaced scores.
+○
+Students who miss >2 quizzes: The student must provide documentation
+for all excusable quiz absences. For excused quiz absences beyond 2
+missed quizzes, a make-up or alternate event will be coordinated with the
+TA. For example, if the student misses 3 quizzes, the student must provide
+documentation for all 3 missed quizzes and will be required to coordinate
+with the TA to take make-up for the missed quiz.
+○
+Unit Labs: Since all unit labs will be available starting on the first day of
+the course, there will be no extension granted for any unit lab.
+○
+Unit Exams: All make-up/make-ahead coordination for unit exams must be
+made with the TA. Documentation must be provided for all unit exam
+make-up / make ahead.
+Required documentation for Make-up/Make-ahead requests
+In general, requests for make-up and make-ahead assignments will not be approved. In
+extreme cases, for items in the previous section requiring an alternate event, students
+must follow the below procedures for make-up or make-ahead requests.
+If the student knows they will miss a graded event at least 72 hours prior to its
+occurrence, they may be eligible for a make-ahead event.
+●
+Make-ahead events must be coordinated with the TA at least 72 hours prior
+●
+Required documentation must be submitted to the TA at least 72 hours prior
+●
+The TA may work with the student to schedule the make-ahead either before or
+after the graded event occurs
+●
+All make-aheads must be approved by the instructor upon review of
+documentation
+9
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+●
+Make-aheads may be allowed for the following scenarios with required
+documentation:
+○
+Excused absences related to religious observances/practices that are in
+accord with ACD 304–04, “Accommodation for Religious Practices”
+○
+Excused absences related to university sanctioned events/activities that
+are in accord with ACD 304–02, “Missed Classes Due to
+University-Sanctioned Activities”
+○
+Excused absences related to missed class due to military line-of-duty
+activities that are in accord with ACD 304–11
+○
+Funeral of an immediate family member: If you need to attend the funeral
+of an immediate family member (defined as grand-parent, parent, spouse,
+sibling or child), you need the instructor's prior approval. Proof is required.
+In the case of an emergency situation where the student misses a class due to an
+extreme situation, there may be a possibility of a make-up.
+●
+Make-up events must be coordinated with the TA no later than 24 hours following
+the due-date/time of the event
+●
+Required documentation must be submitted to the TA no later than 24 hours the
+due-date/time of the event
+●
+All make-ups must be approved by the instructor upon review of documentation
+●
+Make-ups may be allowed for the following scenarios with documentation:
+○
+Medical Problems: You need to submit a statement with the signature of
+the doctor and the seal of the hospital saying that you were not able to be
+in class at the specified time.
+○
+Travel Accident: You need to submit a police report stating that you are
+involved in an accident and show a printout on “Google maps” to certify
+that you could not arrive on-time for the graded event.
+●
+Note: medical emergencies/conditions may qualify for special considerations like
+late withdrawal or incomplete grade, but do not automatically warrant a make-up.
+Note on COVID-19 positive tests. Students who test positive for a COVID-19 variant
+who are not hospitalized and capable of working must contact the TA team to ensure
+they can complete in-class assignments from a remote, isolated location. Students who
+test positive for COVID-19 are not permitted to attend in-person sessions.
+Note on technology issues. End-user technology issues are not excuses for late or
+missed assignments. It is the student’s responsibility to ensure all course work can be
+completed including a back-up plan should your computer, internet connection, or other
+technology fail. Students are recommended to backup all work using Github, a USB
+drive, an external drive, or a cloud service such as Dropbox, Google Drive, or iCloud.
+Electronic communication and email policy
+All communication with the instructor, TA, IA, or grading team will be through Canvas.
+The instructor, TA, and grading team will not respond to emails.
+Please use the following order of operations for contacting the instructional team:
+10
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+1. Canvas Discussion Board: If you have a question that is not of a personal
+nature, please post the question on the Discussion Board on Canvas. It’s likely
+that another student has the same question, so you will be helping them and the
+instructional team by posting your question here. Students are encouraged to
+respond to the questions of their classmates. Prior to posting a question or
+comment, check the syllabus, announcements, and existing posts to ensure it's
+not redundant.
+2. Attend office hours: If you have a question that cannot be answered through
+the Discussion Board, attend office hours hosted by the instructional team.
+3. Canvas Mail: If your communication cannot be addressed through the
+discussion board or office hours, then you can send a message via Canvas to
+the TA. The TA will directly answer your message, unless the TA feels that my
+direct assistance is needed.
+Additional notes about communication:
+●
+Communication will be reviewed once per day, Monday through Friday during
+business hours (approximately 9am-5pm).
+●
+All communication must be directed to the TA.
+●
+Messages should be clear, self-contained, and to the point.
+●
+Messages should not ask questions whose answers are obviously shown in the
+course syllabus, class notes/class materials, or other materials on Canvas.
+●
+Avoid asking questions in electronic communications that should be raised either
+in class or in individual consultation with the TA during office hours. These
+include questions of an excessively conceptual nature, and questions that require
+an unreasonable amount of time from the instructor/TA.
+●
+A good rule of thumb: if your question cannot be answered in a short paragraph
+(1-3 sentences), then it is not appropriate for electronic communication.
+Academic integrity
+Students in this class must adhere to ASU’s academic integrity policy, which can be
+found at https://provost.asu.edu/academic-integrity/policy). Students are responsible
+for reviewing this policy and understanding each of the areas in which academic
+dishonesty can occur. In addition, all engineering students are expected to adhere to
+the ASU Academic Integrity Honor Code. All academic integrity violations will be
+reported to the Fulton Schools of Engineering Academic Integrity Office (AIO).
+The AIO maintains a record of all violations and has access to academic integrity
+violations committed in all other ASU colleges/schools.
+Specific rules for this class are as follows. All assignments and projects must be your
+own individual work unless specified as team efforts. You are encouraged to learn from
+each other but copying is strongly discouraged. All solutions turned in for credit are to
+be your individual work and should demonstrate your problem-solving skills. The
+instructor reserves the right to question a student orally or in writing and to use their
+evaluation of the student's understanding of the assignment and of the submitted
+solution as evidence of cheating. Violators of this policy will be faced with severe
+penalties, which may range from deducted points to failure of the course.
+11
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+Harassment and Sexual Discrimination
+Arizona State University is committed to providing an environment free of discrimination,
+harassment, or retaliation for the entire university community, including all students,
+faculty members, staff employees, and guests. ASU expressly prohibits discrimination,
+harassment, and retaliation by employees, students, contractors, or agents of the
+university based on any protected status: race, color, religion, sex, national origin, age,
+disability, veteran status, sexual orientation, gender identity, and genetic information.
+Title IX is a federal law that provides that no person be excluded on the basis of sex
+from participation in, be denied benefits of, or be subjected to discrimination under any
+education program or activity. Both Title IX and university policy make clear that sexual
+violence and harassment based on sex is prohibited. An individual who believes they
+have been subjected to sexual violence or harassed on the basis of sex can seek
+support, including counseling and academic support, from the university. If you or
+someone you know has been harassed on the basis of sex or sexually assaulted, you
+can find information and resources at https://sexualviolenceprevention.asu.edu/faqs.
+As a mandated reporter, I am obligated to report any information I become aware of
+regarding alleged acts of sexual discrimination, including sexual violence and dating
+violence. ASU Counseling Services, https://eoss.asu.edu/counseling is available if you
+wish to discuss any concerns confidentially and privately. ASU online students may
+access 360 Life Services, https://goto.asuonline.asu.edu/success/online-resources.html.
+Disability accommodations
+Suitable accommodations are made for students having disabilities. Students needing
+accommodations must register with the ASU Disabilities Resource Center and provide
+documentation of that registration to the instructor. Students should communicate the
+need for an accommodation in enough time for it to be properly arranged. See ACD
+304-08 Classroom and Testing Accommodations for Students with Disabilities.
+Class behavior
+Students, faculty, staff, and other individuals do not have an unqualified right of access
+to university grounds, property, or services (see SSM 104-02). Interfering with the
+peaceful conduct of university-related business or activities or remaining on campus
+grounds after a request to leave may be considered a crime. All incidents and
+allegations of violent or threatening conduct by an ASU student (whether on- or
+off-campus) must be reported to the ASU Police Department (ASU PD) and the Office of
+the Dean of Students.
+Waiting for an absent instructor
+In the event the instructor fails to indicate a time obligation, the time obligation will be 15
+minutes for class sessions lasting 90 minutes or less, and 30 minutes for class sessions
+lasting more than 90 minutes. Students may be directed to wait longer by someone from
+the academic unit if they know the instructor will arrive shortly.
+12
+NO SPECIAL EXCEPTIONS ARE GRANTED TO THE POLICIES OF THIS SYLLABUS
+Syllabus disclaimer
+Any information in this syllabus (other than grading and absence policies) may be
+subject to change with reasonable advance notice. Remember to check your ASU email
+and the course site often.
+13
+

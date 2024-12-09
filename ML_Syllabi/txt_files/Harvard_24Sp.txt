@@ -1,0 +1,505 @@
+1
+W
+eb
+sit
+e
+Ed 
+for
+um
+Google 
+Calendar
+Resour
+ces
+Textbo
+ok
+Hom
+ewor
+ks
+Grad
+esco
+pe
+Attendance form
+2 Da
+te
+We
+ek
+D
+a
+y Lecture topic
+Resou
+rces
+Readin
+gs
+HW 
+relea
+sed
+HW 
+due
+Section (cycle starts 
+after Tuesday lecture)
+3
+Ja
+n 
+12 0
+F
+ri
+HW 0
+4
+Ja
+n 
+23 1
+T
+u
+e 1. Intro
+Scribe 
+notes, 
+Slides
+1
+HW 1
+S0: Math review and 
+code review (notebook + 
+data)
+5 Ja
+n 
+25 1
+T
+h
+u
+2. Linear 
+regression
+Scribe 
+notes
+2.3-
+2.5, 
+2.6.1, 
+2.7.1
+Solutions
+6
+Ja
+n 
+26 1
+F
+ri
+HW 0
+7
+Ja
+n 
+30 2
+T
+u
+e
+3. Probabilistic 
+linear regression
+Scribe 
+notes
+2.6.2, 
+2.6.3
+S1: Linear regression
+8 Fe
+b 1 2
+T
+h
+u
+4. Linear 
+classification
+Scribe 
+notes
+3.1-3.5
+Solutions
+9 Fe
+b 2 2
+F
+ri
+1
+0 Fe
+b 6 3
+T
+u
+e
+5. Probabilistic 
+classification
+Scribe 
+notes
+3.6
+S2: Linear classification, 
+probabilistic classification
+1
+1 Fe
+b 8 3
+T
+h
+u
+6. Frequentist 
+model selection
+Scribe 
+notes
+2.7, 2.8
+Solutions
+1
+2 Fe
+b 9 3
+F
+ri
+HW 2
+HW 1 
+(Sat 
+10)
+1
+3
+Fe
+b 
+13 4
+T
+u
+e
+7. Bayesian 
+model selection
+Scribe 
+notes
+2.8, 2.9
+S3: Model selection
+1
+4
+Fe
+b 
+15 4
+T
+h
+u
+8. Neural 
+networks (Part 
+1)
+Scribe 
+notes
+4.1-
+4.4, 4.6
+Solutions
+1
+5
+Fe
+b 
+16 4
+F
+ri
+1
+6
+Fe
+b 
+20 5
+T
+u
+e
+9. Neural 
+networks (Part 
+2)
+Scribe 
+notes
+4.4
+S4: Neural networks
+1
+7
+Fe
+b 
+22 5
+T
+h
+u
+10. Support 
+vector machines 
+(Part 1)
+Scribe 
+notes
+5.1-5.3
+Solutions
+1
+8
+Fe
+b 
+23 5
+F
+ri
+HW 3 HW 2
+1
+9
+Fe
+b 
+27 6
+T
+u
+e
+11. Support 
+vector machines 
+(Part 2)
+Scribe 
+notes
+5.4
+Midterm 1 review
+2
+0
+Fe
+b 
+29 6
+T
+h
+u 12. Clustering
+Scribe 
+notes
+6
+Solutions
+2
+1
+Ma
+r 1 6
+F
+ri
+2
+2 Ma
+r 5 7
+T
+u
+e Midterm 1
+S5: Margin-based 
+methods, support vector 
+machines
+2
+3 Ma
+r 7 7
+T
+h
+u
+13. Embedded 
+EthiCS
+N/A
+Solutions
+2
+4 Ma
+r 8 7
+F
+ri
+HW 4
+HW 3 
+(Sun 
+10)
+2
+5
+8
+Spring break
+2
+6
+Ma
+r 
+19 9
+T
+u
+e
+14. Mixture 
+models
+Scribe 
+notes
+9
+S6: Clustering, mixture 
+models
+2
+7
+Ma
+r 
+21 9
+T
+h
+u
+15. Principal 
+component 
+analysis
+Scribe 
+notes
+7
+Solutions
+2
+8
+Ma
+r 
+22 9
+F
+ri
+HW 5 
+(Sun
+day)
+2
+9
+Ma
+r 
+26 10
+T
+u
+e
+16. Topic 
+models
+Scribe 
+notes
+9.6
+S7: Principal component 
+analysis, topic models, 
+ensemble methods
+3
+0
+Ma
+r 
+28 10
+T
+h
+u
+17. Graphical 
+models
+Scribe 
+notes
+8
+Solutions
+3
+1
+Ma
+r 
+29 10
+F
+ri
+HW 4
+3
+2 Ap
+r 2 11
+T
+u
+e
+18. Inference for 
+Bayesian 
+networks
+Scribe 
+notes
+8
+S8: Bayesian networks
+3
+3 Ap
+r 4 11
+T
+h
+u
+19. Hidden 
+Markov models
+Scribe 
+notes
+10
+Solutions
+3
+4
+Ap
+r 5 11
+F
+ri
+More notes, even more 
+notes
+3
+5 Ap
+r 9 12
+T
+u
+e
+20. Single-agent 
+Markov decision 
+processes
+Scribe 
+notes
+11
+S9: Hidden Markov 
+models, Kalman filters
+3
+6
+Ap
+r 
+11 12
+T
+h
+u
+21. 
+Reinforcement 
+learning (Part 1)
+Scribe 
+notes
+12
+HW 6
+Solutions
+3
+7
+Ap
+r 
+12 12
+F
+ri
+HW 5
+3
+8
+Ap
+r 
+16 13
+T
+u
+e
+22. 
+Reinforcement 
+learning (Part 2)
+Scribe 
+notes
+12
+S10: Markov decision 
+processes, reinforcement 
+learning
+3
+9
+Ap
+r 
+18 13
+T
+h
+u
+23. Multi-agent 
+MDPs and 
+games
+Scribe 
+notes
+Solutions
+4
+0
+Ap
+r 
+19 13
+F
+ri
+Midterm 2 review 
+(weekend), checklist
+4
+1
+Ap
+r 
+23 14
+T
+u
+e Midterm 2
+Midterm 2 review 
+questions, solutions
+4
+2
+Ap
+r 
+25 14
+T
+h
+u
+Additional Midterm 2 
+review questions, 
+solutions
+4
+3
+Ap
+r 
+26 14
+F
+ri
+HW 6
+

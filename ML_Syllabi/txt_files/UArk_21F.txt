@@ -1,0 +1,85 @@
+CSCE 5063 – 001 Machine Learning
+Fall 2021 Course Syllabus
+JBHT Rm 0236, MoWeFr 15:05 - 15:55
+Schedule      Projects
+ 
+Instructor       Dr. Lu Zhang
+Office JBHT 522, (479)575-4382
+Email               lz006 at uark dot edu
+URL                  http://csce.uark.edu/~lz006/
+Office Hours   MoWe 16:00 – 17:00 or by appointment
+ 
+Course Material
+The Elements of Statistical Learning, by Trevor Hastie, et. al. 
+(2009). Available online: 
+https://web.stanford.edu/~hastie/ElemStatLearn/
+Machine Learning: A Probabilistic Perspective, by Kevin Murphy 
+(2012)     
+Understanding Machine Learning: From Theory to Algorithms, by 
+Shai Shalev-Shwartz and Shai Ben-David (2014). Available online: 
+https://www.cse.huji.ac.il/~shais/UnderstandingMachineLearning
+/
+Dive into Deep Learning, by Aston Zhang and Zachary C. Lipton 
+and Mu Li and Alexander J. Smola (2020). Available online: 
+https://d2l.ai/
+ 
+Grading
+Homework 30%, mid-term 15%, group project 30%, final 25%.
+ 
+Face to Face Delivery Plan
+         According to the university policy, all classes in this 
+semester will be in-person. Students are expected to 
+attend face-to-face lectures under normal conditions.
+         Meanwhile, all lectures will be recorded within 
+Blackboard for students who need to isolate or need to 
+quarantine due to Covid-19 exposure to view.
+         As the COVID-19 delta variant is increasing in our area, 
+students can request in writing (i.e., email) not to attend a 
+face-to-face lecture but view a recorded lecture, and I will 
+decide whether to accommodate the request. If you would 
+like to do so, please send an email directly to me for 
+making this request. Please remember that I reserve the 
+right to stop the viewing of recorded lectures and require 
+face-to-face attendance at any time.
+         According to the new policy, masks will be required in the 
+classroom when at least 6-feet of social distancing can’t be 
+maintained.
+ 
+Topic Outline
+1
+Introduction
+Preliminaries
+2
+Linear regression
+Decision tree
+3
+Bayes classifier
+Instance based learning
+4
+Logistic regression
+Perceptron
+5
+Support vector machine
+Kernel methods
+6
+Neural networks
+PAC learning theorem
+7
+Clustering
+EM algorithm
+8
+Principle component analysis
+Recommender systems
+9
+Multi-armed bandit
+Causal modeling and inference
+10
+Fairness-aware machine learning
+Introduction to deep learning
+11
+Large-scale machine learning
+Software and packages for mac
+learning
+ 
+ 
+

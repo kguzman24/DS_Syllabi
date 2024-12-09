@@ -1,0 +1,573 @@
+Intro to Machine Learning
+Tufts CS 135 | Fall 2023
+Syllabus
+Schedule
+Assignments
+Office Hours
+Resources
+Schedule
+Jump to:
+[Unit 1: Regression] - [Unit 2: Classification] - [Unit 3: Neural Nets]
+[Unit 4: Trees and Ensembles] - [Unit 5: Kernels] - [Unit 6: PCA & Rec. Sys.]
+Please complete assigned readings before the start of class.
+Course Introduction
+Concepts: supervised learning, unsupervised learning, difference between ML and AI
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 09/05
+day01
+out:
+- HW0
+Readings:
+- Course syllabus
+Course Overview
+Slides:
+- Why take this course?
+- How will semester go?
+Lab Notebook:
+- Intro to Arrays in NumPy
+[colab]
+- Intro to Pandas and
+Plotting [colab]
+ 
+Unit 1: Regression
+Concepts: over-fitting, under-fitting, cross-validation
+Methods: Linear regression, k-NN regression
+Evaluation: mean squared error, mean absolute error
+Work: HW1
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Thu 09/07
+day02
+due on
+Mon
+- HW0
+Readings:
+- Install your Python
+environment
+-
+- Read ISLP Ch. 1 :
+- Focus: 'Notation and
+Simple Matrix Algebra'
+-
+- Read ISLP Ch. 2 : Sec.
+2.1 & Sec. 2.2
+- Focus: 'Parametric
+Methods'
+- Focus: 'Assessing
+Model Accuracy'
+Regression basics
+Slides:
+- Regression basics
+- HW0 tips / doctest guide
+Lab Notebook:
+- Regr Demo on Abalone
+[colab]
+- Alt. intro to
+supervised
+ML: SML Sec.
+2.1
+- More on k-
+NN: SML Sec.
+2.2: k-NN
+- Focus: 'K-Nearest
+Neighbors'
+Tue 09/12
+day03
+out
+- HW1
+Readings:
+- SML Sec. 3.1
+- Notes on estimating
+coefs [PDF]
+Linear regression
+Slides:
+- Linear regression
+- HW0 recap
+Lab Notebook:
+- Linear Regr. from 1D to
+any-D [colab]
+- Derivation:
+SML Sec. 3.A
+- Read MML
+Textbook Ch.
+9 : Sec. 9.1-
+9.2
+- Derivation
+with
+probabilistic
+perspective
+Thu 09/14
+day04
+ 
+Readings:
+- Skim ISLP Ch. 3 : -
+Focus: 3.3.2 Extensions
+of the Linear Model
+- Esp. pages 98-99 on
+'Non-linear
+Relationships'
+- Read ISLP Ch. 5 : -
+Focus: 5.1.1 Validation
+Set Approach
+- Focus: 5.1.3 k-fold
+Cross-Validation
+Model selection & Cross
+validation
+Slides:
+- Hyperparam. Selection
+Lab Notebook:
+- Hyperparam Selection
+[colab]
+ 
+Tue 09/19
+day05
+ 
+Readings:
+- Read SML Sec. 3.3
+- Read SML Sec. 5.3
+Regularization
+Slides:
+- Regularization
+- HW1 tips
+Lab Notebook:
+- Regularization: L2
+(ridge) vs L1 (lasso)
+[colab]
+- Read: ISLP
+Ch. 6 : Sec.
+6.2.1, 6.2.2,
+and 6.2.3
+-
+- Video by
+Prof. A. Ihler
+(UC-Irvine):
+Regularization
+for Linear
+Regression
+Thu 09/21
+day06
+due:
+-HW1
+Readings:
+- Read SML Sec. 5.4
+--- Focus: 'Gradient
+Descent' in Alg. 5.1
+Gradient Descent
+Slides:
+- Gradient Descent
+Lab Notebook:
+- Gradient Descent in 1D
+[colab]
+- Read DL
+Textbook Sec.
+4.3 : Gradient
+Descent
+Unit 2: Classification
+Concepts: feature engineering, hyperparameter selection, gradient descent
+Methods: Logistic regression, k-NN classification
+Evaluation: ROC curves, confusion matrices, cross entropy
+Work: HW2, ProjectA
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 09/26
+day07
+out:
+-HW2
+Readings:
+- Read SML Sec. 3.2
+- --- Focus: 'A Statistical
+View of the Classification
+Problem
+- --- Focus: 'The Logistic
+Regression Model for
+Binary Classification'
+Classification basics
+Slides:
+- Classifier basics
+Lab Notebook:
+- Binary Classification [colab]
+ 
+- Read SML Sec. 2.2: k-
+NN
+- --- Focus: Example 2.3
+on k-NN classification
+Thu 09/28
+day08
+out:
+-ProjA
+Readings:
+- Read SML Sec. 4.6
+- --- Focus: 'The
+Confusion Matrix and the
+ROC Curve'
+- --- Focus: 'The F1 Score
+and the Precision–Recall
+Curve'
+Evaluating Classifiers
+Slides:
+- Evaluating classifiers
+Lab Notebook:
+- Evaluating Binary Classifiers
+[colab]
+ 
+Tue 10/03
+day09
+ 
+Readings:
+- Read SML Sec. 3.2
+- --- Review: 'The Logistic
+Regression Model for
+Binary Classification'
+- --- Focus: Training the
+Logistic Regression
+Model by Maximum
+Likelihood
+- --- Focus: Predictions
+and Decision Boundaries
+Logistic Regression
+Slides:
+- Log loss & Logistic
+Regression
+Math/Concept Exercises:
+- Work on Problem 2 of HW2
+ 
+Thu 10/05
+day10
+due:
+-HW2
+Readings:
+- Read SML Sec. 3.2
+- --- Focus: 'Logistic
+Regression for More
+Than Two Classes'
+- Read SML Sec. 5.6
+Multi-class Logistic Regr.
+Slides:
+- Multi-class Classifiers
+- Bag-of-Words
+Lab Notebook:
+- Bag of Words [colab]
+ 
+Unit 3: Neural Nets
+Concepts: backpropagation, stochastic gradient descent
+Methods: multi-layer perceptrons for regression and classification
+Work: HW3
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 10/10
+day11
+ 
+Readings:
+- Read SML Sec. 6.1
+- --- Focus: 'Two-Layer
+Neural Network'
+- --- Focus: 'Deep
+Neural Network'
+- --- Focus: 'Neural
+Networks for
+Classification'
+Neural Net basics
+Slides:
+- Neural Net Basics
+Math/Concept Exercises:
+- Universal Approx. Demo
+Lab Notebook:
+- Neural Nets: MLP for XOR
+[colab]
+ 
+Thu 10/12
+day12
+ 
+Readings:
+- Read SML Sec. 6.2
+- --- Focus:
+'Backpropagation'
+- --- Focus: 'Algorithm
+6.1 and Example 6.2'
+Training Neural Nets
+Slides:
+- Forward prop & Back prop
+Math/Concept Exercises:
+- Backprop Visualized, from
+Google's ML Crash Course
+Lab Notebook:
+- Forward and Backward for
+MLPs [colab]
+ 
+Tue 10/17
+day13
+ 
+Readings:
+Midterm Review / Proj. A Work
+ 
+- n/a
+Day
+Thu 10/19
+day14
+due:
+-ProjA
+Readings:
+- Read SML Sec. 5.5
+- --- Focus: 'Stochastic
+Gradient Descent'
+- --- Skim: 'Learning
+Rate and Convergence
+for Stochastic Gradient
+Descent'
+- --- Skim: 'Adaptive
+Methods'
+Stochastic Gradient Descent
+Slides:
+- L-BFGS and SGD
+Lab Notebook:
+- SGD for Linear Regr. &
+MLPs [colab]
+- Read
+SML
+Sec. 5.4
+- ---
+Focus:
+'Second
+order
+Gradient
+Methods'
+Tue 10/24
+day15
+ 
+Readings:
+- SML Sec. 6.3
+- --- Focus:
+'Convolutional Layer'
+- --- Focus: 'Pooling
+Layer'
+Neural Nets 2
+Slides:
+- From MLP to CNN and
+ResNet
+Math/Concept Exercises:
+- start problem 4 of HW3
+ 
+Thu 10/26
+day16
+ 
+ 
+MIDTERM EXAM
+ 
+Unit 4: Trees and Ensembles
+Concepts: greedy training, bagging, boosting
+Methods: decision trees, random forests, XGBoost
+Work: HW4
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 10/31
+day17
+ 
+Readings:
+- SML Sec. 2.3
+- --- Focus: Example 2.5
+- --- Focus: Example 2.6
+Decision Trees
+Slides:
+- Decision tree basics
+Lab Notebook:
+- Decision Trees [colab]
+ 
+Thu 11/02
+day18
+due:
+- HW3
+Readings:
+- Read SML Sec. 7.1 on
+Bagging
+- Read SML Sec. 7.2 on
+Random Forest
+- Skim SML Sec. 7.4 on
+Boosting
+Ensembles
+Slides:
+- Ensembles of trees
+Lab Notebook:
+- Random Forest [colab]
+ 
+Tue 11/07
+ 
+ 
+<--- No Class ---> : Tufts Fri on
+Tue
+ 
+Thu 11/09
+day19
+ 
+Readings:
+- Sec. 1 of Foundation
+Models paper
+- --- Sec. 1.1:
+Emergence and
+homogenization
+- --- Sec. 1.2: Social
+impact and the
+foundation models
+ecosystem
+- --- Sec. 1.3: The future
+of foundation models`
+Foundation models
+Slides:
+- Foundation models
+-
+Stochastic
+Parrots
+paper by
+Bender,
+Gebru et
+al.
+Unit 5: Kernel Methods
+Concepts: kernel functions
+Methods: kernelized linear regression, support vector machines
+Work: HW5
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 11/14
+day20
+ 
+Readings:
+- Read SML Sec. 8.1
+- Read SML Sec. 8.2
+Kernel Methods
+Slides:
+- Kernels for Regression and
+Classification
+Lab Notebook:
+- Kernels for Regr. and Clf.
+[colab]
+ 
+Thu 11/16
+day21
+due:
+-HW4
+Readings:
+- Read SML Sec. 8.5
+Support Vector Machines
+Slides:
+- SVMs
+Lab Notebook:
+- SVM demo [colab]
+ 
+Unit 6: PCA and Recommender Systems
+Concepts: dimensionality reduction, matrix factorization, recommendation systems
+Methods: principal components analysis, collaborative filtering models
+Work: HW5
+Date
+Assigned
+Do Before Class
+Class Content
+Optional
+Tue 11/21
+day22
+ 
+Readings:
+- Read SML Sec. 10.4
+- --- Skim: 'Auto-
+encoders'
+- --- Focus: 'Principal
+Component Analysis'
+in SML 10.4.2 PCA
+Principal Component Analysis
+(PCA)
+Slides:
+- PCA
+Lab Notebook:
+- PCA demo [colab]
+ 
+Thu 11/23  
+ 
+<--- No Class --->: Thanksgiving
+ 
+Tue 11/28
+day23
+out:
+- HW5
+Readings:
+- Read Koren et al.
+'09
+Recomender Systems
+Slides:
+- Recommender Systems
+Math/Concept
+Exercises:
+- start HW5
+- Read recent
+survey on
+Deep
+Learning
+Based
+Recommender
+System
+Thu 11/30
+day24
+due:
+- ProjB
+Readings:
+- Read SML Ch. 11.2
+Project B work-day
+Slides:
+- Proj B tips
+ 
+Tue 12/05
+day25
+ 
+Readings:
+- Read SML Ch. 12 :
+Ethics in ML
+- --> Focus on Sec.
+Fairness
+Slides:
+- Fairness
+ 
+12.1 'Fairness and
+Error Functions'
+- --> Focus on Sec.
+12.2 'Misleading
+Claims about
+Performance'
+Math/Concept
+Exercises:
+- Credit Score Fairness
+Demo
+Thu 12/07
+day26
+due:
+- HW5
+ 
+Final Exam Review
+Slides:
+- Final Review
+Math/Concept
+Exercises:
+- practice exam on Piazza
+ 
+Fri 12/15
+ 
+ 
+FINAL EXAM
+ 
+MIT License / Source on github / Powered by Pelican / ✨
+

@@ -1,0 +1,386 @@
+1 
+ 
+ 
+ 
+ 
+ 
+Course Title 
+ 
+Fundamentals of Machine Learning 
+Course Number  
+CSCI-UA 9473 
+[Instructors: Please fill in/delete all square brackets, and check your syllabus for digital 
+accessibility] 
+Instruction Mode: In-person 
+Spring 2024 
+Lecturer Contact Information 
+Monday : 9:55 - 10:25 
+Wednesday : 16:20 - 16:50 
+Prerequisites: MATH-UA 140: Linear Algebra (or equivalent) AND MATH-UA 235: Probability 
+and Statistics (or equivalent) And grade of C or better in CSCI-UA 102: Data Structures (or 
+equivalent)  
+Units earned 
+4 
+Course Details 
+ Monday 01-22-2024 10:25 to 12:55 
+ Location: Rooms will be posted in Albert before your first class. 
+Course Description 
+Machine Learning is getting more and more important these days with applications ranging 
+from autonomous driving to computer assisted medicine, including weather or financial 
+forecasting. In the first part of the course, we will study the mathematical foundations of the 
+current machine learning algorithms. This includes the main models from supervised 
+learning, such as linear regression, logistic regression, support vector machines, ensemble 
+methods and neural networks. This also includes several themes in unsupervised learning, 
+such as dimensionality reduction, clustering and anomaly detection. In the second part, we 
+will explore a certain number of specific applications, such as recommender systems, 
+2 
+reinforcement learning, and natural langage processing. The class will alternate between 
+lectures and Lab sessions. Two entire sessions will be devoted to graded projects. 
+Course Objective 
+After the course, the students will be able to: 
+ Build a machine learning pipeline using Python/Sklearn 
+ Handle raw data using Pandas, including missing data, categorical variables and high 
+dimensional datasets 
+ Handle structured data such as text and image 
+ Train a neural network using Keras 
+ Understand the statistical framework behind most machine learning algorithms 
+ Understand the main optimization algorithms under the hood of machine learning 
+ Use reinforcement learning in Open AI Gym, to play games 
+ Know and profile customers to recommend products 
+ 
+Assessment Components 
+You are expected to attend class in person. Failure to submit or fulfill any required component 
+may result in failure of the class, regardless of grades achieved in other assignments. 
+ 
+Teaching & Learning Philosophy 
+Required Text(s) 
+Electronic Resources (via Brightspace / NYU Library Course Reserves) 
+Supplemental Text(s) (not required to purchase) 
+C. M. Bishop, Pattern Recognition and Machine Learning, Springer 2006. 
+Suvrit Sra, Sebastian Nowozin, Stephen J. Wright, Optimization for Machine 
+Learning, MIT Press, 2012 
+M. J. Kearns, M. Vazirani, An introduction to Computational Learning Theory, MIT 
+press, 1994 
+M. Vidyasagar, Learning and Generalization, with applications to Neural Networks, 
+Springer, 2003 
+T. Hastie, R. Tibshirani, J Friedman, The elements of statistical Learning, Springer 
+Series in Statistics, 2017 
+K. P . Murphy, Machine Learning, A probabilistic perspective, MIT Press 2012. 
+I. GoodFellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016 
+http://www.deeplearningbook.org 
+ 
+ 
+Program (subject to possible modifications) 
+ 
+3 
+Date 
+Program 
+Lecturer* 
+22/01 M Course introduction  
+GS 
+24/01 W Tutorial: Mathematical background  
+GS 
+29/01 M Linear regression, confidence intervals 
+PB 
+31/01 W Lab: Sale’s prediction 
+GS 
+05/02 M Likelihood, logistic regression 
+PB 
+07/02 W Tutorial: Bayes classifier - Multiclass classification 
+IC 
+12/02 M Support Vector Machines 
+PB 
+14/02 W Tutorial: Optimization 
+IC 
+16/02 F 
+(W 
+mkpday) 
+Lab: Titanic survival analysis 
+PB 
+19/02 M Neural networks  
+GS 
+21/02 W Lab: Convolutional Neural Networks  
+GS 
+26/02 M Decision Trees – Ensemble methods  
+PB 
+28/02 W Lab: Car accidents in France 
+IC 
+04/03 M Clustering  
+GS 
+06/03 W Lab: Clustering 
+GS 
+11/03 M Principal component analysis 
+Midterm (written exam, 1h30, no documents) 
+GS 
+13/03 W Project: Machine Learning 
+IC 
+20/03 W Project: Machine Learning 
+IC 
+4 
+25/03 M Anomaly Detection 
+GS 
+27/03 W Lab: Anomaly Detection 
+GS 
+03/04 W Tutorial: Bandits 
+IC 
+05/04 F 
+(M 
+makeup 
+day) 
+Reinforcement learning  
+PB 
+08/04 M Reinforcement learning project 
+EK 
+10/04 W Reinforcement learning project 
+EK 
+15/04 M Large language models 
+ML 
+17/04 W Lab: Large language models 
+ML 
+22/04 M Recommender systems 
+PB 
+24/04 W Lab: Recommender systems 
+IC 
+29/04 M Final exam (written, 1h30, no documents) 
+PB 
+ 
+* PB: Pascal BIANCHI, IC: Igor Colin, ML: Matthieu LABEAU, EK: Elie KADOCHE 
+Grades: 25%: Final exam, 25%: Midterm exam, 25%: Projects, 25%: Assignments 
+Grading policy: 
+• Four labs will eventually be graded, each on 10 points. Graded labs will be selected at 
+random. Lab 1, 2, 3, 4 are graded on 10 points each. 
+• Midterm and final exams are graded on 40 points each.  
+• ML project and RL project are graded on 20 points each. 
+  
+Classroom Etiquette 
+To optimize the experience in a blended learning environment, please consider the following:  
+ 
+ Please do not eat during class and minimize any other distracting noises (e.g. rustling 
+of papers and leaving the classroom before the break, unless absolutely necessary). 
+ If you are not using your cell phone to follow the lesson, cell phones should be turned 
+off or in silent mode during class time. 
+ Make sure to let your classmates finish speaking before you do.  
+ If deemed necessary by the study away site (ie COVID related need), synchronous 
+5 
+class sessions may be recorded and archived for other students to view. This will be 
+announced at the beginning of class time. 
+ Students should be respectful and courteous at all times to all participants in class. 
+Academic Policies 
+Grade Conversion 
+Your lecturer may use one of the following scales of numerical equivalents to letter grades: 
+ 
+ 
+US Letter Grade 
+US numerical 
+French numerical 
+  
+A 
+94-100 or 4.0 
+15-20 
+Excellent 
+A- 
+90-93 or 3.7 
+14 
+Very Good 
+B+ 
+87-89 or 3.3 
+13 
+Good 
+B 
+84-83 or 2.7 
+12 
+Good 
+B- 
+80-83 or 2.7  
+11 
+Satisfactory 
+C+ 
+77-79 or 2.3 
+10 
+Sufficient 
+C 
+74-76 or 2.0  
+9 
+Sufficient 
+C- 
+70-73 or 1.7 
+8 
+Sufficient 
+D 
+65-66 or 1.0 
+5-7 
+Poor 
+F 
+below 65 or 0 
+1-4 
+Fail 
+ 
+Attendance Policy 
+Studying at Global Academic Centers is an academically intensive and immersive experience, 
+in which students from a wide range of backgrounds exchange ideas in discussion-based 
+seminars. Learning in such an environment depends on the active participation of all students. 
+And since classes typically meet once or twice a week, even a single absence can cause a 
+student to miss a significant portion of a course. To ensure the integrity of this academic 
+6 
+experience, class attendance at the Academic Center, or online through NYU Brightspaces if 
+the course is remote synchronous/blended, is expected promptly when class begins. 
+Attendance will be checked at each class meeting. If you have scheduled a remote course 
+immediately preceding/following an in-person class, you may want to write to 
+nyu.paris.academics@nyu.edu to see if you can take your remote class at the Academic 
+Center. 
+ 
+As soon as it becomes clear that you cannot attend a class, you must inform your professor 
+and/or the Academics team by e-mail immediately (i.e. before the start of your class). 
+Absences are only excused if they are due to illness, Moses Center accommodations, religious 
+observance or emergencies. Your professor or site staff may ask you to present a doctor's 
+note or an exceptional permission from an NYU Staff member as proof. Emergencies or other 
+exceptional circumstances that you wish to be treated confidentially must be presented to staff. 
+Doctor's notes must be submitted in person or by e-mail to the Academics team, who will inform 
+your professors. 
+ 
+Unexcused absences may be penalized with a two percent deduction from the student’s final 
+course grade for every week's worth of classes missed, and may negatively affect your class 
+participation grade. Four unexcused absences in one course may lead to a Fail in that course. 
+Being more than 15 minutes late counts as an unexcused absence. Furthermore, your 
+professor is entitled to deduct points for frequently joining the class late. 
+ 
+ 
+Exams, tests and quizzes, deadlines, and oral presentations that are missed due to illness 
+always require a doctor's note as documentation. It is the student's responsibility to produce 
+this doctor's note and submit it to site staff; until this doctor's note is produced the missed 
+assessment is graded with an F and no make-up assessment is scheduled. In content classes, 
+an F in one assignment may lead to failure of the entire class. 
+ 
+Regardless of whether an absence is excused or not, it is the student's responsibility to catch 
+up with the work that was missed. 
+Final exams  
+Final exams need to be scheduled for exam week and must be taken at their designated times. 
+Should there be a conflict between your final exams, please bring this to the attention of the 
+Academics team. Final exams may not be taken early, and students should not plan to leave 
+the site before the end of the finals period. 
+Late Submission of Work 
+(1) Work submitted late receives a penalty of 2 points on the 100 point scale for each day 
+it is late (including weekends and public holidays), unless an extension has been 
+approved (with a doctor's note or by approval of NYU SITE Staff), in which case the 2 
+points per day deductions start counting from the day the extended deadline has 
+passed. 
+(2) Without an approved extension, written work submitted more than 5 days (including 
+weekends and public holidays) following the submission date receives an F. 
+(3) Assignments due during finals week that are submitted more than 3 days late 
+(including weekends and public holidays) without previously arranged extensions 
+will not be accepted and will receive a zero. Any exceptions or extensions for work 
+during finals week must be discussed with Dr. Alfred Galichon, Director of NYU 
+Paris, or Dr. Beth Epstein, Academic Director. 
+7 
+(4) Students who are late for a written exam have no automatic right to take extra time or 
+to write the exam on another day. 
+(5) Please remember that university computers do not keep your essays - you must save 
+them elsewhere. Having lost parts of your essay on the university computer is no 
+excuse for a late submission. Also consider saving your work on a cloud or a drive to 
+avoid any technical issues or loss on a computer 
+Academic Honesty/Plagiarism 
+As the University's policy on "Academic Integrity for Students at NYU" states: "At NYU, a 
+commitment to excellence, fairness, honesty, and respect within and outside the classroom is 
+essential to maintaining the integrity of our community. By accepting membership in this 
+community, students take responsibility for demonstrating these values in their own conduct 
+and for recognizing and supporting these values in others." Students at Global Academic 
+Centers 
+must 
+follow 
+the 
+University 
+and 
+school 
+policies. 
+ 
+NYU takes plagiarism very seriously; penalties follow and may exceed those set out by your 
+home school. Your lecturer may ask you to sign a declaration of authorship form, and may 
+check your assignments by using TurnItIn or another software designed to detect offenses 
+against academic integrity.  
+The presentation of any improperly cited work other than your own, as though it is your 
+own, including words, ideas, judgment, images, data, or AI-generated work (like ChatGPT 
+or Google Bard), whether intentionally or unintentionally, constitutes a breach of academic 
+integrity. It is important that all work submitted for this course is your own. It is also an 
+offense to submit your own work for assignments from two different courses that are 
+substantially the same (be they oral presentations or written work). If there is overlap of 
+the subject of your assignment with one that you produced for another course (either in 
+the current 
+or 
+any 
+previous 
+semester), 
+you must 
+inform your 
+professor. 
+ 
+For guidelines on academic honesty, clarification of the definition of plagiarism, examples 
+of procedures and sanctions, and resources to support proper citation, please see: 
+NYU Academic Integrity Policies and Guidelines  
+ 
+NYU Library Guides  
+Inclusivity Policies and Priorities 
+ 
+NYU’s Office of Global Programs and NYU’s global sites are committed to equity, diversity, 
+and inclusion. In order to nurture a more inclusive global university, NYU affirms the value of 
+sharing differing perspectives and encourages open dialogue through a variety of 
+pedagogical approaches. Our goal is to make all students feel included and welcome in all 
+aspects of academic life, including our syllabi, classrooms, and educational activities/spaces. 
+Attendance Rules on Religious Holidays 
+Members of any religious group may, without penalty, excuse themselves from classes when 
+required in compliance with their religious obligations. Students who anticipate being absent 
+due to religious observance should notify their lecturer AND NYU SITE’s Academics Office in 
+writing via e-mail one week in advance. If examinations or assignment deadlines are scheduled 
+on the day the student will be absent, the Academics Office will schedule a make-up 
+8 
+examination or extend the deadline for assignments. Please note that an absence is only 
+excused for the holiday but not for any days of travel that may come before and/or after the 
+holiday. See also University Calendar Policy on Religious Holidays 
+Pronouns and Name Pronunciation (Albert and Zoom) 
+Students, staff, and faculty have the opportunity to add their pronouns, as well as the 
+pronunciation of their names, into Albert. Students can have this information displayed to 
+faculty, advisors, and administrators in Albert, NYU Brightspace, the NYU Home internal 
+directory, as well as other NYU systems.  Students can also opt out of having their pronouns 
+viewed by their instructors, in case they feel more comfortable sharing their pronouns outside 
+of the classroom. For more information on how to change this information for your Albert 
+account, please see the Pronouns and Name Pronunciation website. 
+ 
+Students, staff, and faculty are also encouraged, though not required, to list their pronouns, 
+and update their names in the name display for Zoom. For more information on how to make 
+this change, please see the Personalizing Zoom Display Names website. 
+Moses Accommodations Statement 
+Academic accommodations are available for students with documented and registered 
+disabilities. Please contact the Moses Center for Student Accessibility (+1 212-998-4980 or 
+mosescsd@nyu.edu) for further information. Students who are requesting academic 
+accommodations are advised to reach out to the Moses Center as early as possible in the 
+semester for assistance. Accommodations for this course are managed through NYU [SITE]. 
+ 
+Bias Response 
+The New York University Bias Response Line provides a mechanism through which members 
+of our community can share or report experiences and concerns of bias, discrimination, or 
+harassing behavior that may occur within our community. 
+ 
+Experienced administrators in the Office of Equal Opportunity (OEO) receive and assess 
+reports, and then help facilitate responses, which may include referral to another University 
+school or unit, or investigation if warranted according to the University's existing Non-
+Discrimination and Anti-Harassment Policy. 
+ 
+The Bias Response Line is designed to enable the University to provide an open forum that 
+helps to ensure that our community is equitable and inclusive. 
+ 
+To report an incident, you may do so in one of three ways: 
+ Online using the Web Form (link) 
+ Email: bias.response@nyu.edu 
+ Phone: 212-998-2277 
+ Local Phone: 0033 (0)1 53 73 29 77 
+ 
+9 
+Wellness and Counseling Resources 
+Mental health resources are available to students studying at NYU Paris through NYU's 
+Wellness Exchange. Students can speak to a counselor about a variety of topics, including, 
+day-to-day challenges, stress, health concerns and medical issues. Students may call the 24 
+hotline at +33 6 83 75 16 10, chat through the Wellness Exchange app for iPhone or Android; 
+call (212) 443-9999 to arrange a same-day Urgent Counseling session; or email 
+wellness.exchange@nyu.edu during business hours. Alternatively, students can also make 
+an appointment with NYU Paris’s onsite Global Wellness Counselor at 
+paris.counseling@nyu.edu 
+

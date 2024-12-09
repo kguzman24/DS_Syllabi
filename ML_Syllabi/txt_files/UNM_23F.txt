@@ -1,0 +1,51 @@
+Go to Main Content
+ 
+LoboWeb
+10-02-2024 09:10 PM
+ 
+HELP | EXIT
+Syllabus Information
+ 
+Fall 2023
+Oct 02, 2024
+Syllabus Information
+Machine Learning - 60964 - ECE 517 - 002
+Associated Term: Fall 2023 
+Albuquerque/Main Campus 
+Lecture Schedule Type 
+Hybrid Instructional Method 
+Learning Objectives: This course covers topics in machine learning, including statistical learning theory, kernels,
+gaussian processes and deep learning. The course opens with an introduction to the basics of Statistical Learning
+Theory, that leads to the well known SVM. Here, the SVM principle is taken as an optimization criterion that can be
+applied virtually to any linear allgorithm. For Dimensionality Reduction, the SVM will be used as a particular technique
+for feature extraction or dimensionality reduction strategies. Block Reproducing Kernel Hilbert Spaces will be used to
+provide an introduction to kernel methods, and a view of kernels as a similarity measure tool that allows us to
+generalize any linear algorithm by extending them with nonlinear properties. In particular, some LS algorithms and
+SVMs will be extended to the nonlinear case. Also, we will go deeper in the concept of regularization already
+introduced in the first part of the course. In the section on Gaussian Process Networks, we will introduce an alternative
+criterion, based on ML particularly successful for regression, that will be generalized using kernels. Finally, Deep
+Learning Machines will be reviewed as a third major criterion for constructing ML algorithms. Introduction Topics
+covered• • • • • • • • • • • • • • • • o o • Statistical learning theory. Estimation function and risk minimization.
+Definition of learning problems: classification, estimation, unsupervised learning. Empirical risk minimization. The
+generalization ability of a learning machine. Consistency of learning. VC dimension and the structural risk
+minimization. The Support Vector Machine approach. Detailed derivation. SVC, SVR, SVDD, variants. Optimization
+procedures. Reproducing Kernel Hilbert Spaces. Overview Positive definite kernels. Main theorems. The kernel trick.
+Kernel based learning machines. Some basic kernels and kernel properties Kernel development and special kernel
+classes. Gaussian Process Networks Basic concepts. Gaussian process networks for regression and classification.
+Kernel versions of the GPN. Dual formulation of the GPN. The idea of covariance matrices. Parameter optimization and
+model selection. 
+Required Materials: The Elements of Statistical Learning, T. Hastie et al. (Available online, free access) Gaussian
+Processes for Machine Learning, C. Rasmussen et al. (Available online, free access) Pattern Recognition, C. Bishop
+Kernel Methods for Pattern Analysis, J. Shawe-Taylor, N. Cristianini. A number of tutorials will be available online
+through UNM library access. Computer 
+Technical Requirements: 
+View Catalog Entry 
+Return to Previous
+New Search
+Skip to top of page
+The University of New Mexico
+Albuquerque, NM 87131, (505) 277-0111
+New Mexico's Flagship University
+Release: 8.8.4.1
+© 2018 Ellucian Company L.P. and its affiliates.
+
